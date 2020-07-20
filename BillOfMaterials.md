@@ -2,6 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0.00| |
+|148ZZ Bearing|2|$15.54|https://www.mcmaster.com/7804k116|
+|Total: |2|$15.54| |
 
- 3xCOG MSRP: $0.00
+ 3xCOG MSRP: $46.62
