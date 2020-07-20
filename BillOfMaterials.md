@@ -3,6 +3,7 @@
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
 |148ZZ Bearing|4|$31.08|https://www.mcmaster.com/7804k116|
-|Total: |4|$31.08| |
+|GT2 Belt|1|$3.00|www.example.com|
+|Total: |5|$34.08| |
 
- 3xCOG MSRP: $93.24
+ 3xCOG MSRP: $102.24
