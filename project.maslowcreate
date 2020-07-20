@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Encoder System",
-            "x": 0.11932650073206441,
-            "y": 0.1724137931034483,
+            "x": 0.12152269399707176,
+            "y": 0.20306513409961685,
             "uniqueID": 415381,
             "ioValues": [],
             "topLevel": false,
@@ -30,8 +30,8 @@
         {
             "atomType": "Molecule",
             "name": "Drive System",
-            "x": 0.11932650073206441,
-            "y": 0.32950191570881227,
+            "x": 0.12079062957540262,
+            "y": 0.43295019157088127,
             "uniqueID": 683987,
             "ioValues": [],
             "topLevel": false,
@@ -62,29 +62,9 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Rollers",
-            "x": 0.12298682284040995,
-            "y": 0.5977011494252873,
-            "uniqueID": 844839,
-            "ioValues": [],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [],
-            "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Molecule",
             "name": "Mechanical Frame",
-            "x": 0.1251830161054173,
-            "y": 0.8659003831417625,
+            "x": 0.1259150805270864,
+            "y": 0.7777777777777777,
             "uniqueID": 707775,
             "ioValues": [],
             "topLevel": false,
@@ -378,8 +358,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.24890190336749635,
-                    "y": 0.30268199233716475,
+                    "x": 0.2562225475841874,
+                    "y": 0.210727969348659,
                     "uniqueID": 982497,
                     "ioValues": [
                         {
@@ -426,6 +406,10 @@
                                     "ioValue": ""
                                 },
                                 {
+                                    "name": "3D shape 5",
+                                    "ioValue": 10
+                                },
+                                {
                                     "name": "3D shape 1",
                                     "ioValue": 10
                                 },
@@ -435,10 +419,6 @@
                                 },
                                 {
                                     "name": "3D shape 4",
-                                    "ioValue": 10
-                                },
-                                {
-                                    "name": "3D shape 5",
                                     "ioValue": 10
                                 }
                             ],
@@ -603,8 +583,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.5695461200585652,
-                    "y": 0.31417624521072796,
+                    "x": 0.7650073206442167,
+                    "y": 0.24904214559386972,
                     "uniqueID": 415620,
                     "ioValues": [
                         {
@@ -618,10 +598,100 @@
                     ]
                 },
                 {
+                    "atomType": "Molecule",
+                    "name": "Roller",
+                    "x": 0.09809663250366032,
+                    "y": 0.8237547892720306,
+                    "uniqueID": 938141,
+                    "ioValues": [],
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Molecule",
+                            "name": "Bearing and Block",
+                            "x": 0.09297218155197658,
+                            "y": 0.28735632183908044,
+                            "uniqueID": 327460,
+                            "ioValues": [],
+                            "topLevel": false,
+                            "allAtoms": [
+                                {
+                                    "atomType": "Output",
+                                    "name": "Output",
+                                    "x": 0.9853587115666179,
+                                    "y": 0.5,
+                                    "ioValues": []
+                                }
+                            ],
+                            "allConnectors": [],
+                            "fileTypeVersion": 1
+                        },
+                        {
+                            "atomType": "Molecule",
+                            "name": "Roller",
+                            "x": 0.10029282576866763,
+                            "y": 0.6666666666666666,
+                            "uniqueID": 107876,
+                            "ioValues": [],
+                            "topLevel": false,
+                            "allAtoms": [
+                                {
+                                    "atomType": "Extrude",
+                                    "name": "Extrude",
+                                    "x": 0.4282576866764275,
+                                    "y": 0.4176245210727969,
+                                    "uniqueID": 482402,
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": ""
+                                        },
+                                        {
+                                            "name": "height",
+                                            "ioValue": 10
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Circle",
+                                    "name": "Circle",
+                                    "x": 0.13323572474377746,
+                                    "y": 0.6091954022988505,
+                                    "uniqueID": 648955,
+                                    "ioValues": [
+                                        {
+                                            "name": "diameter",
+                                            "ioValue": 8
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Output",
+                                    "name": "Output",
+                                    "x": 0.9853587115666179,
+                                    "y": 0.5,
+                                    "ioValues": []
+                                }
+                            ],
+                            "allConnectors": [],
+                            "fileTypeVersion": 1
+                        },
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.9853587115666179,
+                            "y": 0.5,
+                            "ioValues": []
+                        }
+                    ],
+                    "allConnectors": [],
+                    "fileTypeVersion": 1
+                },
+                {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.3382137628111274,
-                    "y": 0.6781609195402298,
+                    "x": 0.7166910688140556,
+                    "y": 0.6973180076628352,
                     "uniqueID": 547270,
                     "ioValues": [
                         {
