@@ -8,6 +8,7 @@
 |M3 x 30 Bolt|9|$1.17|https://www.mcmaster.com/92095a187|
 |GT2 Belt|1|$3.00|www.example.com|
 |Encoder PCB|1|$7.00|www.example.com|
-|Total: |21|$59.42| |
+|JST XH 6 Surface Mount Connector|1|$0.40|www.example.com|
+|Total: |22|$59.82| |
 
- 3xCOG MSRP: $178.25
+ 3xCOG MSRP: $179.45
