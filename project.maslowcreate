@@ -30,8 +30,8 @@
         {
             "atomType": "Molecule",
             "name": "Drive System",
-            "x": 0.12005856515373352,
-            "y": 0.4406130268199233,
+            "x": 0.12371888726207907,
+            "y": 0.48275862068965514,
             "uniqueID": 683987,
             "ioValues": [],
             "topLevel": false,
@@ -773,8 +773,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Roller",
-                    "x": 0.09809663250366032,
-                    "y": 0.8237547892720306,
+                    "x": 0.09443631039531479,
+                    "y": 0.8505747126436781,
                     "uniqueID": 938141,
                     "ioValues": [],
                     "topLevel": false,
@@ -1213,6 +1213,19 @@
                             ]
                         },
                         {
+                            "atomType": "ExtractTag",
+                            "name": "Extract Tag",
+                            "x": 0.5358711566617862,
+                            "y": 0.8045977011494253,
+                            "uniqueID": 973255,
+                            "ioValues": [
+                                {
+                                    "name": "tag",
+                                    "ioValue": "Tag String"
+                                }
+                            ]
+                        },
+                        {
                             "atomType": "Output",
                             "name": "Output",
                             "x": 0.9853587115666179,
@@ -1270,6 +1283,7 @@
                             "ap1ID": 450084,
                             "ap2ID": 128893
                         },
+                        null,
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "number or geometry",
