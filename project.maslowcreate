@@ -48,8 +48,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.4253294289897511,
-                    "y": 0.4406130268199233,
+                    "x": 0.4158125915080527,
+                    "y": 0.421455938697318,
                     "uniqueID": 713480,
                     "ioValues": [
                         {
@@ -76,11 +76,11 @@
                         },
                         {
                             "name": "Sprocket One Size",
-                            "ioValue": 8
+                            "ioValue": 9
                         },
                         {
                             "name": "Sprocket 2 Size",
-                            "ioValue": 100
+                            "ioValue": 80
                         }
                     ]
                 },
@@ -847,8 +847,8 @@
         {
             "atomType": "Molecule",
             "name": "Extract Half",
-            "x": 0.5,
-            "y": 0.578544061302682,
+            "x": 0.513909224011713,
+            "y": 0.5708812260536399,
             "uniqueID": 238188,
             "ioValues": [],
             "topLevel": false,
@@ -1292,24 +1292,6 @@
                     "topLevel": false,
                     "allAtoms": [
                         {
-                            "atomType": "GitHubMolecule",
-                            "name": "2GT Sprocket",
-                            "x": 0.20644216691068812,
-                            "y": 0.25287356321839083,
-                            "uniqueID": 655359,
-                            "projectID": "235682860",
-                            "ioValues": [
-                                {
-                                    "name": "Number of teeth",
-                                    "ioValue": 20
-                                },
-                                {
-                                    "name": "Resolution",
-                                    "ioValue": 0.1
-                                }
-                            ]
-                        },
-                        {
                             "atomType": "Circle",
                             "name": "Circle",
                             "x": 0.09077598828696926,
@@ -1355,13 +1337,31 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.15739385065885797,
-                            "y": 0.7088122605363985,
+                            "x": 0.0739385065885798,
+                            "y": 0.8122605363984674,
                             "uniqueID": 280522,
                             "ioValues": [
                                 {
                                     "name": "diameter",
                                     "ioValue": 15
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "GitHubMolecule",
+                            "name": "2GT Sprocket",
+                            "x": 0.15007320644216693,
+                            "y": 0.8390804597701149,
+                            "uniqueID": 655359,
+                            "projectID": "235682860",
+                            "ioValues": [
+                                {
+                                    "name": "Number of teeth",
+                                    "ioValue": 20
+                                },
+                                {
+                                    "name": "Resolution",
+                                    "ioValue": 0.1
                                 }
                             ]
                         },
@@ -1430,10 +1430,10 @@
                     ],
                     "allConnectors": [
                         {
-                            "ap1Name": "Geometry",
+                            "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
-                            "ap1ID": 655359,
+                            "ap1ID": 648955,
                             "ap2ID": 482402
                         },
                         {
@@ -1451,10 +1451,10 @@
                             "ap2ID": 291431
                         },
                         {
-                            "ap1Name": "geometry",
+                            "ap1Name": "Geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
-                            "ap1ID": 280522,
+                            "ap1ID": 655359,
                             "ap2ID": 665432
                         },
                         {
@@ -1658,8 +1658,8 @@
         {
             "atomType": "Molecule",
             "name": "Cutaway view",
-            "x": 0.47803806734992677,
-            "y": 0.8275862068965518,
+            "x": 0.48609077598828704,
+            "y": 0.8122605363984674,
             "uniqueID": 901353,
             "ioValues": [],
             "topLevel": false,
