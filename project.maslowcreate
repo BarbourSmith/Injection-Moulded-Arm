@@ -667,7 +667,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 18.5
+                            "ioValue": 14.5
                         }
                     ]
                 },
@@ -2520,18 +2520,10 @@
             "fileTypeVersion": 1
         },
         {
-            "atomType": "Stl",
-            "name": "Stl",
-            "x": 0.6515373352855052,
-            "y": 0.6168582375478927,
-            "uniqueID": 946297,
-            "ioValues": []
-        },
-        {
             "atomType": "Molecule",
             "name": "Cutaway view",
-            "x": 0.4853587115666179,
-            "y": 0.7969348659003832,
+            "x": 0.48975109809663253,
+            "y": 0.7394636015325671,
             "uniqueID": 901353,
             "ioValues": [],
             "topLevel": false,
@@ -2582,7 +2574,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 3
+                            "ioValue": -3
                         }
                     ]
                 },
@@ -2650,6 +2642,14 @@
             "fileTypeVersion": 1
         },
         {
+            "atomType": "Stl",
+            "name": "Stl",
+            "x": 0.6515373352855052,
+            "y": 0.6168582375478927,
+            "uniqueID": 946297,
+            "ioValues": []
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9853587115666179,
@@ -2709,5 +2709,5 @@
     ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
-    "circleSegmentSize": 2
+    "circleSegmentSize": "0.4"
 }
