@@ -4,8 +4,8 @@
  |----|----------|-----|-----|
 |DC Gear Motor|1|$16.99|https://www.amazon.com/Greartisan-Electric-Reduction-Eccentric-Diameter/dp/B0745YDSJS|
 |148ZZ Bearing|4|$31.08|https://www.mcmaster.com/7804k116|
-|M3 x 30 Bolt|6|$0.78|https://www.mcmaster.com/92095a187|
+|M3 x 30 Bolt|5|$0.65|https://www.mcmaster.com/92095a187|
 |GT2 Belt|1|$3.00|www.example.com|
-|Total: |12|$51.85| |
+|Total: |11|$51.72| |
 
- 3xCOG MSRP: $155.55
+ 3xCOG MSRP: $155.16
