@@ -1595,8 +1595,8 @@
         {
             "atomType": "Molecule",
             "name": "Mechanical Frame",
-            "x": 0.11859443631039533,
-            "y": 0.5938697318007663,
+            "x": 0.11346998535871157,
+            "y": 0.6015325670498084,
             "uniqueID": 707775,
             "ioValues": [],
             "topLevel": false,
@@ -1604,8 +1604,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Central Column",
-                    "x": 0.08784773060029283,
-                    "y": 0.2298850574712644,
+                    "x": 0.08345534407027819,
+                    "y": 0.27586206896551724,
                     "uniqueID": 135969,
                     "ioValues": [],
                     "topLevel": false,
@@ -1613,13 +1613,13 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.16398243045387995,
-                            "y": 0.23371647509578544,
+                            "x": 0.1617862371888726,
+                            "y": 0.2567049808429119,
                             "uniqueID": 505852,
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 75.5
+                                    "ioValue": 81.5
                                 }
                             ]
                         },
@@ -1645,7 +1645,7 @@
                             "ioValues": [
                                 {
                                     "name": "number",
-                                    "ioValue": 65.5
+                                    "ioValue": 69.5
                                 }
                             ],
                             "evolve": false,
@@ -1676,7 +1676,7 @@
                         {
                             "atomType": "Tag",
                             "name": "Add Tag",
-                            "x": 0.5102489019033675,
+                            "x": 0.5109809663250365,
                             "y": 0.24521072796934865,
                             "uniqueID": 270503,
                             "ioValues": [
@@ -1689,16 +1689,16 @@
                         {
                             "atomType": "Equation",
                             "name": "Equation",
-                            "x": 0.12005856515373352,
+                            "x": 0.11566617862371889,
                             "y": 0.5938697318007663,
                             "uniqueID": 617958,
                             "ioValues": [
                                 {
                                     "name": "D",
-                                    "ioValue": 65.5
+                                    "ioValue": 69.5
                                 }
                             ],
-                            "currentEquation": "D+10"
+                            "currentEquation": "D+12"
                         },
                         {
                             "atomType": "Assembly",
@@ -1726,7 +1726,7 @@
                             "ioValues": [
                                 {
                                     "name": "Router Diameter",
-                                    "ioValue": 65.5
+                                    "ioValue": 69.5
                                 }
                             ],
                             "topLevel": false,
@@ -1740,7 +1740,7 @@
                                     "ioValues": [
                                         {
                                             "name": "diameter",
-                                            "ioValue": 65.5
+                                            "ioValue": 69.5
                                         }
                                     ]
                                 },
@@ -2424,8 +2424,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bolts",
-                    "x": 0.5497803806734992,
-                    "y": 0.8390804597701149,
+                    "x": 0.5461200585651537,
+                    "y": 0.846743295019157,
                     "uniqueID": 195979,
                     "ioValues": [],
                     "topLevel": false,
@@ -2490,7 +2490,7 @@
                             "ioValues": [
                                 {
                                     "name": "xDist",
-                                    "ioValue": 35.25
+                                    "ioValue": 37.75
                                 },
                                 {
                                     "name": "yDist",
