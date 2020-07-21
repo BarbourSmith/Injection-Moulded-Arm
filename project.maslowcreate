@@ -3427,7 +3427,7 @@
                             "ioValues": [
                                 {
                                     "name": "Number of teeth",
-                                    "ioValue": 20
+                                    "ioValue": 23
                                 },
                                 {
                                     "name": "Resolution",
@@ -4201,7 +4201,12 @@
             "x": 0.8609077598828697,
             "y": 0.793103448275862,
             "uniqueID": 901353,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Geometry",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -4231,7 +4236,12 @@
                     "x": 0.5871156661786238,
                     "y": 0.40229885057471265,
                     "uniqueID": 371862,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "geometry1",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Translate",
