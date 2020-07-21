@@ -98,11 +98,11 @@
                         },
                         {
                             "name": "Sprocket One Size",
-                            "ioValue": 9.5
+                            "ioValue": 14.134254764454372
                         },
                         {
                             "name": "Sprocket 2 Size",
-                            "ioValue": 86
+                            "ioValue": 86.07228904199107
                         }
                     ]
                 },
@@ -1547,12 +1547,6 @@
                     "ap2Primary": true,
                     "ap1ID": 367876,
                     "ap2ID": 615570
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 768347
                 },
                 {
                     "ap1Name": "Geometry",
@@ -4201,12 +4195,7 @@
             "x": 0.8609077598828697,
             "y": 0.793103448275862,
             "uniqueID": 901353,
-            "ioValues": [
-                {
-                    "name": "Geometry",
-                    "ioValue": 10
-                }
-            ],
+            "ioValues": [],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -4236,12 +4225,7 @@
                     "x": 0.5871156661786238,
                     "y": 0.40229885057471265,
                     "uniqueID": 371862,
-                    "ioValues": [
-                        {
-                            "name": "geometry1",
-                            "ioValue": 10
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Translate",
