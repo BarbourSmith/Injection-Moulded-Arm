@@ -1593,6 +1593,19 @@
             ]
         },
         {
+            "atomType": "ExtractTag",
+            "name": "Extract Tag",
+            "x": 0.513177159590044,
+            "y": 0.19157088122605365,
+            "uniqueID": 838050,
+            "ioValues": [
+                {
+                    "name": "tag",
+                    "ioValue": "PCB"
+                }
+            ]
+        },
+        {
             "atomType": "Molecule",
             "name": "Mechanical Frame",
             "x": 0.11346998535871157,
@@ -2865,6 +2878,14 @@
                 }
             ],
             "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Svg",
+            "name": "Svg",
+            "x": 0.6163982430453879,
+            "y": 0.19540229885057472,
+            "uniqueID": 342180,
+            "ioValues": []
         },
         {
             "atomType": "Molecule",
@@ -4198,8 +4219,8 @@
         {
             "atomType": "Molecule",
             "name": "Cutaway view",
-            "x": 0.8609077598828697,
-            "y": 0.793103448275862,
+            "x": 0.8587115666178624,
+            "y": 0.7624521072796935,
             "uniqueID": 901353,
             "ioValues": [],
             "topLevel": false,
@@ -4250,7 +4271,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 7
+                            "ioValue": -3
                         }
                     ]
                 },
@@ -4341,6 +4362,20 @@
             "ap2ID": 686221
         },
         {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 815646,
+            "ap2ID": 838050
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 838050,
+            "ap2ID": 342180
+        },
+        {
             "ap1Name": "Geometry",
             "ap2Name": "3D shape 1",
             "ap2Primary": false,
@@ -4391,5 +4426,5 @@
     ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
-    "circleSegmentSize": "3.1"
+    "circleSegmentSize": "0.4"
 }
