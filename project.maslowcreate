@@ -4237,12 +4237,7 @@
             "x": 0.8587115666178624,
             "y": 0.7624521072796935,
             "uniqueID": 901353,
-            "ioValues": [
-                {
-                    "name": "Geometry",
-                    "ioValue": 10
-                }
-            ],
+            "ioValues": [],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -4272,12 +4267,7 @@
                     "x": 0.5871156661786238,
                     "y": 0.40229885057471265,
                     "uniqueID": 371862,
-                    "ioValues": [
-                        {
-                            "name": "geometry1",
-                            "ioValue": 10
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Translate",
