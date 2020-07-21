@@ -313,7 +313,7 @@
                                     "ioValues": [
                                         {
                                             "name": "x length",
-                                            "ioValue": 26
+                                            "ioValue": 34
                                         },
                                         {
                                             "name": "y length",
@@ -4237,7 +4237,12 @@
             "x": 0.8587115666178624,
             "y": 0.7624521072796935,
             "uniqueID": 901353,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Geometry",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -4267,7 +4272,12 @@
                     "x": 0.5871156661786238,
                     "y": 0.40229885057471265,
                     "uniqueID": 371862,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "geometry1",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Translate",
