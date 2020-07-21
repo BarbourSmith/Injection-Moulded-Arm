@@ -908,8 +908,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Mounting Plastic",
-                            "x": 0.5424597364568082,
-                            "y": 0.8352490421455938,
+                            "x": 0.541727672035139,
+                            "y": 0.8735632183908046,
                             "uniqueID": 322329,
                             "ioValues": [],
                             "topLevel": false,
