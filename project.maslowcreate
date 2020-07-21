@@ -1978,7 +1978,7 @@
                             "ioValues": [
                                 {
                                     "name": "xDist",
-                                    "ioValue": 85
+                                    "ioValue": 89
                                 },
                                 {
                                     "name": "yDist",
@@ -2072,7 +2072,7 @@
                             "ioValues": [
                                 {
                                     "name": "xDist",
-                                    "ioValue": 85
+                                    "ioValue": 89
                                 },
                                 {
                                     "name": "yDist",
@@ -2115,7 +2115,7 @@
                                     "ioValues": [
                                         {
                                             "name": "xDist",
-                                            "ioValue": 85
+                                            "ioValue": 89
                                         },
                                         {
                                             "name": "yDist",
@@ -2166,7 +2166,7 @@
                                     "ioValues": [
                                         {
                                             "name": "xDist",
-                                            "ioValue": 85
+                                            "ioValue": 89
                                         },
                                         {
                                             "name": "yDist",
@@ -3794,11 +3794,11 @@
                     "uniqueID": 277389,
                     "ioValues": [
                         {
-                            "name": "3D shape 2",
+                            "name": "3D shape 3",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 3",
+                            "name": "3D shape 4",
                             "ioValue": 10
                         }
                     ]
@@ -3806,7 +3806,7 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bearing Pockets",
-                    "x": 0.3103953147877013,
+                    "x": 0.24231332357247437,
                     "y": 0.8314176245210728,
                     "uniqueID": 789811,
                     "ioValues": [],
@@ -4127,7 +4127,7 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 2",
+                    "ap2Name": "3D shape 4",
                     "ap2Primary": false,
                     "ap1ID": 906822,
                     "ap2ID": 277389
