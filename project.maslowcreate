@@ -1106,7 +1106,7 @@
                                             "ioValues": [
                                                 {
                                                     "name": "height",
-                                                    "ioValue": -10.5
+                                                    "ioValue": -14.5
                                                 }
                                             ]
                                         },
@@ -1574,8 +1574,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.4084919472913617,
-            "y": 0.35249042145593873,
+            "x": 0.4062957540263543,
+            "y": 0.36015325670498083,
             "uniqueID": 815646,
             "ioValues": [
                 {
@@ -2869,8 +2869,8 @@
         {
             "atomType": "Molecule",
             "name": "Extract Half",
-            "x": 0.5161054172767203,
-            "y": 0.5670498084291188,
+            "x": 0.5153733528550513,
+            "y": 0.578544061302682,
             "uniqueID": 238188,
             "ioValues": [],
             "topLevel": false,
