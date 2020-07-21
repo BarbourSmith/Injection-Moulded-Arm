@@ -3426,6 +3426,14 @@
                             "fileTypeVersion": 1
                         },
                         {
+                            "atomType": "Stl",
+                            "name": "Stl",
+                            "x": 0.7437774524158126,
+                            "y": 0.30268199233716475,
+                            "uniqueID": 613981,
+                            "ioValues": []
+                        },
+                        {
                             "atomType": "Circle",
                             "name": "Circle",
                             "x": 0.0739385065885798,
@@ -3758,6 +3766,13 @@
                             "ap2Primary": true,
                             "ap1ID": 942547,
                             "ap2ID": 291431
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 942547,
+                            "ap2ID": 613981
                         },
                         {
                             "ap1Name": "geometry",
@@ -4426,5 +4441,5 @@
     ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
-    "circleSegmentSize": "0.4"
+    "circleSegmentSize": "6.1"
 }
