@@ -94,7 +94,7 @@
                     "ioValues": [
                         {
                             "name": "Dist Between Centers",
-                            "ioValue": 71
+                            "ioValue": 72.5
                         },
                         {
                             "name": "Sprocket One Size",
@@ -1471,7 +1471,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 71
+                            "ioValue": 72.5
                         },
                         {
                             "name": "yDist",
@@ -1547,6 +1547,12 @@
                     "ap2Primary": true,
                     "ap1ID": 367876,
                     "ap2ID": 615570
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 768347
                 },
                 {
                     "ap1Name": "Geometry",
@@ -3150,7 +3156,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 71
+                            "ioValue": 72.5
                         },
                         {
                             "name": "yDist",
