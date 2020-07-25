@@ -4379,13 +4379,6 @@
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 815646,
-            "ap2ID": 838050
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
             "ap2Primary": false,
             "ap1ID": 838050,
             "ap2ID": 342180
