@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Drive System",
-            "x": 0.1273792093704246,
-            "y": 0.29118773946360155,
+            "x": 0.12091179385530229,
+            "y": 0.26436781609195403,
             "uniqueID": 683987,
             "ioValues": [],
             "topLevel": false,
@@ -86,9 +86,9 @@
                 },
                 {
                     "atomType": "GitHubMolecule",
-                    "name": "GT2 Belt Aproximation ",
-                    "x": 0.13616398243045388,
-                    "y": 0.7126436781609194,
+                    "name": "GT2 Belt Approximation",
+                    "x": 0.12983151635282458,
+                    "y": 0.7318007662835249,
                     "uniqueID": 317197,
                     "projectID": "229325783",
                     "ioValues": [
@@ -4924,7 +4924,12 @@
             "x": 0.8587115666178624,
             "y": 0.7624521072796935,
             "uniqueID": 901353,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Geometry",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -4954,7 +4959,12 @@
                     "x": 0.5871156661786238,
                     "y": 0.40229885057471265,
                     "uniqueID": 371862,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "geometry1",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Translate",
