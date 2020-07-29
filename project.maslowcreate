@@ -13,7 +13,12 @@
             "x": 0.12091179385530229,
             "y": 0.26436781609195403,
             "uniqueID": 683987,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Input757140",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -43,6 +48,14 @@
                     ]
                 },
                 {
+                    "atomType": "Input",
+                    "name": "Input757140",
+                    "x": 0.013333333333333334,
+                    "y": 0.5134099616858238,
+                    "uniqueID": 700505,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 0.4853587115666179,
@@ -60,6 +73,28 @@
                         {
                             "name": "zDist",
                             "ioValue": -7.25
+                        }
+                    ]
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "GT2 Belt Approximation",
+                    "x": 0.1595639246778989,
+                    "y": 0.5938697318007663,
+                    "uniqueID": 317197,
+                    "projectID": "229325783",
+                    "ioValues": [
+                        {
+                            "name": "Dist Between Centers",
+                            "ioValue": 72.339
+                        },
+                        {
+                            "name": "Sprocket One Size",
+                            "ioValue": 14.134254764454372
+                        },
+                        {
+                            "name": "Sprocket 2 Size",
+                            "ioValue": 86.07228904199107
                         }
                     ]
                 },
@@ -85,32 +120,10 @@
                     ]
                 },
                 {
-                    "atomType": "GitHubMolecule",
-                    "name": "GT2 Belt Approximation",
-                    "x": 0.12983151635282458,
-                    "y": 0.7318007662835249,
-                    "uniqueID": 317197,
-                    "projectID": "229325783",
-                    "ioValues": [
-                        {
-                            "name": "Dist Between Centers",
-                            "ioValue": 79.5
-                        },
-                        {
-                            "name": "Sprocket One Size",
-                            "ioValue": 14.134254764454372
-                        },
-                        {
-                            "name": "Sprocket 2 Size",
-                            "ioValue": 86.07228904199107
-                        }
-                    ]
-                },
-                {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.36383601756954614,
-                    "y": 0.7126436781609194,
+                    "x": 0.38354806739345887,
+                    "y": 0.5632183908045977,
                     "uniqueID": 615570,
                     "ioValues": [
                         {
@@ -130,8 +143,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.48755490483162517,
-                    "y": 0.7126436781609194,
+                    "x": 0.5262636273538156,
+                    "y": 0.524904214559387,
                     "uniqueID": 297970,
                     "ioValues": [
                         {
@@ -1465,13 +1478,13 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.5871156661786238,
-                    "y": 0.8582375478927203,
+                    "x": 0.6333002973240833,
+                    "y": 0.8390804597701149,
                     "uniqueID": 817647,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 79.5
+                            "ioValue": 71
                         },
                         {
                             "name": "yDist",
@@ -1514,18 +1527,18 @@
                     "ap2ID": 976670
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 2",
-                    "ap2Primary": false,
-                    "ap1ID": 976670,
-                    "ap2ID": 768347
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 2",
                     "ap2Primary": false,
                     "ap1ID": 317197,
                     "ap2ID": 713480
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 976670,
+                    "ap2ID": 768347
                 },
                 {
                     "ap1Name": "geometry",
@@ -4924,12 +4937,7 @@
             "x": 0.8587115666178624,
             "y": 0.7624521072796935,
             "uniqueID": 901353,
-            "ioValues": [
-                {
-                    "name": "Geometry",
-                    "ioValue": 10
-                }
-            ],
+            "ioValues": [],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -4959,12 +4967,7 @@
                     "x": 0.5871156661786238,
                     "y": 0.40229885057471265,
                     "uniqueID": 371862,
-                    "ioValues": [
-                        {
-                            "name": "geometry1",
-                            "ioValue": 10
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Translate",
