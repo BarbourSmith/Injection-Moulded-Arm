@@ -94,7 +94,7 @@
                     "ioValues": [
                         {
                             "name": "Dist Between Centers",
-                            "ioValue": 72.5
+                            "ioValue": 79.5
                         },
                         {
                             "name": "Sprocket One Size",
@@ -1471,7 +1471,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 72.5
+                            "ioValue": 79.5
                         },
                         {
                             "name": "yDist",
@@ -1549,6 +1549,12 @@
                     "ap2ID": 615570
                 },
                 {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 768347
+                },
+                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
@@ -1568,8 +1574,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.4062957540263543,
-            "y": 0.36015325670498083,
+            "x": 0.4063429137760159,
+            "y": 0.3486590038314176,
             "uniqueID": 815646,
             "ioValues": [
                 {
