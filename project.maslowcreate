@@ -3108,6 +3108,15 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "ioValues": []
+                        },
+                        {
+                            "atomType": "Readme",
+                            "name": "README",
+                            "x": 0.8424182358771061,
+                            "y": 0.7241379310344828,
+                            "uniqueID": 218077,
+                            "ioValues": [],
+                            "readmeText": "Spacing between the upper and lower faces is 15.5mm"
                         }
                     ],
                     "allConnectors": [
