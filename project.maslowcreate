@@ -102,7 +102,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 6
+                            "ioValue": 5
                         }
                     ]
                 },
@@ -1608,8 +1608,8 @@
         {
             "atomType": "Molecule",
             "name": "Mechanical Frame",
-            "x": 0.21506442021803765,
-            "y": 0.5402298850574713,
+            "x": 0.21407333994053515,
+            "y": 0.5325670498084291,
             "uniqueID": 707775,
             "ioValues": [],
             "topLevel": false,
@@ -2672,13 +2672,13 @@
                         {
                             "atomType": "Translate",
                             "name": "Translate",
-                            "x": 0.2584187408491947,
-                            "y": 0.4444444444444444,
+                            "x": 0.25173439048562934,
+                            "y": 0.4559386973180076,
                             "uniqueID": 439911,
                             "ioValues": [
                                 {
                                     "name": "xDist",
-                                    "ioValue": 89
+                                    "ioValue": 105
                                 },
                                 {
                                     "name": "yDist",
@@ -2740,8 +2740,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.38213762811127383,
-                            "y": 0.6168582375478927,
+                            "x": 0.3766105054509415,
+                            "y": 0.632183908045977,
                             "uniqueID": 276160,
                             "ioValues": [
                                 {
@@ -2772,7 +2772,7 @@
                             "ioValues": [
                                 {
                                     "name": "xDist",
-                                    "ioValue": 89
+                                    "ioValue": 105
                                 },
                                 {
                                     "name": "yDist",
@@ -2787,8 +2787,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Cut Away",
-                            "x": 0.4941434846266472,
-                            "y": 0.735632183908046,
+                            "x": 0.4935579781962339,
+                            "y": 0.7241379310344828,
                             "uniqueID": 971845,
                             "ioValues": [],
                             "topLevel": false,
@@ -2815,7 +2815,7 @@
                                     "ioValues": [
                                         {
                                             "name": "xDist",
-                                            "ioValue": 89
+                                            "ioValue": 105
                                         },
                                         {
                                             "name": "yDist",
@@ -2860,13 +2860,13 @@
                                 {
                                     "atomType": "Translate",
                                     "name": "Translate",
-                                    "x": 0.4443631039531478,
-                                    "y": 0.6934865900383141,
+                                    "x": 0.4499504459861249,
+                                    "y": 0.6973180076628352,
                                     "uniqueID": 610236,
                                     "ioValues": [
                                         {
                                             "name": "xDist",
-                                            "ioValue": 89
+                                            "ioValue": 105
                                         },
                                         {
                                             "name": "yDist",
@@ -4986,7 +4986,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 200
+                            "ioValue": 300
                         },
                         {
                             "name": "y length",
