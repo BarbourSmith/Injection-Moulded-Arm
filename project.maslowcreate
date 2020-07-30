@@ -1394,7 +1394,7 @@
                                                 },
                                                 {
                                                     "name": "zDist",
-                                                    "ioValue": 0
+                                                    "ioValue": -4
                                                 }
                                             ]
                                         },
@@ -1751,7 +1751,7 @@
             "atomType": "Molecule",
             "name": "Mechanical Frame",
             "x": 0.21407333994053515,
-            "y": 0.5325670498084291,
+            "y": 0.5172413793103449,
             "uniqueID": 707775,
             "ioValues": [],
             "topLevel": false,
@@ -2820,7 +2820,7 @@
                             "ioValues": [
                                 {
                                     "name": "xDist",
-                                    "ioValue": 93
+                                    "ioValue": 92
                                 },
                                 {
                                     "name": "yDist",
@@ -2914,7 +2914,7 @@
                             "ioValues": [
                                 {
                                     "name": "xDist",
-                                    "ioValue": 93
+                                    "ioValue": 92
                                 },
                                 {
                                     "name": "yDist",
@@ -2957,7 +2957,7 @@
                                     "ioValues": [
                                         {
                                             "name": "xDist",
-                                            "ioValue": 93
+                                            "ioValue": 92
                                         },
                                         {
                                             "name": "yDist",
@@ -3008,7 +3008,7 @@
                                     "ioValues": [
                                         {
                                             "name": "xDist",
-                                            "ioValue": 93
+                                            "ioValue": 92
                                         },
                                         {
                                             "name": "yDist",
