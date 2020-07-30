@@ -73,7 +73,7 @@
                     "ioValues": [
                         {
                             "name": "Dist Between Centers",
-                            "ioValue": 71
+                            "ioValue": 76
                         },
                         {
                             "name": "Sprocket One Size",
@@ -136,7 +136,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 71
+                            "ioValue": 76
                         },
                         {
                             "name": "yDist",
@@ -169,8 +169,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.7459736456808199,
-                    "y": 0.5325670498084291,
+                    "x": 0.7443012884043607,
+                    "y": 0.5402298850574713,
                     "uniqueID": 768347,
                     "ioValues": [
                         {
@@ -1613,7 +1613,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 71
+                            "ioValue": 76
                         },
                         {
                             "name": "yDist",
@@ -2820,7 +2820,7 @@
                             "ioValues": [
                                 {
                                     "name": "xDist",
-                                    "ioValue": 89
+                                    "ioValue": 93
                                 },
                                 {
                                     "name": "yDist",
@@ -2914,7 +2914,7 @@
                             "ioValues": [
                                 {
                                     "name": "xDist",
-                                    "ioValue": 89
+                                    "ioValue": 93
                                 },
                                 {
                                     "name": "yDist",
@@ -2929,8 +2929,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Cut Away",
-                            "x": 0.4935579781962339,
-                            "y": 0.7241379310344828,
+                            "x": 0.4925668979187314,
+                            "y": 0.7203065134099617,
                             "uniqueID": 971845,
                             "ioValues": [],
                             "topLevel": false,
@@ -2957,7 +2957,7 @@
                                     "ioValues": [
                                         {
                                             "name": "xDist",
-                                            "ioValue": 89
+                                            "ioValue": 93
                                         },
                                         {
                                             "name": "yDist",
@@ -3008,7 +3008,7 @@
                                     "ioValues": [
                                         {
                                             "name": "xDist",
-                                            "ioValue": 89
+                                            "ioValue": 93
                                         },
                                         {
                                             "name": "yDist",
@@ -3880,8 +3880,8 @@
         {
             "atomType": "Molecule",
             "name": "Rollers",
-            "x": 0.24182358771060458,
-            "y": 0.9080459770114941,
+            "x": 0.24083250743310208,
+            "y": 0.89272030651341,
             "uniqueID": 682072,
             "ioValues": [],
             "topLevel": false,
@@ -4053,7 +4053,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 71
+                            "ioValue": 76
                         },
                         {
                             "name": "yDist",
@@ -4115,8 +4115,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Retainer for bearings",
-                            "x": 0.4062957540263543,
-                            "y": 0.16091954022988506,
+                            "x": 0.40535183349851334,
+                            "y": 0.1532567049808429,
                             "uniqueID": 363551,
                             "ioValues": [],
                             "topLevel": false,
@@ -4143,7 +4143,7 @@
                                     "ioValues": [
                                         {
                                             "name": "height",
-                                            "ioValue": 15
+                                            "ioValue": 15.5
                                         }
                                     ]
                                 },
@@ -4209,7 +4209,7 @@
                             "ioValues": [
                                 {
                                     "name": "height",
-                                    "ioValue": 23
+                                    "ioValue": 23.5
                                 }
                             ]
                         },
@@ -4269,7 +4269,7 @@
                                     "ioValues": [
                                         {
                                             "name": "height",
-                                            "ioValue": 1
+                                            "ioValue": 0.75
                                         }
                                     ]
                                 },
@@ -4290,7 +4290,7 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": 11
+                                            "ioValue": 11.25
                                         }
                                     ]
                                 },
@@ -4403,7 +4403,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 4.25
+                                    "ioValue": 4.5
                                 }
                             ]
                         },
@@ -4453,8 +4453,8 @@
                                 {
                                     "atomType": "Translate",
                                     "name": "Translate",
-                                    "x": 0.23133235724743778,
-                                    "y": 0.7547892720306513,
+                                    "x": 0.2537165510406343,
+                                    "y": 0.7241379310344828,
                                     "uniqueID": 704047,
                                     "ioValues": [
                                         {
@@ -4512,13 +4512,13 @@
                                 {
                                     "atomType": "Extrude",
                                     "name": "Extrude",
-                                    "x": 0.44582723279648606,
-                                    "y": 0.7509578544061302,
+                                    "x": 0.44796828543111994,
+                                    "y": 0.7432950191570881,
                                     "uniqueID": 558607,
                                     "ioValues": [
                                         {
                                             "name": "height",
-                                            "ioValue": 19
+                                            "ioValue": 19.5
                                         }
                                     ]
                                 },
