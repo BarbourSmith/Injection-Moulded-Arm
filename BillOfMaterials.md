@@ -2,13 +2,6 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|DC Gear Motor|1|$16.99|https://www.amazon.com/Greartisan-Electric-Reduction-Eccentric-Diameter/dp/B0745YDSJS|
-|148ZZ Bearing|4|$31.08|https://www.mcmaster.com/7804k116|
-|M3 Locknut|5|$0.18|https://www.mcmaster.com/90576A102/|
-|M3 x 30 Bolt|9|$1.17|https://www.mcmaster.com/92095a187|
-|GT2 Belt|1|$3.00|www.example.com|
-|Encoder PCB|1|$7.00|www.example.com|
-|JST XH 6 Surface Mount Connector|1|$0.40|www.example.com|
-|Total: |22|$59.82| |
+|Total: |0|$0.00| |
 
- 3xCOG MSRP: $179.45
+ 3xCOG MSRP: $0.00
