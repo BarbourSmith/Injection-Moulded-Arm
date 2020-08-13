@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Drive System",
-            "x": 0.2120911793855302,
-            "y": 0.20689655172413796,
+            "x": 0.21803766105054512,
+            "y": 0.20306513409961685,
             "uniqueID": 683987,
             "ioValues": [],
             "topLevel": false,
@@ -45,8 +45,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.4853587115666179,
-                    "y": 0.27586206896551724,
+                    "x": 0.48166501486620417,
+                    "y": 0.29118773946360155,
                     "uniqueID": 718906,
                     "ioValues": [
                         {
@@ -73,7 +73,7 @@
                     "ioValues": [
                         {
                             "name": "Dist Between Centers",
-                            "ioValue": 86
+                            "ioValue": 87
                         },
                         {
                             "name": "Sprocket One Size",
@@ -88,14 +88,10 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.5790629575402636,
-                    "y": 0.210727969348659,
+                    "x": 0.5777998017839445,
+                    "y": 0.21455938697318008,
                     "uniqueID": 976670,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 0
@@ -140,7 +136,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 76
+                            "ioValue": 87
                         },
                         {
                             "name": "yDist",
@@ -1611,13 +1607,13 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.6283448959365708,
+                    "x": 0.624380574826561,
                     "y": 0.8275862068965518,
                     "uniqueID": 817647,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 76
+                            "ioValue": 87
                         },
                         {
                             "name": "yDist",
@@ -1651,6 +1647,13 @@
                     "ap2Primary": true,
                     "ap1ID": 713480,
                     "ap2ID": 718906
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 718906,
+                    "ap2ID": 976670
                 },
                 {
                     "ap1Name": "Geometry",
@@ -1713,8 +1716,8 @@
         {
             "atomType": "Molecule",
             "name": "Mechanical Frame",
-            "x": 0.20937042459736457,
-            "y": 0.4636015325670498,
+            "x": 0.199207135777998,
+            "y": 0.4444444444444444,
             "uniqueID": 707775,
             "ioValues": [],
             "topLevel": false,
@@ -2727,7 +2730,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 105
+                                    "ioValue": 125
                                 }
                             ]
                         },
@@ -2783,7 +2786,7 @@
                             "ioValues": [
                                 {
                                     "name": "xDist",
-                                    "ioValue": 92
+                                    "ioValue": 103
                                 },
                                 {
                                     "name": "yDist",
@@ -2881,7 +2884,7 @@
                             "ioValues": [
                                 {
                                     "name": "xDist",
-                                    "ioValue": 92
+                                    "ioValue": 103
                                 },
                                 {
                                     "name": "yDist",
@@ -3337,8 +3340,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bolts",
-                    "x": 0.5461200585651537,
-                    "y": 0.846743295019157,
+                    "x": 0.5381565906838454,
+                    "y": 0.8505747126436781,
                     "uniqueID": 195979,
                     "ioValues": [],
                     "topLevel": false,
@@ -3943,8 +3946,8 @@
         {
             "atomType": "Molecule",
             "name": "Rollers",
-            "x": 0.22693997071742314,
-            "y": 0.793103448275862,
+            "x": 0.22695738354806738,
+            "y": 0.7969348659003832,
             "uniqueID": 682072,
             "ioValues": [],
             "topLevel": false,
@@ -4116,7 +4119,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 76
+                            "ioValue": 87
                         },
                         {
                             "name": "yDist",
