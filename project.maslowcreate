@@ -1716,8 +1716,8 @@
         {
             "atomType": "Molecule",
             "name": "Mechanical Frame",
-            "x": 0.199207135777998,
-            "y": 0.4444444444444444,
+            "x": 0.2027818448023426,
+            "y": 0.4559386973180076,
             "uniqueID": 707775,
             "ioValues": [],
             "topLevel": false,
@@ -2780,8 +2780,8 @@
                         {
                             "atomType": "Translate",
                             "name": "Translate",
-                            "x": 0.25173439048562934,
-                            "y": 0.4559386973180076,
+                            "x": 0.25074331020812685,
+                            "y": 0.47126436781609193,
                             "uniqueID": 439911,
                             "ioValues": [
                                 {
@@ -3010,13 +3010,13 @@
                                 {
                                     "atomType": "Translate",
                                     "name": "Translate",
-                                    "x": 0.4421669106881405,
-                                    "y": 0.22605363984674332,
+                                    "x": 0.4449950445986125,
+                                    "y": 0.23371647509578544,
                                     "uniqueID": 553857,
                                     "ioValues": [
                                         {
                                             "name": "xDist",
-                                            "ioValue": 92
+                                            "ioValue": 103
                                         },
                                         {
                                             "name": "yDist",
@@ -3061,13 +3061,13 @@
                                 {
                                     "atomType": "Translate",
                                     "name": "Translate",
-                                    "x": 0.4499504459861249,
-                                    "y": 0.6973180076628352,
+                                    "x": 0.4489593657086224,
+                                    "y": 0.6934865900383141,
                                     "uniqueID": 610236,
                                     "ioValues": [
                                         {
                                             "name": "xDist",
-                                            "ioValue": 92
+                                            "ioValue": 103
                                         },
                                         {
                                             "name": "yDist",
@@ -3785,8 +3785,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.4063429137760159,
-            "y": 0.3486590038314176,
+            "x": 0.40237859266600595,
+            "y": 0.31417624521072796,
             "uniqueID": 815646,
             "ioValues": [
                 {
