@@ -541,10 +541,6 @@
                             "uniqueID": 281612,
                             "ioValues": [
                                 {
-                                    "name": "geometry",
-                                    "ioValue": ""
-                                },
-                                {
                                     "name": "x-axis degrees",
                                     "ioValue": -90
                                 },
@@ -3314,10 +3310,6 @@
                     "y": 0.42911877394636017,
                     "uniqueID": 547270,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 180
