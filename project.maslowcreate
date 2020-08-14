@@ -1612,10 +1612,6 @@
                     "uniqueID": 817647,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 87
                         },
@@ -3834,12 +3830,7 @@
             "x": 0.5153733528550513,
             "y": 0.578544061302682,
             "uniqueID": 238188,
-            "ioValues": [
-                {
-                    "name": "Geometry",
-                    "ioValue": 10
-                }
-            ],
+            "ioValues": [],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -3849,10 +3840,6 @@
                     "y": 0.3409961685823755,
                     "uniqueID": 942567,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 10
-                        },
                         {
                             "name": "tag",
                             "ioValue": "Plastic"
