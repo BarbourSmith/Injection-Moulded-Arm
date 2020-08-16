@@ -64,6 +64,27 @@
                     ]
                 },
                 {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.5702781844802343,
+                    "y": 0.21839080459770116,
+                    "uniqueID": 976670,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 4.6
+                        }
+                    ]
+                },
+                {
                     "atomType": "GitHubMolecule",
                     "name": "GT2 Belt Approximation",
                     "x": 0.1595639246778989,
@@ -82,27 +103,6 @@
                         {
                             "name": "Sprocket 2 Size",
                             "ioValue": 86.07228904199107
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 0.5777998017839445,
-                    "y": 0.21455938697318008,
-                    "uniqueID": 976670,
-                    "ioValues": [
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 4.6
                         }
                     ]
                 },
@@ -149,6 +149,27 @@
                     ]
                 },
                 {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.7137628111273793,
+                    "y": 0.2222222222222222,
+                    "uniqueID": 768347,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 5",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "GitHubMolecule",
                     "name": "2GT Belt Keepout",
                     "x": 0.22035139092240116,
@@ -163,27 +184,6 @@
                         {
                             "name": "Angle",
                             "ioValue": 38
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 0.7408491947291361,
-                    "y": 0.5440613026819924,
-                    "uniqueID": 768347,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 2",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 3",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 5",
-                            "ioValue": 10
                         }
                     ]
                 },
@@ -542,6 +542,23 @@
                             ]
                         },
                         {
+                            "atomType": "Assembly",
+                            "name": "Assembly",
+                            "x": 0.671303074670571,
+                            "y": 0.24521072796934865,
+                            "uniqueID": 333299,
+                            "ioValues": [
+                                {
+                                    "name": "3D shape 1",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "3D shape 2",
+                                    "ioValue": 10
+                                }
+                            ]
+                        },
+                        {
                             "atomType": "Molecule",
                             "name": "Bolts",
                             "x": 0.08272327964860908,
@@ -855,19 +872,19 @@
                             "fileTypeVersion": 1
                         },
                         {
-                            "atomType": "Assembly",
-                            "name": "Assembly",
-                            "x": 0.6405563689604685,
-                            "y": 0.48659003831417624,
-                            "uniqueID": 333299,
+                            "atomType": "Difference",
+                            "name": "Difference",
+                            "x": 0.6551976573938506,
+                            "y": 0.6015325670498084,
+                            "uniqueID": 324026,
                             "ioValues": [
                                 {
-                                    "name": "3D shape 1",
-                                    "ioValue": 10
+                                    "name": "geometry2",
+                                    "ioValue": ""
                                 },
                                 {
-                                    "name": "3D shape 2",
-                                    "ioValue": 10
+                                    "name": "geometry1",
+                                    "ioValue": ""
                                 }
                             ]
                         },
@@ -1548,13 +1565,6 @@
                             "ap2ID": 281612
                         },
                         {
-                            "ap1Name": "Geometry",
-                            "ap2Name": "3D shape 5",
-                            "ap2Primary": false,
-                            "ap1ID": 602662,
-                            "ap2ID": 358883
-                        },
-                        {
                             "ap1Name": "geometry",
                             "ap2Name": "number or geometry",
                             "ap2Primary": false,
@@ -1562,11 +1572,19 @@
                         },
                         {
                             "ap1Name": "Geometry",
+                            "ap2Name": "3D shape 5",
+                            "ap2Primary": false,
+                            "ap1ID": 602662,
+                            "ap2ID": 358883
+                        },
+                        {
+                            "ap1Name": "Geometry",
                             "ap2Name": "3D shape 1",
                             "ap2Primary": false,
                             "ap1ID": 322329,
                             "ap2ID": 333299
-                        }
+                        },
+                        null
                     ],
                     "fileTypeVersion": 1
                 },
@@ -1622,18 +1640,18 @@
                     "ap2ID": 976670
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 2",
-                    "ap2Primary": false,
-                    "ap1ID": 317197,
-                    "ap2ID": 713480
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 2",
                     "ap2Primary": false,
                     "ap1ID": 976670,
                     "ap2ID": 768347
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 317197,
+                    "ap2ID": 713480
                 },
                 {
                     "ap1Name": "geometry",
@@ -1657,12 +1675,6 @@
                     "ap2ID": 615570
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 768347
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
@@ -1675,6 +1687,12 @@
                     "ap2Primary": false,
                     "ap1ID": 817647,
                     "ap2ID": 768347
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 817647
                 }
             ],
             "fileTypeVersion": 1
@@ -1688,10 +1706,23 @@
             "ioValues": []
         },
         {
+            "atomType": "ExtractTag",
+            "name": "Extract Tag",
+            "x": 0.513177159590044,
+            "y": 0.19157088122605365,
+            "uniqueID": 838050,
+            "ioValues": [
+                {
+                    "name": "tag",
+                    "ioValue": "PCB"
+                }
+            ]
+        },
+        {
             "atomType": "Molecule",
             "name": "Rollers",
             "x": 0.20717423133235727,
-            "y": 0.49808429118773945,
+            "y": 0.5172413793103449,
             "uniqueID": 682072,
             "ioValues": [],
             "topLevel": false,
@@ -3067,19 +3098,6 @@
                 }
             ],
             "fileTypeVersion": 1
-        },
-        {
-            "atomType": "ExtractTag",
-            "name": "Extract Tag",
-            "x": 0.513177159590044,
-            "y": 0.19157088122605365,
-            "uniqueID": 838050,
-            "ioValues": [
-                {
-                    "name": "tag",
-                    "ioValue": "PCB"
-                }
-            ]
         },
         {
             "atomType": "Svg",
