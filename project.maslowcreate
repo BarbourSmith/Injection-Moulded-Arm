@@ -325,10 +325,6 @@
                                     "uniqueID": 553525,
                                     "ioValues": [
                                         {
-                                            "name": "geometry",
-                                            "ioValue": ""
-                                        },
-                                        {
                                             "name": "x-axis degrees",
                                             "ioValue": 90
                                         },
