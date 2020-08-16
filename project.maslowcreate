@@ -3127,8 +3127,8 @@
         {
             "atomType": "Molecule",
             "name": "Mechanical Frame",
-            "x": 0.21669106881405564,
-            "y": 0.7203065134099617,
+            "x": 0.21595900439238652,
+            "y": 0.7318007662835249,
             "uniqueID": 707775,
             "ioValues": [],
             "topLevel": false,
