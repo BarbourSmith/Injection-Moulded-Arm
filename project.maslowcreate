@@ -4973,10 +4973,6 @@
                                     "uniqueID": 109453,
                                     "ioValues": [
                                         {
-                                            "name": "geometry",
-                                            "ioValue": ""
-                                        },
-                                        {
                                             "name": "xDist",
                                             "ioValue": 87
                                         },
@@ -5000,6 +4996,10 @@
                                         {
                                             "name": "3D shape 1",
                                             "ioValue": 10
+                                        },
+                                        {
+                                            "name": "3D shape 2",
+                                            "ioValue": 10
                                         }
                                     ]
                                 },
@@ -5010,10 +5010,6 @@
                                     "y": 0.7049808429118775,
                                     "uniqueID": 222468,
                                     "ioValues": [
-                                        {
-                                            "name": "geometry",
-                                            "ioValue": ""
-                                        },
                                         {
                                             "name": "xDist",
                                             "ioValue": 87
@@ -5057,6 +5053,19 @@
                                     "ap2Primary": true,
                                     "ap1ID": 982967,
                                     "ap2ID": 109453
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "3D shape 2",
+                                    "ap2Primary": false,
+                                    "ap1ID": 109453,
+                                    "ap2ID": 886133
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "number or geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": 886133
                                 },
                                 {
                                     "ap1Name": "geometry",
