@@ -1600,6 +1600,10 @@
                     "uniqueID": 817647,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "xDist",
                             "ioValue": 87
                         },
@@ -2947,10 +2951,15 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.5739385065885798,
-                    "y": 0.6743295019157088,
+                    "x": 0.6273792093704246,
+                    "y": 0.6628352490421456,
                     "uniqueID": 803602,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "geometry1",
+                            "ioValue": ""
+                        }
+                    ]
                 },
                 {
                     "atomType": "Rotate",
@@ -3092,13 +3101,6 @@
                     "ap2Primary": false,
                     "ap1ID": 738842,
                     "ap2ID": 450084
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
-                    "ap2Primary": false,
-                    "ap1ID": 738842,
-                    "ap2ID": 803602
                 }
             ],
             "fileTypeVersion": 1
@@ -3122,7 +3124,12 @@
             "x": 0.46632503660322105,
             "y": 0.4406130268199233,
             "uniqueID": 238188,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Geometry",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -3152,7 +3159,12 @@
                     "x": 0.5724743777452416,
                     "y": 0.43295019157088127,
                     "uniqueID": 100515,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "geometry1",
+                            "ioValue": ""
+                        }
+                    ]
                 },
                 {
                     "atomType": "Rectangle",
@@ -5411,7 +5423,12 @@
                     "x": 0.7364568081991216,
                     "y": 0.6206896551724138,
                     "uniqueID": 976979,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "geometry1",
+                            "ioValue": ""
+                        }
+                    ]
                 },
                 {
                     "atomType": "Output",
@@ -5501,6 +5518,10 @@
             "uniqueID": 850876,
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
                     "name": "x-axis degrees",
                     "ioValue": 180
                 },
@@ -5528,7 +5549,12 @@
             "x": 0.7869692532942899,
             "y": 0.681992337164751,
             "uniqueID": 901353,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Geometry",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -5558,7 +5584,12 @@
                     "x": 0.5871156661786238,
                     "y": 0.40229885057471265,
                     "uniqueID": 371862,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "geometry1",
+                            "ioValue": ""
+                        }
+                    ]
                 },
                 {
                     "atomType": "Translate",
@@ -5725,5 +5756,5 @@
     ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
-    "circleSegmentSize": "0.4"
+    "circleSegmentSize": "7.6"
 }
