@@ -5242,12 +5242,7 @@
             "x": 0.4707174231332357,
             "y": 0.6781609195402298,
             "uniqueID": 238188,
-            "ioValues": [
-                {
-                    "name": "Geometry",
-                    "ioValue": 10
-                }
-            ],
+            "ioValues": [],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -5277,12 +5272,7 @@
                     "x": 0.5724743777452416,
                     "y": 0.43295019157088127,
                     "uniqueID": 100515,
-                    "ioValues": [
-                        {
-                            "name": "geometry1",
-                            "ioValue": 10
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Rectangle",
