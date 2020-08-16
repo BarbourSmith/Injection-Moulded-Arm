@@ -3371,6 +3371,19 @@
             "fileTypeVersion": 1
         },
         {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.34773060029282576,
+            "y": 0.5134099616858238,
+            "uniqueID": 285049,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Molecule",
             "name": "Extract Half",
             "x": 0.46632503660322105,
@@ -6130,6 +6143,13 @@
             "ap1ID": 238188
         },
         {
+            "ap1Name": "Geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 707775,
+            "ap2ID": 285049
+        },
+        {
             "ap1Name": "geometry",
             "ap2Name": "Geometry",
             "ap2Primary": false,
@@ -6146,5 +6166,5 @@
     ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
-    "circleSegmentSize": "0.4"
+    "circleSegmentSize": "10"
 }
