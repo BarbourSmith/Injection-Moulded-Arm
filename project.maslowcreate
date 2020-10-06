@@ -28,8 +28,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.3784773060029282,
-                    "y": 0.2298850574712644,
+                    "x": 0.38213762811127383,
+                    "y": 0.22605363984674332,
                     "uniqueID": 713480,
                     "ioValues": [
                         {
@@ -190,8 +190,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor, Encoder, Mounting Plastic, and Bolts",
-                    "x": 0.4055636896046852,
-                    "y": 0.9386973180076629,
+                    "x": 0.4026354319180088,
+                    "y": 0.8544061302681992,
                     "uniqueID": 839020,
                     "ioValues": [],
                     "topLevel": false,
@@ -527,8 +527,8 @@
                         {
                             "atomType": "Assembly",
                             "name": "Assembly",
-                            "x": 0.2525622254758419,
-                            "y": 0.5747126436781609,
+                            "x": 0.2745241581259151,
+                            "y": 0.4789272030651341,
                             "uniqueID": 358883,
                             "ioValues": [
                                 {
