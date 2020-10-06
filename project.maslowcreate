@@ -527,8 +527,8 @@
                         {
                             "atomType": "Assembly",
                             "name": "Assembly",
-                            "x": 0.2745241581259151,
-                            "y": 0.4789272030651341,
+                            "x": 0.2759882869692533,
+                            "y": 0.4559386973180076,
                             "uniqueID": 358883,
                             "ioValues": [
                                 {
@@ -536,11 +536,11 @@
                                     "ioValue": 10
                                 },
                                 {
-                                    "name": "3D shape 4",
+                                    "name": "3D shape 5",
                                     "ioValue": 10
                                 },
                                 {
-                                    "name": "3D shape 5",
+                                    "name": "3D shape 6",
                                     "ioValue": 10
                                 }
                             ]
@@ -874,6 +874,23 @@
                                 }
                             ],
                             "fileTypeVersion": 1
+                        },
+                        {
+                            "atomType": "Union",
+                            "name": "Union",
+                            "x": 0.28550512445095166,
+                            "y": 0.7892720306513409,
+                            "uniqueID": 214847,
+                            "ioValues": [
+                                {
+                                    "name": "3D shape 1",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "3D shape 2",
+                                    "ioValue": 10
+                                }
+                            ]
                         },
                         {
                             "atomType": "Difference",
@@ -1545,10 +1562,17 @@
                         },
                         {
                             "ap1Name": "Geometry",
-                            "ap2Name": "3D shape 4",
+                            "ap2Name": "3D shape 6",
                             "ap2Primary": false,
                             "ap1ID": 455843,
                             "ap2ID": 358883
+                        },
+                        {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "3D shape 2",
+                            "ap2Primary": false,
+                            "ap1ID": 455843,
+                            "ap2ID": 214847
                         },
                         {
                             "ap1Name": "geometry",
@@ -1577,6 +1601,13 @@
                             "ap2Primary": false,
                             "ap1ID": 602662,
                             "ap2ID": 358883
+                        },
+                        {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "3D shape 1",
+                            "ap2Primary": false,
+                            "ap1ID": 602662,
+                            "ap2ID": 214847
                         },
                         {
                             "ap1Name": "geometry",
@@ -3300,8 +3331,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Central Column",
-                    "x": 0.08345534407027819,
-                    "y": 0.27586206896551724,
+                    "x": 0.07759882869692533,
+                    "y": 0.25287356321839083,
                     "uniqueID": 135969,
                     "ioValues": [],
                     "topLevel": false,
