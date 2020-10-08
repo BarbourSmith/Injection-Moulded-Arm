@@ -677,10 +677,6 @@
                                     "uniqueID": 135419,
                                     "ioValues": [
                                         {
-                                            "name": "geometry",
-                                            "ioValue": ""
-                                        },
-                                        {
                                             "name": "xDist",
                                             "ioValue": 0
                                         },
