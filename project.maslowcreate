@@ -2454,8 +2454,8 @@
                                 {
                                     "atomType": "Union",
                                     "name": "Union",
-                                    "x": 0.8689604685212299,
-                                    "y": 0.5534351145038168,
+                                    "x": 0.8528550512445096,
+                                    "y": 0.4541984732824427,
                                     "uniqueID": 990297,
                                     "ioValues": [
                                         {
@@ -2570,6 +2570,12 @@
                                     "ap2Primary": true,
                                     "ap1ID": 634101,
                                     "ap2ID": 997943
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "number or geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": 990297
                                 },
                                 {
                                     "ap1Name": "geometry",
