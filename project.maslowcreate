@@ -2452,11 +2452,11 @@
                                     ]
                                 },
                                 {
-                                    "atomType": "Assembly",
-                                    "name": "Assembly",
-                                    "x": 0.8440702781844802,
-                                    "y": 0.5670498084291188,
-                                    "uniqueID": 646863,
+                                    "atomType": "Union",
+                                    "name": "Union",
+                                    "x": 0.8689604685212299,
+                                    "y": 0.5534351145038168,
+                                    "uniqueID": 990297,
                                     "ioValues": [
                                         {
                                             "name": "3D shape 1",
@@ -2491,23 +2491,6 @@
                                     "x": 0.9853587115666179,
                                     "y": 0.5,
                                     "ioValues": []
-                                },
-                                {
-                                    "atomType": "Union",
-                                    "name": "Union",
-                                    "x": 0.8989751098096632,
-                                    "y": 0.8053435114503817,
-                                    "uniqueID": 990297,
-                                    "ioValues": [
-                                        {
-                                            "name": "3D shape 1",
-                                            "ioValue": 10
-                                        },
-                                        {
-                                            "name": "3D shape 2",
-                                            "ioValue": 10
-                                        }
-                                    ]
                                 }
                             ],
                             "allConnectors": [
@@ -2524,13 +2507,6 @@
                                     "ap2Primary": true,
                                     "ap1ID": 356538,
                                     "ap2ID": 803131
-                                },
-                                {
-                                    "ap1Name": "geometry",
-                                    "ap2Name": "3D shape 2",
-                                    "ap2Primary": false,
-                                    "ap1ID": 351981,
-                                    "ap2ID": 646863
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -2579,7 +2555,7 @@
                                     "ap2Name": "3D shape 3",
                                     "ap2Primary": false,
                                     "ap1ID": 592019,
-                                    "ap2ID": 646863
+                                    "ap2ID": 990297
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -2594,19 +2570,6 @@
                                     "ap2Primary": true,
                                     "ap1ID": 634101,
                                     "ap2ID": 997943
-                                },
-                                {
-                                    "ap1Name": "geometry",
-                                    "ap2Name": "number or geometry",
-                                    "ap2Primary": false,
-                                    "ap1ID": 646863
-                                },
-                                {
-                                    "ap1Name": "geometry",
-                                    "ap2Name": "3D shape 1",
-                                    "ap2Primary": false,
-                                    "ap1ID": 997943,
-                                    "ap2ID": 646863
                                 },
                                 {
                                     "ap1Name": "geometry",
