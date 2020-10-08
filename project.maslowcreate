@@ -1937,8 +1937,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.6412884333821377,
-                    "y": 0.20306513409961685,
+                    "x": 0.6134699853587116,
+                    "y": 0.1984732824427481,
                     "uniqueID": 128893,
                     "ioValues": [
                         {
@@ -2704,19 +2704,23 @@
                     "fileTypeVersion": 1
                 },
                 {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 0.7759882869692533,
-                    "y": 0.1111111111111111,
-                    "uniqueID": 277389,
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.6815519765739385,
+                    "y": 0.3435114503816794,
+                    "uniqueID": 906822,
                     "ioValues": [
                         {
-                            "name": "3D shape 3",
-                            "ioValue": 10
+                            "name": "x-axis degrees",
+                            "ioValue": 180
                         },
                         {
-                            "name": "3D shape 4",
-                            "ioValue": 10
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
                         }
                     ]
                 },
@@ -2742,23 +2746,19 @@
                     ]
                 },
                 {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 0.7093704245973645,
-                    "y": 0.39463601532567044,
-                    "uniqueID": 906822,
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.7774524158125915,
+                    "y": 0.2366412213740458,
+                    "uniqueID": 277389,
                     "ioValues": [
                         {
-                            "name": "x-axis degrees",
-                            "ioValue": 180
+                            "name": "3D shape 3",
+                            "ioValue": 10
                         },
                         {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 0
+                            "name": "3D shape 4",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -3098,10 +3098,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
+                    "ap2Name": "3D shape 4",
                     "ap2Primary": false,
-                    "ap1ID": 277389,
-                    "ap2ID": 803602
+                    "ap1ID": 906822,
+                    "ap2ID": 277389
                 },
                 {
                     "ap1Name": "geometry",
@@ -3119,10 +3119,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 4",
+                    "ap2Name": "geometry2",
                     "ap2Primary": false,
-                    "ap1ID": 906822,
-                    "ap2ID": 277389
+                    "ap1ID": 277389,
+                    "ap2ID": 803602
                 },
                 {
                     "ap1Name": "geometry",
