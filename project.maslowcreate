@@ -5587,17 +5587,20 @@
             ]
         },
         {
+            "atomType": "Stl",
+            "name": "Stl",
+            "x": 0.5358711566617862,
+            "y": 0.8045977011494253,
+            "uniqueID": 946297,
+            "ioValues": []
+        },
+        {
             "atomType": "Molecule",
             "name": "Cutaway view",
             "x": 0.8030746705710103,
             "y": 0.5900383141762452,
             "uniqueID": 901353,
-            "ioValues": [
-                {
-                    "name": "Geometry",
-                    "ioValue": 10
-                }
-            ],
+            "ioValues": [],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -5627,12 +5630,7 @@
                     "x": 0.5871156661786238,
                     "y": 0.40229885057471265,
                     "uniqueID": 371862,
-                    "ioValues": [
-                        {
-                            "name": "geometry1",
-                            "ioValue": ""
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Translate",
@@ -5717,14 +5715,6 @@
                 }
             ],
             "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Stl",
-            "name": "Stl",
-            "x": 0.5900439238653001,
-            "y": 0.8084291187739464,
-            "uniqueID": 946297,
-            "ioValues": []
         },
         {
             "atomType": "Output",
