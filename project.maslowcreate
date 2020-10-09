@@ -4454,6 +4454,53 @@
                             "topLevel": false,
                             "allAtoms": [
                                 {
+                                    "atomType": "Circle",
+                                    "name": "Circle",
+                                    "x": 0.09370424597364568,
+                                    "y": 0.21455938697318008,
+                                    "uniqueID": 602865,
+                                    "ioValues": [
+                                        {
+                                            "name": "diameter",
+                                            "ioValue": 11
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Extrude",
+                                    "name": "Extrude",
+                                    "x": 0.22840409956076133,
+                                    "y": 0.22605363984674332,
+                                    "uniqueID": 771559,
+                                    "ioValues": [
+                                        {
+                                            "name": "height",
+                                            "ioValue": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Translate",
+                                    "name": "Translate",
+                                    "x": 0.40702781844802344,
+                                    "y": 0.38697318007662834,
+                                    "uniqueID": 750972,
+                                    "ioValues": [
+                                        {
+                                            "name": "xDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "yDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "zDist",
+                                            "ioValue": 3
+                                        }
+                                    ]
+                                },
+                                {
                                     "atomType": "Output",
                                     "name": "Output",
                                     "x": 0.9853587115666179,
@@ -4461,7 +4508,22 @@
                                     "ioValues": []
                                 }
                             ],
-                            "allConnectors": [],
+                            "allConnectors": [
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 602865,
+                                    "ap2ID": 771559
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 771559,
+                                    "ap2ID": 750972
+                                }
+                            ],
                             "fileTypeVersion": 1
                         },
                         {
