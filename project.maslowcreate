@@ -3160,8 +3160,8 @@
         {
             "atomType": "Molecule",
             "name": "Extract Half",
-            "x": 0.46632503660322105,
-            "y": 0.4406130268199233,
+            "x": 0.45900439238652996,
+            "y": 0.5287356321839081,
             "uniqueID": 238188,
             "ioValues": [],
             "topLevel": false,
@@ -3270,6 +3270,23 @@
                 }
             ],
             "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Union",
+            "name": "Union",
+            "x": 0.7891654465592972,
+            "y": 0.2681992337164751,
+            "uniqueID": 224975,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 10
+                }
+            ]
         },
         {
             "atomType": "Molecule",
@@ -5568,8 +5585,8 @@
         {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.6581259150805271,
-            "y": 0.6398467432950191,
+            "x": 0.6508052708638361,
+            "y": 0.6666666666666666,
             "uniqueID": 850876,
             "ioValues": [
                 {
@@ -5595,10 +5612,17 @@
             "ioValues": []
         },
         {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.9853587115666179,
+            "y": 0.5,
+            "ioValues": []
+        },
+        {
             "atomType": "Molecule",
             "name": "Cutaway view",
-            "x": 0.8030746705710103,
-            "y": 0.5900383141762452,
+            "x": 0.8191800878477306,
+            "y": 0.7892720306513409,
             "uniqueID": 901353,
             "ioValues": [],
             "topLevel": false,
@@ -5715,26 +5739,6 @@
                 }
             ],
             "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.9853587115666179,
-            "y": 0.5,
-            "ioValues": []
-        },
-        {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.7313323572474377,
-            "y": 0.8659003831417625,
-            "uniqueID": 686221,
-            "ioValues": [
-                {
-                    "name": "3D shape 2",
-                    "ioValue": 10
-                }
-            ]
         }
     ],
     "allConnectors": [
@@ -5767,6 +5771,13 @@
             "ap2ID": 490355
         },
         {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 285049,
+            "ap2ID": 224975
+        },
+        {
             "ap1Name": "Geometry",
             "ap2Name": "3D shape 2",
             "ap2Primary": false,
@@ -5786,12 +5797,6 @@
             "ap2Primary": false,
             "ap1ID": 238188,
             "ap2ID": 946297
-        },
-        {
-            "ap1Name": "Geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 238188
         },
         {
             "ap1Name": "Geometry",
@@ -5816,17 +5821,17 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "3D shape 2",
+            "ap2Name": "Geometry",
             "ap2Primary": false,
             "ap1ID": 850876,
-            "ap2ID": 686221
+            "ap2ID": 901353
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "Geometry",
+            "ap2Name": "3D shape 2",
             "ap2Primary": false,
-            "ap1ID": 686221,
-            "ap2ID": 901353
+            "ap1ID": 850876,
+            "ap2ID": 224975
         }
     ],
     "fileTypeVersion": 1,
