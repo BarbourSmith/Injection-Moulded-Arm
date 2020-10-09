@@ -94,7 +94,7 @@
                     "ioValues": [
                         {
                             "name": "Dist Between Centers",
-                            "ioValue": 87
+                            "ioValue": 83
                         },
                         {
                             "name": "Sprocket One Size",
@@ -1572,7 +1572,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 87
+                            "ioValue": 83
                         },
                         {
                             "name": "yDist",
