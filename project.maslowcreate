@@ -4612,19 +4612,23 @@
                                     ]
                                 },
                                 {
-                                    "atomType": "Assembly",
-                                    "name": "Assembly",
-                                    "x": 0.6156661786237189,
-                                    "y": 0.37931034482758624,
-                                    "uniqueID": 387348,
+                                    "atomType": "Translate",
+                                    "name": "Translate",
+                                    "x": 0.44143484626647145,
+                                    "y": 0.5287356321839081,
+                                    "uniqueID": 610236,
                                     "ioValues": [
                                         {
-                                            "name": "3D shape 1",
-                                            "ioValue": 10
+                                            "name": "xDist",
+                                            "ioValue": 103
                                         },
                                         {
-                                            "name": "3D shape 2",
-                                            "ioValue": 10
+                                            "name": "yDist",
+                                            "ioValue": -7.5
+                                        },
+                                        {
+                                            "name": "zDist",
+                                            "ioValue": 2
                                         }
                                     ]
                                 },
@@ -4642,23 +4646,36 @@
                                     ]
                                 },
                                 {
-                                    "atomType": "Translate",
-                                    "name": "Translate",
-                                    "x": 0.4489593657086224,
-                                    "y": 0.6934865900383141,
-                                    "uniqueID": 610236,
+                                    "atomType": "Union",
+                                    "name": "Union",
+                                    "x": 0.6742313323572474,
+                                    "y": 0.4674329501915709,
+                                    "uniqueID": 375363,
                                     "ioValues": [
                                         {
-                                            "name": "xDist",
-                                            "ioValue": 103
+                                            "name": "3D shape 1",
+                                            "ioValue": 10
                                         },
                                         {
-                                            "name": "yDist",
-                                            "ioValue": -7.5
+                                            "name": "3D shape 2",
+                                            "ioValue": 10
                                         },
                                         {
-                                            "name": "zDist",
-                                            "ioValue": 2
+                                            "name": "3D shape 3",
+                                            "ioValue": 10
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Extrude",
+                                    "name": "Extrude",
+                                    "x": 0.4531478770131771,
+                                    "y": 0.7739463601532567,
+                                    "uniqueID": 749318,
+                                    "ioValues": [
+                                        {
+                                            "name": "height",
+                                            "ioValue": 10
                                         }
                                     ]
                                 },
@@ -4694,23 +4711,37 @@
                                 },
                                 {
                                     "ap1Name": "geometry",
-                                    "ap2Name": "3D shape 2",
+                                    "ap2Name": "3D shape 3",
                                     "ap2Primary": false,
                                     "ap1ID": 553857,
-                                    "ap2ID": 387348
+                                    "ap2ID": 375363
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "3D shape 2",
+                                    "ap2Primary": false,
+                                    "ap1ID": 610236,
+                                    "ap2ID": 375363
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 653849,
+                                    "ap2ID": 749318
                                 },
                                 {
                                     "ap1Name": "geometry",
                                     "ap2Name": "number or geometry",
                                     "ap2Primary": false,
-                                    "ap1ID": 387348
+                                    "ap1ID": 375363
                                 },
                                 {
                                     "ap1Name": "geometry",
                                     "ap2Name": "3D shape 1",
                                     "ap2Primary": false,
-                                    "ap1ID": 610236,
-                                    "ap2ID": 387348
+                                    "ap1ID": 749318,
+                                    "ap2ID": 375363
                                 }
                             ],
                             "fileTypeVersion": 1
