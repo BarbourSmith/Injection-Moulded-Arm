@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Drive System",
-            "x": 0.13543191800878476,
-            "y": 0.24137931034482757,
+            "x": 0.12225475841874085,
+            "y": 0.25287356321839083,
             "uniqueID": 683987,
             "ioValues": [],
             "topLevel": false,
@@ -180,19 +180,6 @@
                         {
                             "name": "Angle",
                             "ioValue": 38
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 0.7855051244509517,
-                    "y": 0.4367816091954023,
-                    "uniqueID": 183443,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 1",
-                            "ioValue": 10
                         }
                     ]
                 },
@@ -1560,10 +1547,27 @@
                     "fileTypeVersion": 1
                 },
                 {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.815519765739385,
+                    "y": 0.5019157088122606,
+                    "uniqueID": 183443,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.624380574826561,
-                    "y": 0.8275862068965518,
+                    "x": 0.6259150805270864,
+                    "y": 0.8314176245210728,
                     "uniqueID": 817647,
                     "ioValues": [
                         {
@@ -1633,6 +1637,13 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 695491,
+                    "ap2ID": 183443
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 1",
                     "ap2Primary": false,
                     "ap1ID": 297970,
@@ -1651,6 +1662,12 @@
                     "ap2Primary": true,
                     "ap1ID": 839020,
                     "ap2ID": 817647
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 183443
                 },
                 {
                     "ap1Name": "geometry",
