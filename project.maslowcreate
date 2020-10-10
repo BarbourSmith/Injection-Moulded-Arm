@@ -2437,6 +2437,10 @@
                             "uniqueID": 485133,
                             "ioValues": [
                                 {
+                                    "name": "xDist",
+                                    "ioValue": 0
+                                },
+                                {
                                     "name": "yDist",
                                     "ioValue": 0
                                 },
