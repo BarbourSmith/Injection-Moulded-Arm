@@ -637,6 +637,10 @@
                                         {
                                             "name": "3D shape 7",
                                             "ioValue": 10
+                                        },
+                                        {
+                                            "name": "3D shape 8",
+                                            "ioValue": 10
                                         }
                                     ]
                                 },
@@ -822,6 +826,13 @@
                                     "ap2Primary": true,
                                     "ap1ID": 935715,
                                     "ap2ID": 128477
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "3D shape 8",
+                                    "ap2Primary": false,
+                                    "ap1ID": 935715,
+                                    "ap2ID": 566306
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -3404,10 +3415,6 @@
                         {
                             "name": "3D shape 2",
                             "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 4",
-                            "ioValue": 10
                         }
                     ]
                 },
@@ -3758,13 +3765,6 @@
                     "ap2Name": "3D shape 2",
                     "ap2Primary": false,
                     "ap1ID": 128893,
-                    "ap2ID": 709959
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 4",
-                    "ap2Primary": false,
-                    "ap1ID": 125819,
                     "ap2ID": 709959
                 },
                 {
@@ -6738,5 +6738,5 @@
     ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
-    "circleSegmentSize": "6.4"
+    "circleSegmentSize": "0.1"
 }
