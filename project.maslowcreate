@@ -3998,10 +3998,6 @@
             "uniqueID": 850876,
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
                     "name": "x-axis degrees",
                     "ioValue": 180
                 },
