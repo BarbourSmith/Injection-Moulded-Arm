@@ -89,7 +89,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 4.6
+                            "ioValue": 0
                         }
                     ]
                 },
