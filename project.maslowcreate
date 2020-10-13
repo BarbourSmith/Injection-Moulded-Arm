@@ -37,7 +37,7 @@
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 2",
+                            "name": "3D shape 3",
                             "ioValue": 10
                         }
                     ]
@@ -45,8 +45,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Molecule",
-                    "x": 0.06515373352855051,
-                    "y": 0.524904214559387,
+                    "x": 0.0636896046852123,
+                    "y": 0.5363984674329502,
                     "uniqueID": 878829,
                     "projectID": "303239496",
                     "ioValues": []
@@ -1632,6 +1632,13 @@
                     "ap2ID": 718906
                 },
                 {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 878829,
+                    "ap2ID": 713480
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
@@ -1644,13 +1651,6 @@
                     "ap2Primary": false,
                     "ap1ID": 976670,
                     "ap2ID": 695491
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 2",
-                    "ap2Primary": false,
-                    "ap1ID": 317197,
-                    "ap2ID": 713480
                 },
                 {
                     "ap1Name": "geometry",
@@ -3865,12 +3865,7 @@
             "x": 0.4692532942898975,
             "y": 0.49808429118773945,
             "uniqueID": 238188,
-            "ioValues": [
-                {
-                    "name": "Geometry",
-                    "ioValue": 10
-                }
-            ],
+            "ioValues": [],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -3900,12 +3895,7 @@
                     "x": 0.5724743777452416,
                     "y": 0.43295019157088127,
                     "uniqueID": 100515,
-                    "ioValues": [
-                        {
-                            "name": "geometry1",
-                            "ioValue": ""
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Rectangle",
@@ -4007,10 +3997,6 @@
             "y": 0.4674329501915709,
             "uniqueID": 850876,
             "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
                 {
                     "name": "x-axis degrees",
                     "ioValue": 180
@@ -6575,12 +6561,7 @@
             "x": 0.8638360175695461,
             "y": 0.7701149425287357,
             "uniqueID": 901353,
-            "ioValues": [
-                {
-                    "name": "Geometry",
-                    "ioValue": 10
-                }
-            ],
+            "ioValues": [],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -6610,12 +6591,7 @@
                     "x": 0.5871156661786238,
                     "y": 0.40229885057471265,
                     "uniqueID": 371862,
-                    "ioValues": [
-                        {
-                            "name": "geometry1",
-                            "ioValue": ""
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Translate",
