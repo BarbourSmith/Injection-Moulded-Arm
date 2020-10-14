@@ -199,8 +199,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor, Encoder, Mounting Plastic, and Bolts",
-                    "x": 0.4026354319180088,
-                    "y": 0.8544061302681992,
+                    "x": 0.3953147877013177,
+                    "y": 0.842911877394636,
                     "uniqueID": 839020,
                     "ioValues": [],
                     "topLevel": false,
@@ -874,8 +874,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Mounting Plastic",
-                            "x": 0.5212298682284041,
-                            "y": 0.767175572519084,
+                            "x": 0.5153733528550513,
+                            "y": 0.7739463601532567,
                             "uniqueID": 322329,
                             "ioValues": [],
                             "topLevel": false,
