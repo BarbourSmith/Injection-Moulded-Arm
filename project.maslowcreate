@@ -1973,7 +1973,7 @@
                                     "ioValues": [
                                         {
                                             "name": "height",
-                                            "ioValue": 13.5
+                                            "ioValue": 12.5
                                         }
                                     ]
                                 },
@@ -4776,7 +4776,7 @@
                                     "ioValues": [
                                         {
                                             "name": "height",
-                                            "ioValue": 1
+                                            "ioValue": 1.5
                                         }
                                     ]
                                 },
