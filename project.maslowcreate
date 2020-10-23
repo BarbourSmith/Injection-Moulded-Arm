@@ -4304,12 +4304,7 @@
             "x": 0.4692532942898975,
             "y": 0.49808429118773945,
             "uniqueID": 238188,
-            "ioValues": [
-                {
-                    "name": "Geometry",
-                    "ioValue": 10
-                }
-            ],
+            "ioValues": [],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -4426,6 +4421,10 @@
             "ioValues": [
                 {
                     "name": "3D shape 1",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 2",
                     "ioValue": 10
                 }
             ]
@@ -6909,6 +6908,20 @@
             "ap2Primary": false,
             "ap1ID": 683987,
             "ap2ID": 534967
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Geometry",
+            "ap2Primary": false,
+            "ap1ID": 534967,
+            "ap2ID": 238188
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 2",
+            "ap2Primary": false,
+            "ap1ID": 534967,
+            "ap2ID": 169953
         },
         {
             "ap1Name": "Geometry",
