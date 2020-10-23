@@ -94,7 +94,7 @@
                     "ioValues": [
                         {
                             "name": "Dist Between Centers",
-                            "ioValue": 83
+                            "ioValue": 78
                         },
                         {
                             "name": "Offset",
@@ -140,7 +140,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 87
+                            "ioValue": 103
                         },
                         {
                             "name": "yDist",
@@ -162,11 +162,11 @@
                     "ioValues": [
                         {
                             "name": "Length",
-                            "ioValue": 70
+                            "ioValue": 100
                         },
                         {
                             "name": "Angle",
-                            "ioValue": 38
+                            "ioValue": 30
                         }
                     ]
                 },
@@ -2143,7 +2143,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 83
+                            "ioValue": 78
                         },
                         {
                             "name": "yDist",
