@@ -26,6 +26,24 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "2GT Belt Keepout",
+                    "x": 0.19472913616398244,
+                    "y": 0.5095785440613027,
+                    "uniqueID": 367876,
+                    "projectID": "269679568",
+                    "ioValues": [
+                        {
+                            "name": "Length",
+                            "ioValue": 100
+                        },
+                        {
+                            "name": "Angle",
+                            "ioValue": 25
+                        }
+                    ]
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 0.48166501486620417,
@@ -106,24 +124,6 @@
                         {
                             "name": "zDist",
                             "ioValue": -7.25
-                        }
-                    ]
-                },
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "2GT Belt Keepout",
-                    "x": 0.22035139092240116,
-                    "y": 0.842911877394636,
-                    "uniqueID": 367876,
-                    "projectID": "269679568",
-                    "ioValues": [
-                        {
-                            "name": "Length",
-                            "ioValue": 100
-                        },
-                        {
-                            "name": "Angle",
-                            "ioValue": 25
                         }
                     ]
                 },
@@ -2148,6 +2148,13 @@
                     "ap2ID": 718906
                 },
                 {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 367876,
+                    "ap2ID": 615570
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
@@ -2174,13 +2181,6 @@
                     "ap2Primary": false,
                     "ap1ID": 297970,
                     "ap2ID": 183443
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 367876,
-                    "ap2ID": 615570
                 },
                 {
                     "ap1Name": "Geometry",
@@ -6795,7 +6795,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -3
+                            "ioValue": 3
                         }
                     ]
                 },
