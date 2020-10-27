@@ -699,10 +699,6 @@
                                                     "ioValue": 10
                                                 },
                                                 {
-                                                    "name": "3D shape 7",
-                                                    "ioValue": 10
-                                                },
-                                                {
                                                     "name": "3D shape 8",
                                                     "ioValue": 10
                                                 },
@@ -730,27 +726,6 @@
                                                 {
                                                     "name": "z-axis degrees",
                                                     "ioValue": 120
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "atomType": "Rotate",
-                                            "name": "Rotate",
-                                            "x": 0.6244509516837482,
-                                            "y": 0.7318007662835249,
-                                            "uniqueID": 841246,
-                                            "ioValues": [
-                                                {
-                                                    "name": "x-axis degrees",
-                                                    "ioValue": 0
-                                                },
-                                                {
-                                                    "name": "y-axis degrees",
-                                                    "ioValue": 0
-                                                },
-                                                {
-                                                    "name": "z-axis degrees",
-                                                    "ioValue": 60
                                                 }
                                             ]
                                         },
@@ -841,23 +816,9 @@
                                         },
                                         {
                                             "ap1Name": "geometry",
-                                            "ap2Name": "geometry",
-                                            "ap2Primary": true,
-                                            "ap1ID": 445496,
-                                            "ap2ID": 841246
-                                        },
-                                        {
-                                            "ap1Name": "geometry",
                                             "ap2Name": "3D shape 2",
                                             "ap2Primary": false,
                                             "ap1ID": 445496,
-                                            "ap2ID": 962674
-                                        },
-                                        {
-                                            "ap1Name": "geometry",
-                                            "ap2Name": "3D shape 7",
-                                            "ap2Primary": false,
-                                            "ap1ID": 841246,
                                             "ap2ID": 962674
                                         }
                                     ],
