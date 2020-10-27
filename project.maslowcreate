@@ -2922,6 +2922,27 @@
                                                     ]
                                                 },
                                                 {
+                                                    "atomType": "Difference",
+                                                    "name": "Difference",
+                                                    "x": 0.4077598828696925,
+                                                    "y": 0.40229885057471265,
+                                                    "uniqueID": 827188,
+                                                    "ioValues": []
+                                                },
+                                                {
+                                                    "atomType": "Tag",
+                                                    "name": "Add Tag",
+                                                    "x": 0.5614934114202049,
+                                                    "y": 0.11877394636015325,
+                                                    "uniqueID": 396192,
+                                                    "ioValues": [
+                                                        {
+                                                            "name": "tag",
+                                                            "ioValue": "Plastic"
+                                                        }
+                                                    ]
+                                                },
+                                                {
                                                     "atomType": "Extrude",
                                                     "name": "Extrude",
                                                     "x": 0.2137628111273792,
@@ -2948,23 +2969,6 @@
                                                     ]
                                                 },
                                                 {
-                                                    "atomType": "Tag",
-                                                    "name": "Add Tag",
-                                                    "x": 0.7708638360175696,
-                                                    "y": 0.31417624521072796,
-                                                    "uniqueID": 396192,
-                                                    "ioValues": [
-                                                        {
-                                                            "name": "geometry",
-                                                            "ioValue": ""
-                                                        },
-                                                        {
-                                                            "name": "tag",
-                                                            "ioValue": "Plastic"
-                                                        }
-                                                    ]
-                                                },
-                                                {
                                                     "atomType": "Output",
                                                     "name": "Output",
                                                     "x": 0.9853587115666179,
@@ -2973,6 +2977,13 @@
                                                 }
                                             ],
                                             "allConnectors": [
+                                                {
+                                                    "ap1Name": "geometry",
+                                                    "ap2Name": "geometry1",
+                                                    "ap2Primary": false,
+                                                    "ap1ID": 204041,
+                                                    "ap2ID": 827188
+                                                },
                                                 {
                                                     "ap1Name": "geometry",
                                                     "ap2Name": "geometry",
@@ -2984,14 +2995,28 @@
                                                     "ap1Name": "geometry",
                                                     "ap2Name": "geometry",
                                                     "ap2Primary": true,
-                                                    "ap1ID": 794786,
-                                                    "ap2ID": 984826
+                                                    "ap1ID": 827188,
+                                                    "ap2ID": 396192
                                                 },
                                                 {
                                                     "ap1Name": "geometry",
                                                     "ap2Name": "number or geometry",
                                                     "ap2Primary": false,
                                                     "ap1ID": 396192
+                                                },
+                                                {
+                                                    "ap1Name": "geometry",
+                                                    "ap2Name": "geometry2",
+                                                    "ap2Primary": false,
+                                                    "ap1ID": 984826,
+                                                    "ap2ID": 827188
+                                                },
+                                                {
+                                                    "ap1Name": "geometry",
+                                                    "ap2Name": "geometry",
+                                                    "ap2Primary": true,
+                                                    "ap1ID": 794786,
+                                                    "ap2ID": 984826
                                                 }
                                             ],
                                             "fileTypeVersion": 1
