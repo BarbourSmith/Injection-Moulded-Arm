@@ -995,7 +995,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 5
+                                            "ioValue": 4
                                         },
                                         {
                                             "name": "zDist",
@@ -1283,6 +1283,27 @@
                                 {
                                     "name": "z-axis degrees",
                                     "ioValue": 0
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Rotate",
+                            "name": "Rotate",
+                            "x": 0.7752562225475842,
+                            "y": 0.29885057471264365,
+                            "uniqueID": 881315,
+                            "ioValues": [
+                                {
+                                    "name": "x-axis degrees",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "y-axis degrees",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "z-axis degrees",
+                                    "ioValue": 90
                                 }
                             ]
                         },
@@ -2121,31 +2142,10 @@
                             "fileTypeVersion": 1
                         },
                         {
-                            "atomType": "Rotate",
-                            "name": "Rotate",
-                            "x": 0.8455344070278183,
-                            "y": 0.28735632183908044,
-                            "uniqueID": 881315,
-                            "ioValues": [
-                                {
-                                    "name": "x-axis degrees",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "y-axis degrees",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "z-axis degrees",
-                                    "ioValue": 90
-                                }
-                            ]
-                        },
-                        {
                             "atomType": "Molecule",
                             "name": "Measuring Rollers",
-                            "x": 0.595900439238653,
-                            "y": 0.8352490421455938,
+                            "x": 0.6156661786237189,
+                            "y": 0.8275862068965518,
                             "uniqueID": 226072,
                             "ioValues": [],
                             "topLevel": false,
@@ -3016,7 +3016,14 @@
                                     "ioValues": []
                                 }
                             ],
-                            "allConnectors": [],
+                            "allConnectors": [
+                                {
+                                    "ap1Name": "Geometry",
+                                    "ap2Name": "number or geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": 623892
+                                }
+                            ],
                             "fileTypeVersion": 1
                         },
                         {
@@ -3093,6 +3100,12 @@
                         },
                         {
                             "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 881315
+                        },
+                        {
+                            "ap1Name": "geometry",
                             "ap2Name": "3D shape 4",
                             "ap2Primary": false,
                             "ap1ID": 974203,
@@ -3104,12 +3117,6 @@
                             "ap2Primary": true,
                             "ap1ID": 174641,
                             "ap2ID": 578567
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
-                            "ap2Primary": false,
-                            "ap1ID": 881315
                         }
                     ],
                     "fileTypeVersion": 1
