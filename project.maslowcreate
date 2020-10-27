@@ -3729,11 +3729,11 @@
                     ]
                 },
                 {
-                    "atomType": "Union",
-                    "name": "Union",
-                    "x": 0.7598828696925329,
-                    "y": 0.27586206896551724,
-                    "uniqueID": 709959,
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.7620790629575402,
+                    "y": 0.3103448275862069,
+                    "uniqueID": 264401,
                     "ioValues": [
                         {
                             "name": "3D shape 1",
@@ -3992,7 +3992,7 @@
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 2",
+                            "name": "3D shape 3",
                             "ioValue": 10
                         }
                     ]
@@ -4084,17 +4084,17 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 2",
+                    "ap2Name": "3D shape 1",
                     "ap2Primary": false,
                     "ap1ID": 128893,
-                    "ap2ID": 709959
+                    "ap2ID": 264401
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 1",
+                    "ap2Name": "3D shape 2",
                     "ap2Primary": false,
                     "ap1ID": 906822,
-                    "ap2ID": 709959
+                    "ap2ID": 264401
                 },
                 {
                     "ap1Name": "Geometry",
@@ -4126,9 +4126,9 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 2",
+                    "ap2Name": "3D shape 3",
                     "ap2Primary": false,
-                    "ap1ID": 709959,
+                    "ap1ID": 264401,
                     "ap2ID": 200709
                 },
                 {
