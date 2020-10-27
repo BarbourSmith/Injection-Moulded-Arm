@@ -172,7 +172,7 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Motor, Encoder, Mounting Plastic, and Bolts",
+                    "name": "Motor, Drive Gear, Encoder, Mounting Plastic, and Bolts",
                     "x": 0.3953147877013177,
                     "y": 0.842911877394636,
                     "uniqueID": 839020,
@@ -1503,70 +1503,10 @@
                                     ]
                                 },
                                 {
-                                    "atomType": "Stl",
-                                    "name": "Stl",
-                                    "x": 0.7679355783308931,
-                                    "y": 0.1992337164750958,
-                                    "uniqueID": 613981,
-                                    "ioValues": []
-                                },
-                                {
-                                    "atomType": "Circle",
-                                    "name": "Circle",
-                                    "x": 0.0739385065885798,
-                                    "y": 0.8122605363984674,
-                                    "uniqueID": 280522,
-                                    "ioValues": [
-                                        {
-                                            "name": "diameter",
-                                            "ioValue": 15
-                                        }
-                                    ]
-                                },
-                                {
-                                    "atomType": "GitHubMolecule",
-                                    "name": "2GT Sprocket",
-                                    "x": 0.15153733528550511,
-                                    "y": 0.8160919540229885,
-                                    "uniqueID": 655359,
-                                    "projectID": "235682860",
-                                    "ioValues": [
-                                        {
-                                            "name": "Number of teeth",
-                                            "ioValue": 45
-                                        },
-                                        {
-                                            "name": "Resolution",
-                                            "ioValue": 0.1
-                                        }
-                                    ]
-                                },
-                                {
-                                    "atomType": "Extrude",
-                                    "name": "Extrude",
-                                    "x": 0.27232796486090777,
-                                    "y": 0.8199233716475096,
-                                    "uniqueID": 665432,
-                                    "ioValues": [
-                                        {
-                                            "name": "height",
-                                            "ioValue": 7
-                                        }
-                                    ]
-                                },
-                                {
-                                    "atomType": "Difference",
-                                    "name": "Difference",
-                                    "x": 0.6288433382137628,
-                                    "y": 0.632183908045977,
-                                    "uniqueID": 942547,
-                                    "ioValues": []
-                                },
-                                {
                                     "atomType": "Translate",
                                     "name": "Translate",
                                     "x": 0.41874084919472915,
-                                    "y": 0.8314176245210728,
+                                    "y": 0.5900383141762452,
                                     "uniqueID": 807502,
                                     "ioValues": [
                                         {
@@ -1582,6 +1522,61 @@
                                             "ioValue": 4.5
                                         }
                                     ]
+                                },
+                                {
+                                    "atomType": "Extrude",
+                                    "name": "Extrude",
+                                    "x": 0.30380673499267935,
+                                    "y": 0.6628352490421456,
+                                    "uniqueID": 665432,
+                                    "ioValues": [
+                                        {
+                                            "name": "height",
+                                            "ioValue": 7
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Stl",
+                                    "name": "Stl",
+                                    "x": 0.7679355783308931,
+                                    "y": 0.1992337164750958,
+                                    "uniqueID": 613981,
+                                    "ioValues": []
+                                },
+                                {
+                                    "atomType": "GitHubMolecule",
+                                    "name": "Involute Gear",
+                                    "x": 0.16398243045387995,
+                                    "y": 0.7969348659003832,
+                                    "uniqueID": 367728,
+                                    "projectID": "307507544",
+                                    "ioValues": [
+                                        {
+                                            "name": "Number Of Teeth",
+                                            "ioValue": 30
+                                        },
+                                        {
+                                            "name": "Circular Pitch",
+                                            "ioValue": 3
+                                        },
+                                        {
+                                            "name": "Pressure Angle",
+                                            "ioValue": 20
+                                        },
+                                        {
+                                            "name": "Clearance",
+                                            "ioValue": 0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Difference",
+                                    "name": "Difference",
+                                    "x": 0.6288433382137628,
+                                    "y": 0.632183908045977,
+                                    "uniqueID": 942547,
+                                    "ioValues": []
                                 },
                                 {
                                     "atomType": "Molecule",
@@ -1957,11 +1952,11 @@
                                     "ap2ID": 942547
                                 },
                                 {
-                                    "ap1Name": "Geometry",
-                                    "ap2Name": "geometry",
-                                    "ap2Primary": true,
-                                    "ap1ID": 655359,
-                                    "ap2ID": 665432
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "3D shape 1",
+                                    "ap2Primary": false,
+                                    "ap1ID": 807502,
+                                    "ap2ID": 231667
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -1969,6 +1964,13 @@
                                     "ap2Primary": true,
                                     "ap1ID": 665432,
                                     "ap2ID": 807502
+                                },
+                                {
+                                    "ap1Name": "Geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 367728,
+                                    "ap2ID": 665432
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -1983,13 +1985,6 @@
                                     "ap2Primary": false,
                                     "ap1ID": 942547,
                                     "ap2ID": 613981
-                                },
-                                {
-                                    "ap1Name": "geometry",
-                                    "ap2Name": "3D shape 1",
-                                    "ap2Primary": false,
-                                    "ap1ID": 807502,
-                                    "ap2ID": 231667
                                 },
                                 {
                                     "ap1Name": "Geometry",
@@ -6805,7 +6800,7 @@
         {
             "atomType": "Molecule",
             "name": "Cutaway view",
-            "x": 0.8638360175695461,
+            "x": 0.862371888726208,
             "y": 0.7701149425287357,
             "uniqueID": 901353,
             "ioValues": [],
