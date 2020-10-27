@@ -2187,11 +2187,20 @@
                             ]
                         },
                         {
-                            "atomType": "Union",
-                            "name": "Union",
-                            "x": 0.732796486090776,
-                            "y": 0.3129770992366412,
-                            "uniqueID": 596075,
+                            "atomType": "Color",
+                            "name": "Color",
+                            "x": 0.5497803806734992,
+                            "y": 0.578544061302682,
+                            "uniqueID": 883035,
+                            "ioValues": [],
+                            "selectedColorIndex": "12"
+                        },
+                        {
+                            "atomType": "Assembly",
+                            "name": "Assembly",
+                            "x": 0.7979502196193266,
+                            "y": 0.3639846743295019,
+                            "uniqueID": 627814,
                             "ioValues": [
                                 {
                                     "name": "3D shape 1",
@@ -2202,15 +2211,6 @@
                                     "ioValue": 10
                                 }
                             ]
-                        },
-                        {
-                            "atomType": "Color",
-                            "name": "Color",
-                            "x": 0.5944363103953147,
-                            "y": 0.5402298850574713,
-                            "uniqueID": 883035,
-                            "ioValues": [],
-                            "selectedColorIndex": "12"
                         },
                         {
                             "atomType": "Output",
@@ -2226,7 +2226,7 @@
                             "ap2Name": "3D shape 2",
                             "ap2Primary": false,
                             "ap1ID": 332425,
-                            "ap2ID": 596075
+                            "ap2ID": 627814
                         },
                         {
                             "ap1Name": "geometry",
@@ -2244,16 +2244,16 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
-                            "ap2Primary": false,
-                            "ap1ID": 596075
-                        },
-                        {
-                            "ap1Name": "geometry",
                             "ap2Name": "3D shape 1",
                             "ap2Primary": false,
                             "ap1ID": 883035,
-                            "ap2ID": 596075
+                            "ap2ID": 627814
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 627814
                         }
                     ],
                     "fileTypeVersion": 1
