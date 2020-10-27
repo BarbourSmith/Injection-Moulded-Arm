@@ -374,19 +374,10 @@
                             "fileTypeVersion": 1
                         },
                         {
-                            "atomType": "GitHubMolecule",
-                            "name": "12V DC Motor",
-                            "x": 0.05197657393850659,
-                            "y": 0.40229885057471265,
-                            "uniqueID": 455843,
-                            "projectID": "197010572",
-                            "ioValues": []
-                        },
-                        {
                             "atomType": "Rotate",
                             "name": "Rotate",
-                            "x": 0.3689604685212298,
-                            "y": 0.2796934865900383,
+                            "x": 0.3279648609077599,
+                            "y": 0.210727969348659,
                             "uniqueID": 281612,
                             "ioValues": [
                                 {
@@ -400,6 +391,36 @@
                                 {
                                     "name": "z-axis degrees",
                                     "ioValue": 0
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "GitHubMolecule",
+                            "name": "12V DC Motor",
+                            "x": 0.05197657393850659,
+                            "y": 0.40229885057471265,
+                            "uniqueID": 455843,
+                            "projectID": "197010572",
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Translate",
+                            "name": "Translate",
+                            "x": 0.4904831625183016,
+                            "y": 0.17624521072796936,
+                            "uniqueID": 917623,
+                            "ioValues": [
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 5
                                 }
                             ]
                         },
@@ -559,8 +580,8 @@
                                 {
                                     "atomType": "Translate",
                                     "name": "Translate",
-                                    "x": 0.856515373352855,
-                                    "y": 0.2298850574712644,
+                                    "x": 0.8513909224011713,
+                                    "y": 0.24521072796934865,
                                     "uniqueID": 105282,
                                     "ioValues": [
                                         {
@@ -573,7 +594,7 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": -1
+                                            "ioValue": 0
                                         }
                                     ]
                                 },
@@ -922,11 +943,11 @@
                                     "ioValue": 10
                                 },
                                 {
-                                    "name": "3D shape 2",
+                                    "name": "3D shape 4",
                                     "ioValue": 10
                                 },
                                 {
-                                    "name": "3D shape 4",
+                                    "name": "3D shape 5",
                                     "ioValue": 10
                                 }
                             ]
@@ -934,8 +955,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Bolts",
-                            "x": 0.06881405563689605,
-                            "y": 0.7633587786259541,
+                            "x": 0.06954612005856516,
+                            "y": 0.7662835249042146,
                             "uniqueID": 602662,
                             "ioValues": [],
                             "topLevel": false,
@@ -3015,6 +3036,13 @@
                             "ap2ID": 763995
                         },
                         {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 281612,
+                            "ap2ID": 917623
+                        },
+                        {
                             "ap1Name": "Geometry",
                             "ap2Name": "3D shape 5",
                             "ap2Primary": false,
@@ -3023,9 +3051,9 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "3D shape 2",
+                            "ap2Name": "3D shape 5",
                             "ap2Primary": false,
-                            "ap1ID": 281612,
+                            "ap1ID": 917623,
                             "ap2ID": 333299
                         },
                         {
