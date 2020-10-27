@@ -1527,7 +1527,7 @@
                                         },
                                         {
                                             "name": "y-axis degrees",
-                                            "ioValue": 0
+                                            "ioValue": 180
                                         },
                                         {
                                             "name": "z-axis degrees",
@@ -1717,31 +1717,10 @@
                                     "fileTypeVersion": 1
                                 },
                                 {
-                                    "atomType": "Translate",
-                                    "name": "Translate",
-                                    "x": 0.7554904831625183,
-                                    "y": 0.49808429118773945,
-                                    "uniqueID": 291431,
-                                    "ioValues": [
-                                        {
-                                            "name": "xDist",
-                                            "ioValue": 0
-                                        },
-                                        {
-                                            "name": "yDist",
-                                            "ioValue": 0
-                                        },
-                                        {
-                                            "name": "zDist",
-                                            "ioValue": -11.75
-                                        }
-                                    ]
-                                },
-                                {
                                     "atomType": "Color",
                                     "name": "Color",
-                                    "x": 0.8718887262079063,
-                                    "y": 0.35249042145593873,
+                                    "x": 0.7745241581259151,
+                                    "y": 0.475095785440613,
                                     "uniqueID": 805804,
                                     "ioValues": [],
                                     "selectedColorIndex": "3"
@@ -2008,7 +1987,7 @@
                                     "ap2Name": "geometry",
                                     "ap2Primary": true,
                                     "ap1ID": 483888,
-                                    "ap2ID": 291431
+                                    "ap2ID": 805804
                                 },
                                 {
                                     "ap1Name": "Geometry",
@@ -2023,13 +2002,6 @@
                                     "ap2Primary": false,
                                     "ap1ID": 311848,
                                     "ap2ID": 942547
-                                },
-                                {
-                                    "ap1Name": "geometry",
-                                    "ap2Name": "geometry",
-                                    "ap2Primary": true,
-                                    "ap1ID": 291431,
-                                    "ap2ID": 805804
                                 },
                                 {
                                     "ap1Name": "geometry",
