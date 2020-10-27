@@ -2236,8 +2236,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Measuring Rollers",
-                            "x": 0.554904831625183,
-                            "y": 0.8544061302681992,
+                            "x": 0.5592972181551977,
+                            "y": 0.8275862068965518,
                             "uniqueID": 226072,
                             "ioValues": [],
                             "topLevel": false,
@@ -2942,7 +2942,7 @@
                                                     "ioValues": [
                                                         {
                                                             "name": "diameter",
-                                                            "ioValue": 16
+                                                            "ioValue": 16.5
                                                         }
                                                     ]
                                                 },
