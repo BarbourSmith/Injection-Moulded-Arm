@@ -1473,25 +1473,12 @@
                                     ]
                                 },
                                 {
-                                    "atomType": "Rotate",
-                                    "name": "Rotate",
-                                    "x": 0.5161054172767203,
-                                    "y": 0.29885057471264365,
-                                    "uniqueID": 757995,
-                                    "ioValues": [
-                                        {
-                                            "name": "x-axis degrees",
-                                            "ioValue": 0
-                                        },
-                                        {
-                                            "name": "y-axis degrees",
-                                            "ioValue": 180
-                                        },
-                                        {
-                                            "name": "z-axis degrees",
-                                            "ioValue": 0
-                                        }
-                                    ]
+                                    "atomType": "Difference",
+                                    "name": "Difference",
+                                    "x": 0.49487554904831627,
+                                    "y": 0.3333333333333333,
+                                    "uniqueID": 942547,
+                                    "ioValues": []
                                 },
                                 {
                                     "atomType": "Extrude",
@@ -1554,14 +1541,6 @@
                                     ]
                                 },
                                 {
-                                    "atomType": "Difference",
-                                    "name": "Difference",
-                                    "x": 0.6332357247437774,
-                                    "y": 0.47126436781609193,
-                                    "uniqueID": 942547,
-                                    "ioValues": []
-                                },
-                                {
                                     "atomType": "Stl",
                                     "name": "Stl",
                                     "x": 0.7679355783308931,
@@ -1572,8 +1551,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Center for shaft and shorten",
-                                    "x": 0.5051244509516838,
-                                    "y": 0.7241379310344828,
+                                    "x": 0.4158125915080527,
+                                    "y": 0.7892720306513409,
                                     "uniqueID": 311848,
                                     "ioValues": [],
                                     "topLevel": false,
@@ -1970,17 +1949,24 @@
                                 },
                                 {
                                     "ap1Name": "geometry",
-                                    "ap2Name": "geometry",
-                                    "ap2Primary": true,
+                                    "ap2Name": "geometry1",
+                                    "ap2Primary": false,
                                     "ap1ID": 231667,
-                                    "ap2ID": 757995
+                                    "ap2ID": 942547
                                 },
                                 {
                                     "ap1Name": "geometry",
-                                    "ap2Name": "geometry1",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 942547,
+                                    "ap2ID": 291431
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
                                     "ap2Primary": false,
-                                    "ap1ID": 757995,
-                                    "ap2ID": 942547
+                                    "ap1ID": 942547,
+                                    "ap2ID": 613981
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -2002,20 +1988,6 @@
                                     "ap2Primary": true,
                                     "ap1ID": 367728,
                                     "ap2ID": 665432
-                                },
-                                {
-                                    "ap1Name": "geometry",
-                                    "ap2Name": "geometry",
-                                    "ap2Primary": true,
-                                    "ap1ID": 942547,
-                                    "ap2ID": 291431
-                                },
-                                {
-                                    "ap1Name": "geometry",
-                                    "ap2Name": "geometry",
-                                    "ap2Primary": false,
-                                    "ap1ID": 942547,
-                                    "ap2ID": 613981
                                 },
                                 {
                                     "ap1Name": "Geometry",
