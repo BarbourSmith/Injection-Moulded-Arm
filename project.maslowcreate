@@ -2236,8 +2236,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Measuring Rollers",
-                            "x": 0.5541727672035139,
-                            "y": 0.8544061302681992,
+                            "x": 0.5563689604685212,
+                            "y": 0.8505747126436781,
                             "uniqueID": 226072,
                             "ioValues": [],
                             "topLevel": false,
@@ -2686,10 +2686,19 @@
                                                     "fileTypeVersion": 1
                                                 },
                                                 {
+                                                    "atomType": "Color",
+                                                    "name": "Color",
+                                                    "x": 0.9033674963396778,
+                                                    "y": 0.32567049808429116,
+                                                    "uniqueID": 366536,
+                                                    "ioValues": [],
+                                                    "selectedColorIndex": "5"
+                                                },
+                                                {
                                                     "atomType": "Rotate",
                                                     "name": "Rotate",
-                                                    "x": 0.766471449487555,
-                                                    "y": 0.6398467432950191,
+                                                    "x": 0.7210834553440704,
+                                                    "y": 0.6475095785440613,
                                                     "uniqueID": 689784,
                                                     "ioValues": [
                                                         {
@@ -2707,20 +2716,32 @@
                                                     ]
                                                 },
                                                 {
+                                                    "atomType": "Translate",
+                                                    "name": "Translate",
+                                                    "x": 0.8147877013177159,
+                                                    "y": 0.7203065134099617,
+                                                    "uniqueID": 174369,
+                                                    "ioValues": [
+                                                        {
+                                                            "name": "xDist",
+                                                            "ioValue": 0
+                                                        },
+                                                        {
+                                                            "name": "yDist",
+                                                            "ioValue": 0
+                                                        },
+                                                        {
+                                                            "name": "zDist",
+                                                            "ioValue": 4
+                                                        }
+                                                    ]
+                                                },
+                                                {
                                                     "atomType": "Output",
                                                     "name": "Output",
                                                     "x": 0.9853587115666179,
                                                     "y": 0.5,
                                                     "ioValues": []
-                                                },
-                                                {
-                                                    "atomType": "Color",
-                                                    "name": "Color",
-                                                    "x": 0.8667642752562226,
-                                                    "y": 0.7203065134099617,
-                                                    "uniqueID": 366536,
-                                                    "ioValues": [],
-                                                    "selectedColorIndex": "5"
                                                 }
                                             ],
                                             "allConnectors": [
@@ -2796,16 +2817,23 @@
                                                 },
                                                 {
                                                     "ap1Name": "geometry",
-                                                    "ap2Name": "geometry",
-                                                    "ap2Primary": true,
-                                                    "ap1ID": 689784,
-                                                    "ap2ID": 366536
-                                                },
-                                                {
-                                                    "ap1Name": "geometry",
                                                     "ap2Name": "number or geometry",
                                                     "ap2Primary": false,
                                                     "ap1ID": 366536
+                                                },
+                                                {
+                                                    "ap1Name": "geometry",
+                                                    "ap2Name": "geometry",
+                                                    "ap2Primary": true,
+                                                    "ap1ID": 689784,
+                                                    "ap2ID": 174369
+                                                },
+                                                {
+                                                    "ap1Name": "geometry",
+                                                    "ap2Name": "geometry",
+                                                    "ap2Primary": true,
+                                                    "ap1ID": 174369,
+                                                    "ap2ID": 366536
                                                 }
                                             ],
                                             "fileTypeVersion": 1
@@ -3077,7 +3105,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 15
+                                            "ioValue": -18
                                         },
                                         {
                                             "name": "zDist",
@@ -3098,7 +3126,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": -17
+                                            "ioValue": -18
                                         },
                                         {
                                             "name": "zDist",
