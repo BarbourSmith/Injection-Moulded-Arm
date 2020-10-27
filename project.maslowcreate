@@ -1728,8 +1728,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Bearing Pockets",
-                                    "x": 0.664714494875549,
-                                    "y": 0.8352490421455938,
+                                    "x": 0.6632503660322109,
+                                    "y": 0.8160919540229885,
                                     "uniqueID": 633254,
                                     "ioValues": [],
                                     "topLevel": false,
@@ -1797,8 +1797,8 @@
                                         {
                                             "atomType": "ExtractTag",
                                             "name": "Extract Tag",
-                                            "x": 0.6939970717423133,
-                                            "y": 0.421455938697318,
+                                            "x": 0.6698389458272328,
+                                            "y": 0.39080459770114945,
                                             "uniqueID": 726489,
                                             "ioValues": [
                                                 {
@@ -1829,6 +1829,19 @@
                                                 },
                                                 {
                                                     "name": "3D shape 3",
+                                                    "ioValue": 10
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "atomType": "Circle",
+                                            "name": "Circle",
+                                            "x": 0.7408491947291361,
+                                            "y": 0.6436781609195402,
+                                            "uniqueID": 727027,
+                                            "ioValues": [
+                                                {
+                                                    "name": "diameter",
                                                     "ioValue": 10
                                                 }
                                             ]
