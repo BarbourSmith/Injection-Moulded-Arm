@@ -291,7 +291,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 0
+                                            "ioValue": -1
                                         },
                                         {
                                             "name": "zDist",
@@ -376,8 +376,8 @@
                         {
                             "atomType": "GitHubMolecule",
                             "name": "12V DC Motor",
-                            "x": 0.06881405563689605,
-                            "y": 0.47126436781609193,
+                            "x": 0.05197657393850659,
+                            "y": 0.40229885057471265,
                             "uniqueID": 455843,
                             "projectID": "197010572",
                             "ioValues": []
@@ -404,6 +404,27 @@
                             ]
                         },
                         {
+                            "atomType": "Translate",
+                            "name": "Translate",
+                            "x": 0.16544655929721816,
+                            "y": 0.5478927203065134,
+                            "uniqueID": 309184,
+                            "ioValues": [
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": -1
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 0
+                                }
+                            ]
+                        },
+                        {
                             "atomType": "Assembly",
                             "name": "Assembly",
                             "x": 0.28257686676427524,
@@ -415,11 +436,11 @@
                                     "ioValue": 10
                                 },
                                 {
-                                    "name": "3D shape 2",
+                                    "name": "3D shape 3",
                                     "ioValue": 10
                                 },
                                 {
-                                    "name": "3D shape 3",
+                                    "name": "3D shape 4",
                                     "ioValue": 10
                                 }
                             ]
@@ -1998,10 +2019,10 @@
                         },
                         {
                             "ap1Name": "Geometry",
-                            "ap2Name": "3D shape 2",
-                            "ap2Primary": false,
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
                             "ap1ID": 455843,
-                            "ap2ID": 763995
+                            "ap2ID": 309184
                         },
                         {
                             "ap1Name": "geometry",
@@ -2009,6 +2030,13 @@
                             "ap2Primary": false,
                             "ap1ID": 281612,
                             "ap2ID": 333299
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "3D shape 4",
+                            "ap2Primary": false,
+                            "ap1ID": 309184,
+                            "ap2ID": 763995
                         },
                         {
                             "ap1Name": "geometry",
