@@ -3027,6 +3027,98 @@
                             "fileTypeVersion": 1
                         },
                         {
+                            "atomType": "Molecule",
+                            "name": "Cut Away",
+                            "x": 0.8177159590043923,
+                            "y": 0.7011494252873564,
+                            "uniqueID": 234978,
+                            "ioValues": [],
+                            "topLevel": false,
+                            "allAtoms": [
+                                {
+                                    "atomType": "Input",
+                                    "name": "Input381539",
+                                    "x": 0.013333333333333334,
+                                    "y": 0.27586206896551724,
+                                    "uniqueID": 127270,
+                                    "ioValues": []
+                                },
+                                {
+                                    "atomType": "Difference",
+                                    "name": "Difference",
+                                    "x": 0.5871156661786238,
+                                    "y": 0.47126436781609193,
+                                    "uniqueID": 277550,
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry2",
+                                            "ioValue": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Extrude",
+                                    "name": "Extrude",
+                                    "x": 0.32942898975109813,
+                                    "y": 0.7394636015325671,
+                                    "uniqueID": 485453,
+                                    "ioValues": [
+                                        {
+                                            "name": "height",
+                                            "ioValue": 10
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Rectangle",
+                                    "name": "Rectangle",
+                                    "x": 0.2027818448023426,
+                                    "y": 0.793103448275862,
+                                    "uniqueID": 100013,
+                                    "ioValues": [
+                                        {
+                                            "name": "x length",
+                                            "ioValue": 100
+                                        },
+                                        {
+                                            "name": "y length",
+                                            "ioValue": 100
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Output",
+                                    "name": "Output",
+                                    "x": 0.9853587115666179,
+                                    "y": 0.5,
+                                    "ioValues": []
+                                }
+                            ],
+                            "allConnectors": [
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "geometry1",
+                                    "ap2Primary": false,
+                                    "ap1ID": 127270,
+                                    "ap2ID": 277550
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "number or geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": 277550
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 100013,
+                                    "ap2ID": 485453
+                                }
+                            ],
+                            "fileTypeVersion": 1
+                        },
+                        {
                             "atomType": "Output",
                             "name": "Output",
                             "x": 0.9853587115666179,
@@ -3103,6 +3195,13 @@
                             "ap2Name": "number or geometry",
                             "ap2Primary": false,
                             "ap1ID": 881315
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Input381539",
+                            "ap2Primary": false,
+                            "ap1ID": 881315,
+                            "ap2ID": 234978
                         },
                         {
                             "ap1Name": "geometry",
