@@ -130,8 +130,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor, Drive Gear, Encoder, Mounting Plastic, and Bolts",
-                    "x": 0.3953147877013177,
-                    "y": 0.842911877394636,
+                    "x": 0.3875598086124402,
+                    "y": 0.7394636015325671,
                     "uniqueID": 839020,
                     "ioValues": [],
                     "topLevel": false,
@@ -2082,7 +2082,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 78
+                            "ioValue": 75.43
                         },
                         {
                             "name": "yDist",
