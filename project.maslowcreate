@@ -484,7 +484,7 @@
                                     "ioValues": [
                                         {
                                             "name": "height",
-                                            "ioValue": 5
+                                            "ioValue": 6
                                         }
                                     ]
                                 },
@@ -621,19 +621,6 @@
                                             ]
                                         },
                                         {
-                                            "atomType": "Extrude",
-                                            "name": "Extrude",
-                                            "x": 0.2342606149341142,
-                                            "y": 0.2222222222222222,
-                                            "uniqueID": 673813,
-                                            "ioValues": [
-                                                {
-                                                    "name": "height",
-                                                    "ioValue": 5
-                                                }
-                                            ]
-                                        },
-                                        {
                                             "atomType": "Translate",
                                             "name": "Translate",
                                             "x": 0.1486090775988287,
@@ -651,6 +638,19 @@
                                                 {
                                                     "name": "zDist",
                                                     "ioValue": 0
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "atomType": "Extrude",
+                                            "name": "Extrude",
+                                            "x": 0.23572474377745242,
+                                            "y": 0.26053639846743293,
+                                            "uniqueID": 673813,
+                                            "ioValues": [
+                                                {
+                                                    "name": "height",
+                                                    "ioValue": 6
                                                 }
                                             ]
                                         },
@@ -762,6 +762,13 @@
                                             "ap1Name": "geometry",
                                             "ap2Name": "geometry",
                                             "ap2Primary": true,
+                                            "ap1ID": 175636,
+                                            "ap2ID": 673813
+                                        },
+                                        {
+                                            "ap1Name": "geometry",
+                                            "ap2Name": "geometry",
+                                            "ap2Primary": true,
                                             "ap1ID": 673813,
                                             "ap2ID": 909897
                                         },
@@ -778,13 +785,6 @@
                                             "ap2Primary": true,
                                             "ap1ID": 673813,
                                             "ap2ID": 755868
-                                        },
-                                        {
-                                            "ap1Name": "geometry",
-                                            "ap2Name": "geometry",
-                                            "ap2Primary": true,
-                                            "ap1ID": 175636,
-                                            "ap2ID": 673813
                                         },
                                         {
                                             "ap1Name": "geometry",
@@ -3056,8 +3056,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Cut Away",
-                            "x": 0.8550512445095168,
-                            "y": 0.7011494252873564,
+                            "x": 0.8609077598828697,
+                            "y": 0.6973180076628352,
                             "uniqueID": 234978,
                             "ioValues": [],
                             "topLevel": false,
