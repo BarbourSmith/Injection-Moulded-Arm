@@ -1331,8 +1331,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Drive Roller",
-                            "x": 0.2767203513909224,
-                            "y": 0.8390804597701149,
+                            "x": 0.27306002928257683,
+                            "y": 0.8084291187739464,
                             "uniqueID": 174641,
                             "ioValues": [],
                             "topLevel": false,
