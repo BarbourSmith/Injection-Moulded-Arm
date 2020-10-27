@@ -130,8 +130,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor, Drive Gear, Encoder, Mounting Plastic, and Bolts",
-                    "x": 0.3909224011713031,
-                    "y": 0.8275862068965518,
+                    "x": 0.38945827232796487,
+                    "y": 0.8160919540229885,
                     "uniqueID": 839020,
                     "ioValues": [],
                     "topLevel": false,
@@ -1314,8 +1314,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Drive Roller",
-                            "x": 0.2613469985358711,
-                            "y": 0.8352490421455938,
+                            "x": 0.26207906295754024,
+                            "y": 0.8160919540229885,
                             "uniqueID": 174641,
                             "ioValues": [],
                             "topLevel": false,
@@ -1800,8 +1800,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Bearing Pocket",
-                                    "x": 0.6595900439238653,
-                                    "y": 0.793103448275862,
+                                    "x": 0.6610541727672035,
+                                    "y": 0.7854406130268199,
                                     "uniqueID": 633254,
                                     "ioValues": [],
                                     "topLevel": false,
@@ -2236,8 +2236,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Measuring Rollers",
-                            "x": 0.5563689604685212,
-                            "y": 0.8505747126436781,
+                            "x": 0.554904831625183,
+                            "y": 0.8544061302681992,
                             "uniqueID": 226072,
                             "ioValues": [],
                             "topLevel": false,
@@ -2253,7 +2253,7 @@
                                     "allAtoms": [
                                         {
                                             "atomType": "Molecule",
-                                            "name": "Bearing and Block",
+                                            "name": "Bearing",
                                             "x": 0.0629575402635432,
                                             "y": 0.3639846743295019,
                                             "uniqueID": 327460,
@@ -2921,6 +2921,19 @@
                                                     ]
                                                 },
                                                 {
+                                                    "atomType": "Extrude",
+                                                    "name": "Extrude",
+                                                    "x": 0.33162518301610544,
+                                                    "y": 0.6973180076628352,
+                                                    "uniqueID": 104644,
+                                                    "ioValues": [
+                                                        {
+                                                            "name": "height",
+                                                            "ioValue": 6.2
+                                                        }
+                                                    ]
+                                                },
+                                                {
                                                     "atomType": "Circle",
                                                     "name": "Circle",
                                                     "x": 0.14275256222547583,
@@ -2943,15 +2956,23 @@
                                                     "selectedColorIndex": "12"
                                                 },
                                                 {
-                                                    "atomType": "Extrude",
-                                                    "name": "Extrude",
-                                                    "x": 0.3718887262079063,
-                                                    "y": 0.7969348659003832,
-                                                    "uniqueID": 104644,
+                                                    "atomType": "Translate",
+                                                    "name": "Translate",
+                                                    "x": 0.45021961932650073,
+                                                    "y": 0.8352490421455938,
+                                                    "uniqueID": 383340,
                                                     "ioValues": [
                                                         {
-                                                            "name": "height",
-                                                            "ioValue": 6
+                                                            "name": "xDist",
+                                                            "ioValue": 0
+                                                        },
+                                                        {
+                                                            "name": "yDist",
+                                                            "ioValue": 0
+                                                        },
+                                                        {
+                                                            "name": "zDist",
+                                                            "ioValue": 0.1
                                                         }
                                                     ]
                                                 },
@@ -3027,6 +3048,13 @@
                                                     "ap1Name": "geometry",
                                                     "ap2Name": "geometry",
                                                     "ap2Primary": true,
+                                                    "ap1ID": 104644,
+                                                    "ap2ID": 383340
+                                                },
+                                                {
+                                                    "ap1Name": "geometry",
+                                                    "ap2Name": "geometry",
+                                                    "ap2Primary": true,
                                                     "ap1ID": 608997,
                                                     "ap2ID": 104644
                                                 },
@@ -3041,7 +3069,7 @@
                                                     "ap1Name": "geometry",
                                                     "ap2Name": "geometry",
                                                     "ap2Primary": true,
-                                                    "ap1ID": 104644,
+                                                    "ap1ID": 383340,
                                                     "ap2ID": 692527
                                                 },
                                                 {
