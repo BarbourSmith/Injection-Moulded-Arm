@@ -3560,12 +3560,7 @@
             "x": 0.4692532942898975,
             "y": 0.49808429118773945,
             "uniqueID": 238188,
-            "ioValues": [
-                {
-                    "name": "Geometry",
-                    "ioValue": 10
-                }
-            ],
+            "ioValues": [],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -5684,6 +5679,13 @@
             "ap2Primary": false,
             "ap1ID": 683987,
             "ap2ID": 335740
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Geometry",
+            "ap2Primary": false,
+            "ap1ID": 335740,
+            "ap2ID": 238188
         },
         {
             "ap1Name": "Geometry",
