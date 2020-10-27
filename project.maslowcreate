@@ -1475,8 +1475,8 @@
                                 {
                                     "atomType": "Difference",
                                     "name": "Difference",
-                                    "x": 0.49487554904831627,
-                                    "y": 0.3333333333333333,
+                                    "x": 0.4904831625183016,
+                                    "y": 0.27586206896551724,
                                     "uniqueID": 942547,
                                     "ioValues": []
                                 },
@@ -1511,6 +1511,27 @@
                                         {
                                             "name": "zDist",
                                             "ioValue": 4.5
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Rotate",
+                                    "name": "Rotate",
+                                    "x": 0.5710102489019033,
+                                    "y": 0.4904214559386973,
+                                    "uniqueID": 483888,
+                                    "ioValues": [
+                                        {
+                                            "name": "x-axis degrees",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "y-axis degrees",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "z-axis degrees",
+                                            "ioValue": 0
                                         }
                                     ]
                                 },
@@ -1957,16 +1978,16 @@
                                 {
                                     "ap1Name": "geometry",
                                     "ap2Name": "geometry",
-                                    "ap2Primary": true,
+                                    "ap2Primary": false,
                                     "ap1ID": 942547,
-                                    "ap2ID": 291431
+                                    "ap2ID": 613981
                                 },
                                 {
                                     "ap1Name": "geometry",
                                     "ap2Name": "geometry",
-                                    "ap2Primary": false,
+                                    "ap2Primary": true,
                                     "ap1ID": 942547,
-                                    "ap2ID": 613981
+                                    "ap2ID": 483888
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -1981,6 +2002,13 @@
                                     "ap2Primary": false,
                                     "ap1ID": 807502,
                                     "ap2ID": 231667
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 483888,
+                                    "ap2ID": 291431
                                 },
                                 {
                                     "ap1Name": "Geometry",
