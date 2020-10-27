@@ -1268,29 +1268,8 @@
                         {
                             "atomType": "Rotate",
                             "name": "Rotate",
-                            "x": 0.44289897510980963,
-                            "y": 0.6896551724137931,
-                            "uniqueID": 578567,
-                            "ioValues": [
-                                {
-                                    "name": "x-axis degrees",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "y-axis degrees",
-                                    "ioValue": 180
-                                },
-                                {
-                                    "name": "z-axis degrees",
-                                    "ioValue": 0
-                                }
-                            ]
-                        },
-                        {
-                            "atomType": "Rotate",
-                            "name": "Rotate",
-                            "x": 0.7752562225475842,
-                            "y": 0.29885057471264365,
+                            "x": 0.7862371888726207,
+                            "y": 0.21839080459770116,
                             "uniqueID": 881315,
                             "ioValues": [
                                 {
@@ -1310,8 +1289,8 @@
                         {
                             "atomType": "Translate",
                             "name": "Translate",
-                            "x": 0.5541727672035139,
-                            "y": 0.6398467432950191,
+                            "x": 0.5387994143484627,
+                            "y": 0.6360153256704981,
                             "uniqueID": 974203,
                             "ioValues": [
                                 {
@@ -1324,15 +1303,15 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": -15
+                                    "ioValue": 0
                                 }
                             ]
                         },
                         {
                             "atomType": "Molecule",
                             "name": "Drive Roller",
-                            "x": 0.27306002928257683,
-                            "y": 0.8084291187739464,
+                            "x": 0.2613469985358711,
+                            "y": 0.8352490421455938,
                             "uniqueID": 174641,
                             "ioValues": [],
                             "topLevel": false,
@@ -1728,8 +1707,8 @@
                                 {
                                     "atomType": "Translate",
                                     "name": "Translate",
-                                    "x": 0.7796486090775988,
-                                    "y": 0.4942528735632184,
+                                    "x": 0.7752562225475842,
+                                    "y": 0.5019157088122606,
                                     "uniqueID": 112890,
                                     "ioValues": [
                                         {
@@ -1931,8 +1910,8 @@
                                 {
                                     "atomType": "Assembly",
                                     "name": "Assembly",
-                                    "x": 0.8484626647144948,
-                                    "y": 0.7279693486590038,
+                                    "x": 0.8513909224011713,
+                                    "y": 0.7126436781609194,
                                     "uniqueID": 126571,
                                     "ioValues": [
                                         {
@@ -2057,8 +2036,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Measuring Rollers",
-                            "x": 0.6156661786237189,
-                            "y": 0.8275862068965518,
+                            "x": 0.6925329428989752,
+                            "y": 0.5593869731800766,
                             "uniqueID": 226072,
                             "ioValues": [],
                             "topLevel": false,
@@ -2940,9 +2919,16 @@
                             "fileTypeVersion": 1
                         },
                         {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.9853587115666179,
+                            "y": 0.5,
+                            "ioValues": []
+                        },
+                        {
                             "atomType": "Molecule",
                             "name": "Cut Away",
-                            "x": 0.8177159590043923,
+                            "x": 0.8550512445095168,
                             "y": 0.7011494252873564,
                             "uniqueID": 234978,
                             "ioValues": [],
@@ -3060,13 +3046,6 @@
                                 }
                             ],
                             "fileTypeVersion": 1
-                        },
-                        {
-                            "atomType": "Output",
-                            "name": "Output",
-                            "x": 0.9853587115666179,
-                            "y": 0.5,
-                            "ioValues": []
                         }
                     ],
                     "allConnectors": [
@@ -3128,13 +3107,6 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 578567,
-                            "ap2ID": 974203
-                        },
-                        {
-                            "ap1Name": "geometry",
                             "ap2Name": "number or geometry",
                             "ap2Primary": false,
                             "ap1ID": 881315
@@ -3158,7 +3130,7 @@
                             "ap2Name": "geometry",
                             "ap2Primary": true,
                             "ap1ID": 174641,
-                            "ap2ID": 578567
+                            "ap2ID": 974203
                         }
                     ],
                     "fileTypeVersion": 1
