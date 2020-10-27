@@ -6180,8 +6180,8 @@
         {
             "atomType": "Molecule",
             "name": "Cutaway view",
-            "x": 0.8411420204978038,
-            "y": 0.5862068965517242,
+            "x": 0.8426061493411421,
+            "y": 0.5440613026819924,
             "uniqueID": 901353,
             "ioValues": [],
             "topLevel": false,
