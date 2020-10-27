@@ -3135,14 +3135,10 @@
                         {
                             "atomType": "Union",
                             "name": "Union",
-                            "x": 0.5600292825768667,
-                            "y": 0.29389312977099236,
+                            "x": 0.5167464114832536,
+                            "y": 0.31800766283524906,
                             "uniqueID": 231667,
                             "ioValues": [
-                                {
-                                    "name": "3D shape 1",
-                                    "ioValue": 10
-                                },
                                 {
                                     "name": "3D shape 3",
                                     "ioValue": 10
@@ -3150,6 +3146,45 @@
                                 {
                                     "name": "3D shape 4",
                                     "ioValue": 10
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "GitHubMolecule",
+                            "name": "2GT Sprocket",
+                            "x": 0.13301435406698564,
+                            "y": 0.6053639846743295,
+                            "uniqueID": 655359,
+                            "projectID": "235682860",
+                            "ioValues": [
+                                {
+                                    "name": "Number of teeth",
+                                    "ioValue": 23
+                                },
+                                {
+                                    "name": "Resolution",
+                                    "ioValue": 0.1
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Translate",
+                            "name": "Translate",
+                            "x": 0.36267942583732055,
+                            "y": 0.6704980842911877,
+                            "uniqueID": 807502,
+                            "ioValues": [
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 4.5
                                 }
                             ]
                         },
@@ -3175,24 +3210,6 @@
                             ]
                         },
                         {
-                            "atomType": "GitHubMolecule",
-                            "name": "2GT Sprocket",
-                            "x": 0.15153733528550511,
-                            "y": 0.8160919540229885,
-                            "uniqueID": 655359,
-                            "projectID": "235682860",
-                            "ioValues": [
-                                {
-                                    "name": "Number of teeth",
-                                    "ioValue": 23
-                                },
-                                {
-                                    "name": "Resolution",
-                                    "ioValue": 0.1
-                                }
-                            ]
-                        },
-                        {
                             "atomType": "Extrude",
                             "name": "Extrude",
                             "x": 0.27232796486090777,
@@ -3212,27 +3229,6 @@
                             "y": 0.632183908045977,
                             "uniqueID": 942547,
                             "ioValues": []
-                        },
-                        {
-                            "atomType": "Translate",
-                            "name": "Translate",
-                            "x": 0.41874084919472915,
-                            "y": 0.8314176245210728,
-                            "uniqueID": 807502,
-                            "ioValues": [
-                                {
-                                    "name": "xDist",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "yDist",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "zDist",
-                                    "ioValue": 4.5
-                                }
-                            ]
                         },
                         {
                             "atomType": "Molecule",
@@ -3634,13 +3630,6 @@
                             "ap2Primary": false,
                             "ap1ID": 942547,
                             "ap2ID": 613981
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "3D shape 1",
-                            "ap2Primary": false,
-                            "ap1ID": 807502,
-                            "ap2ID": 231667
                         },
                         {
                             "ap1Name": "Geometry",
