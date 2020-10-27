@@ -249,7 +249,7 @@
                                         },
                                         {
                                             "name": "y-axis degrees",
-                                            "ioValue": 0
+                                            "ioValue": 90
                                         },
                                         {
                                             "name": "z-axis degrees",
@@ -1474,7 +1474,7 @@
                                     "ioValues": [
                                         {
                                             "name": "Number Of Teeth",
-                                            "ioValue": 30
+                                            "ioValue": 25
                                         },
                                         {
                                             "name": "Circular Pitch",
@@ -1501,8 +1501,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Center for shaft and shorten",
-                                    "x": 0.5183016105417276,
-                                    "y": 0.7969348659003832,
+                                    "x": 0.4978038067349927,
+                                    "y": 0.8007662835249042,
                                     "uniqueID": 311848,
                                     "ioValues": [],
                                     "topLevel": false,
