@@ -2386,7 +2386,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 87
+                            "ioValue": 97
                         },
                         {
                             "name": "yDist",
@@ -3791,7 +3791,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 87
+                            "ioValue": 97
                         },
                         {
                             "name": "yDist",
@@ -4038,6 +4038,22 @@
                             "ioValue": 10
                         }
                     ]
+                },
+                {
+                    "atomType": "Constant",
+                    "name": "Roller Dist",
+                    "x": 0.45263157894736844,
+                    "y": 0.8314176245210728,
+                    "uniqueID": 762650,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 97
+                        }
+                    ],
+                    "evolve": false,
+                    "min": 0,
+                    "max": 20
                 },
                 {
                     "atomType": "Assembly",
