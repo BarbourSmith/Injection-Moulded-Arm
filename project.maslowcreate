@@ -26,23 +26,6 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 0.376281112737921,
-                    "y": 0.22900763358778628,
-                    "uniqueID": 713480,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 1",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 4",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 0.48166501486620417,
@@ -81,32 +64,6 @@
                         {
                             "name": "z-axis degrees",
                             "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "GT2 Belt Approximation",
-                    "x": 0.1595639246778989,
-                    "y": 0.5938697318007663,
-                    "uniqueID": 317197,
-                    "projectID": "229325783",
-                    "ioValues": [
-                        {
-                            "name": "Dist Between Centers",
-                            "ioValue": 78
-                        },
-                        {
-                            "name": "Offset",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "Sprocket One Size",
-                            "ioValue": 28.65
-                        },
-                        {
-                            "name": "Sprocket 2 Size",
-                            "ioValue": 86.07228904199107
                         }
                     ]
                 },
@@ -2185,16 +2142,9 @@
             "allConnectors": [
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 1",
-                    "ap2Primary": false,
-                    "ap1ID": 214082,
-                    "ap2ID": 713480
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 713480,
+                    "ap1ID": 214082,
                     "ap2ID": 718906
                 },
                 {
@@ -2210,13 +2160,6 @@
                     "ap2Primary": false,
                     "ap1ID": 976670,
                     "ap2ID": 183443
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 4",
-                    "ap2Primary": false,
-                    "ap1ID": 317197,
-                    "ap2ID": 713480
                 },
                 {
                     "ap1Name": "geometry",
