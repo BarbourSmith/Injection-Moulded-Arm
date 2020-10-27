@@ -2385,10 +2385,6 @@
                     "uniqueID": 128893,
                     "ioValues": [
                         {
-                            "name": "xDist",
-                            "ioValue": 97
-                        },
-                        {
                             "name": "yDist",
                             "ioValue": 7
                         },
@@ -3790,10 +3786,6 @@
                     "uniqueID": 755626,
                     "ioValues": [
                         {
-                            "name": "xDist",
-                            "ioValue": 97
-                        },
-                        {
                             "name": "yDist",
                             "ioValue": 7
                         },
@@ -4219,6 +4211,20 @@
                     "ap2Primary": true,
                     "ap1ID": 336887,
                     "ap2ID": 988728
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "xDist",
+                    "ap2Primary": false,
+                    "ap1ID": 762650,
+                    "ap2ID": 755626
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "xDist",
+                    "ap2Primary": false,
+                    "ap1ID": 762650,
+                    "ap2ID": 128893
                 },
                 {
                     "ap1Name": "geometry",
