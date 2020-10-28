@@ -2613,7 +2613,7 @@
                                             "atomType": "Assembly",
                                             "name": "Assembly",
                                             "x": 0.5183016105417276,
-                                            "y": 0.524904214559387,
+                                            "y": 0.4444444444444444,
                                             "uniqueID": 746046,
                                             "ioValues": [
                                                 {
@@ -4472,12 +4472,6 @@
                             "ap2ID": 366631
                         },
                         {
-                            "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
-                            "ap2Primary": false,
-                            "ap1ID": 270503
-                        },
-                        {
                             "ap1Name": "result",
                             "ap2Name": "diameter",
                             "ap2Primary": false,
@@ -4490,6 +4484,12 @@
                             "ap2Primary": false,
                             "ap1ID": 244834,
                             "ap2ID": 366631
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 366631
                         }
                     ],
                     "fileTypeVersion": 1
