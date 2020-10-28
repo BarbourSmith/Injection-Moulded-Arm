@@ -751,7 +751,7 @@
                                                 },
                                                 {
                                                     "name": "zDist",
-                                                    "ioValue": -15.5
+                                                    "ioValue": -7.75
                                                 }
                                             ]
                                         },
@@ -4472,6 +4472,12 @@
                             "ap2ID": 366631
                         },
                         {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 270503
+                        },
+                        {
                             "ap1Name": "result",
                             "ap2Name": "diameter",
                             "ap2Primary": false,
@@ -4484,12 +4490,6 @@
                             "ap2Primary": false,
                             "ap1ID": 244834,
                             "ap2ID": 366631
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
-                            "ap2Primary": false,
-                            "ap1ID": 366631
                         }
                     ],
                     "fileTypeVersion": 1
