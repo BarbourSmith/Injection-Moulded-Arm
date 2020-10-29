@@ -138,8 +138,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor, Drive Gear, Encoder, Mounting Plastic, and Bolts",
-                    "x": 0.38945827232796487,
-                    "y": 0.8160919540229885,
+                    "x": 0.38653001464128844,
+                    "y": 0.8199233716475096,
                     "uniqueID": 839020,
                     "ioValues": [],
                     "topLevel": false,
@@ -534,8 +534,8 @@
                                 {
                                     "atomType": "Difference",
                                     "name": "Difference",
-                                    "x": 0.5666178623718887,
-                                    "y": 0.421455938697318,
+                                    "x": 0.5651537335285505,
+                                    "y": 0.42528735632183906,
                                     "uniqueID": 975294,
                                     "ioValues": []
                                 },
@@ -601,8 +601,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Bolt Pegs",
-                                    "x": 0.6749633967789165,
-                                    "y": 0.7471264367816093,
+                                    "x": 0.5988286969253294,
+                                    "y": 0.7624521072796935,
                                     "uniqueID": 125555,
                                     "ioValues": [],
                                     "topLevel": false,
@@ -710,12 +710,21 @@
                                             ]
                                         },
                                         {
-                                            "atomType": "Difference",
-                                            "name": "Difference",
-                                            "x": 0.3404099560761347,
-                                            "y": 0.4674329501915709,
-                                            "uniqueID": 810012,
-                                            "ioValues": []
+                                            "atomType": "Assembly",
+                                            "name": "Assembly",
+                                            "x": 0.33748169838945824,
+                                            "y": 0.49808429118773945,
+                                            "uniqueID": 880778,
+                                            "ioValues": [
+                                                {
+                                                    "name": "3D shape 1",
+                                                    "ioValue": 10
+                                                },
+                                                {
+                                                    "name": "3D shape 2",
+                                                    "ioValue": 10
+                                                }
+                                            ]
                                         },
                                         {
                                             "atomType": "Circle",
@@ -811,6 +820,15 @@
                                             ]
                                         },
                                         {
+                                            "atomType": "Color",
+                                            "name": "Color",
+                                            "x": 0.34553440702781846,
+                                            "y": 0.8122605363984674,
+                                            "uniqueID": 547711,
+                                            "ioValues": [],
+                                            "selectedColorIndex": "12"
+                                        },
+                                        {
                                             "atomType": "Rotate",
                                             "name": "Rotate",
                                             "x": 0.6493411420204978,
@@ -891,16 +909,16 @@
                                         },
                                         {
                                             "ap1Name": "geometry",
-                                            "ap2Name": "geometry1",
+                                            "ap2Name": "3D shape 2",
                                             "ap2Primary": false,
                                             "ap1ID": 713146,
-                                            "ap2ID": 810012
+                                            "ap2ID": 880778
                                         },
                                         {
                                             "ap1Name": "geometry",
                                             "ap2Name": "geometry",
                                             "ap2Primary": true,
-                                            "ap1ID": 810012,
+                                            "ap1ID": 880778,
                                             "ap2ID": 263437
                                         },
                                         {
@@ -926,10 +944,10 @@
                                         },
                                         {
                                             "ap1Name": "geometry",
-                                            "ap2Name": "geometry2",
-                                            "ap2Primary": false,
+                                            "ap2Name": "geometry",
+                                            "ap2Primary": true,
                                             "ap1ID": 313069,
-                                            "ap2ID": 810012
+                                            "ap2ID": 547711
                                         },
                                         {
                                             "ap1Name": "geometry",
@@ -943,6 +961,13 @@
                                             "ap2Name": "number or geometry",
                                             "ap2Primary": false,
                                             "ap1ID": 962674
+                                        },
+                                        {
+                                            "ap1Name": "geometry",
+                                            "ap2Name": "3D shape 1",
+                                            "ap2Primary": false,
+                                            "ap1ID": 547711,
+                                            "ap2ID": 880778
                                         },
                                         {
                                             "ap1Name": "geometry",
@@ -1445,8 +1470,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Drive Roller",
-                            "x": 0.26207906295754024,
-                            "y": 0.8160919540229885,
+                            "x": 0.26281112737920936,
+                            "y": 0.8352490421455938,
                             "uniqueID": 174641,
                             "ioValues": [],
                             "topLevel": false,
