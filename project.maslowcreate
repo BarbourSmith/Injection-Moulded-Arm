@@ -442,6 +442,14 @@
                                 {
                                     "name": "3D shape 1",
                                     "ioValue": 10
+                                },
+                                {
+                                    "name": "3D shape 2",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "3D shape 3",
+                                    "ioValue": 10
                                 }
                             ]
                         },
@@ -753,19 +761,6 @@
                                             ]
                                         },
                                         {
-                                            "atomType": "Extrude",
-                                            "name": "Extrude",
-                                            "x": 0.1376281112737921,
-                                            "y": 0.6551724137931034,
-                                            "uniqueID": 313069,
-                                            "ioValues": [
-                                                {
-                                                    "name": "height",
-                                                    "ioValue": 14
-                                                }
-                                            ]
-                                        },
-                                        {
                                             "atomType": "Circle",
                                             "name": "Circle",
                                             "x": 0.0739385065885798,
@@ -825,16 +820,25 @@
                                             ]
                                         },
                                         {
-                                            "atomType": "Translate",
-                                            "name": "Translate",
-                                            "x": 0.16325036603221083,
-                                            "y": 0.8122605363984674,
-                                            "uniqueID": 458093,
+                                            "atomType": "Extrude",
+                                            "name": "Extrude",
+                                            "x": 0.16764275256222547,
+                                            "y": 0.793103448275862,
+                                            "uniqueID": 313069,
                                             "ioValues": [
                                                 {
-                                                    "name": "geometry",
-                                                    "ioValue": ""
-                                                },
+                                                    "name": "height",
+                                                    "ioValue": 12
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "atomType": "Translate",
+                                            "name": "Translate",
+                                            "x": 0.24816983894582723,
+                                            "y": 0.7969348659003832,
+                                            "uniqueID": 458093,
+                                            "ioValues": [
                                                 {
                                                     "name": "xDist",
                                                     "ioValue": 15.5
@@ -845,7 +849,7 @@
                                                 },
                                                 {
                                                     "name": "zDist",
-                                                    "ioValue": 0
+                                                    "ioValue": 2
                                                 }
                                             ]
                                         },
@@ -882,8 +886,8 @@
                                         {
                                             "atomType": "ExtractTag",
                                             "name": "Extract Tag",
-                                            "x": 0.822108345534407,
-                                            "y": 0.7126436781609194,
+                                            "x": 0.8199121522693996,
+                                            "y": 0.7279693486590038,
                                             "uniqueID": 147909,
                                             "ioValues": [
                                                 {
@@ -1004,6 +1008,20 @@
                                             "ap2Primary": false,
                                             "ap1ID": 263437,
                                             "ap2ID": 248624
+                                        },
+                                        {
+                                            "ap1Name": "geometry",
+                                            "ap2Name": "geometry",
+                                            "ap2Primary": true,
+                                            "ap1ID": 313069,
+                                            "ap2ID": 458093
+                                        },
+                                        {
+                                            "ap1Name": "geometry",
+                                            "ap2Name": "geometry",
+                                            "ap2Primary": true,
+                                            "ap1ID": 458093,
+                                            "ap2ID": 547711
                                         },
                                         {
                                             "ap1Name": "geometry",
@@ -1293,8 +1311,8 @@
                                 {
                                     "atomType": "Rotate",
                                     "name": "Rotate",
-                                    "x": 0.47803806734992677,
-                                    "y": 0.7854406130268199,
+                                    "x": 0.47730600292825764,
+                                    "y": 0.7739463601532567,
                                     "uniqueID": 935715,
                                     "ioValues": [
                                         {
@@ -3474,11 +3492,25 @@
                     ],
                     "allConnectors": [
                         {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "3D shape 3",
+                            "ap2Primary": false,
+                            "ap1ID": 748742,
+                            "ap2ID": 763995
+                        },
+                        {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
                             "ap1ID": 281612,
                             "ap2ID": 917623
+                        },
+                        {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "3D shape 2",
+                            "ap2Primary": false,
+                            "ap1ID": 455843,
+                            "ap2ID": 763995
                         },
                         {
                             "ap1Name": "geometry",
