@@ -710,6 +710,14 @@
                                             ]
                                         },
                                         {
+                                            "atomType": "Difference",
+                                            "name": "Difference",
+                                            "x": 0.3404099560761347,
+                                            "y": 0.4674329501915709,
+                                            "uniqueID": 810012,
+                                            "ioValues": []
+                                        },
+                                        {
                                             "atomType": "Circle",
                                             "name": "Circle",
                                             "x": 0.0739385065885798,
@@ -746,8 +754,8 @@
                                         {
                                             "atomType": "Extrude",
                                             "name": "Extrude",
-                                            "x": 0.246705710102489,
-                                            "y": 0.7739463601532567,
+                                            "x": 0.23792093704245976,
+                                            "y": 0.7892720306513409,
                                             "uniqueID": 313069,
                                             "ioValues": [
                                                 {
@@ -757,19 +765,23 @@
                                             ]
                                         },
                                         {
-                                            "atomType": "Difference",
-                                            "name": "Difference",
-                                            "x": 0.3528550512445095,
-                                            "y": 0.7547892720306513,
-                                            "uniqueID": 810012,
+                                            "atomType": "Translate",
+                                            "name": "Translate",
+                                            "x": 0.16325036603221083,
+                                            "y": 0.8122605363984674,
+                                            "uniqueID": 458093,
                                             "ioValues": [
                                                 {
-                                                    "name": "geometry2",
-                                                    "ioValue": ""
+                                                    "name": "xDist",
+                                                    "ioValue": 15.5
                                                 },
                                                 {
-                                                    "name": "geometry1",
-                                                    "ioValue": ""
+                                                    "name": "yDist",
+                                                    "ioValue": 0
+                                                },
+                                                {
+                                                    "name": "zDist",
+                                                    "ioValue": 0
                                                 }
                                             ]
                                         },
@@ -879,9 +891,16 @@
                                         },
                                         {
                                             "ap1Name": "geometry",
+                                            "ap2Name": "geometry1",
+                                            "ap2Primary": false,
+                                            "ap1ID": 713146,
+                                            "ap2ID": 810012
+                                        },
+                                        {
+                                            "ap1Name": "geometry",
                                             "ap2Name": "geometry",
                                             "ap2Primary": true,
-                                            "ap1ID": 713146,
+                                            "ap1ID": 810012,
                                             "ap2ID": 263437
                                         },
                                         {
@@ -889,7 +908,7 @@
                                             "ap2Name": "geometry",
                                             "ap2Primary": true,
                                             "ap1ID": 911430,
-                                            "ap2ID": 313069
+                                            "ap2ID": 458093
                                         },
                                         {
                                             "ap1Name": "geometry",
@@ -904,6 +923,20 @@
                                             "ap2Primary": false,
                                             "ap1ID": 263437,
                                             "ap2ID": 962674
+                                        },
+                                        {
+                                            "ap1Name": "geometry",
+                                            "ap2Name": "geometry2",
+                                            "ap2Primary": false,
+                                            "ap1ID": 313069,
+                                            "ap2ID": 810012
+                                        },
+                                        {
+                                            "ap1Name": "geometry",
+                                            "ap2Name": "geometry",
+                                            "ap2Primary": true,
+                                            "ap1ID": 458093,
+                                            "ap2ID": 313069
                                         },
                                         {
                                             "ap1Name": "geometry",
