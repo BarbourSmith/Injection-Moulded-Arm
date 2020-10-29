@@ -3297,7 +3297,7 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": -0.1
+                                            "ioValue": -0.2
                                         }
                                     ]
                                 },
@@ -5742,5 +5742,5 @@
     ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
-    "circleSegmentSize": "7"
+    "circleSegmentSize": "0.4"
 }
