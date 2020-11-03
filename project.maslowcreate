@@ -442,14 +442,6 @@
                                 {
                                     "name": "3D shape 1",
                                     "ioValue": 10
-                                },
-                                {
-                                    "name": "3D shape 2",
-                                    "ioValue": 10
-                                },
-                                {
-                                    "name": "3D shape 3",
-                                    "ioValue": 10
                                 }
                             ]
                         },
@@ -3720,25 +3712,11 @@
                     ],
                     "allConnectors": [
                         {
-                            "ap1Name": "Geometry",
-                            "ap2Name": "3D shape 3",
-                            "ap2Primary": false,
-                            "ap1ID": 748742,
-                            "ap2ID": 763995
-                        },
-                        {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
                             "ap1ID": 281612,
                             "ap2ID": 917623
-                        },
-                        {
-                            "ap1Name": "Geometry",
-                            "ap2Name": "3D shape 2",
-                            "ap2Primary": false,
-                            "ap1ID": 455843,
-                            "ap2ID": 763995
                         },
                         {
                             "ap1Name": "geometry",
@@ -3929,61 +3907,6 @@
                     "ioValue": 10
                 }
             ]
-        },
-        {
-            "atomType": "Molecule",
-            "name": "Extract Half",
-            "x": 0.4692532942898975,
-            "y": 0.49808429118773945,
-            "uniqueID": 238188,
-            "ioValues": [],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "ExtractTag",
-                    "name": "Extract Tag",
-                    "x": 0.19765739385065886,
-                    "y": 0.24521072796934865,
-                    "uniqueID": 942567,
-                    "ioValues": [
-                        {
-                            "name": "tag",
-                            "ioValue": "Plastic"
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Geometry",
-                    "x": 0.013333333333333334,
-                    "y": 0.4904214559386973,
-                    "uniqueID": 453092,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 942567
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 453092,
-                    "ap2ID": 942567
-                }
-            ],
-            "fileTypeVersion": 1
         },
         {
             "atomType": "Molecule",
@@ -5934,6 +5857,61 @@
             ]
         },
         {
+            "atomType": "Molecule",
+            "name": "Extract Half",
+            "x": 0.4941434846266472,
+            "y": 0.6436781609195402,
+            "uniqueID": 238188,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "ExtractTag",
+                    "name": "Extract Tag",
+                    "x": 0.19765739385065886,
+                    "y": 0.24521072796934865,
+                    "uniqueID": 942567,
+                    "ioValues": [
+                        {
+                            "name": "tag",
+                            "ioValue": "Plastic"
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Geometry",
+                    "x": 0.013333333333333334,
+                    "y": 0.4904214559386973,
+                    "uniqueID": 453092,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 942567
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 453092,
+                    "ap2ID": 942567
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
             "atomType": "Rotate",
             "name": "Rotate",
             "x": 0.6105417276720351,
@@ -6116,20 +6094,6 @@
         },
         {
             "ap1Name": "Geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 238188,
-            "ap2ID": 946297
-        },
-        {
-            "ap1Name": "Geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 238188,
-            "ap2ID": 850876
-        },
-        {
-            "ap1Name": "Geometry",
             "ap2Name": "3D shape 1",
             "ap2Primary": false,
             "ap1ID": 707775,
@@ -6147,6 +6111,20 @@
             "ap2Name": "number or geometry",
             "ap2Primary": false,
             "ap1ID": 169953
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 238188,
+            "ap2ID": 946297
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 238188,
+            "ap2ID": 850876
         },
         {
             "ap1Name": "geometry",
