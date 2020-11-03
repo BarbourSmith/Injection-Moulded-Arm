@@ -1852,7 +1852,7 @@
                                             "ioValues": [
                                                 {
                                                     "name": "diameter",
-                                                    "ioValue": 6.3
+                                                    "ioValue": 6.4
                                                 }
                                             ]
                                         },
@@ -1886,7 +1886,7 @@
                                             "ioValues": [
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": 7.35
+                                                    "ioValue": 7.45
                                                 },
                                                 {
                                                     "name": "yDist",
