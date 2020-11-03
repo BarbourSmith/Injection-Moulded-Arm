@@ -1831,7 +1831,7 @@
                                                 },
                                                 {
                                                     "name": "zDist",
-                                                    "ioValue": 0
+                                                    "ioValue": 6.5
                                                 }
                                             ]
                                         },
@@ -1841,12 +1841,7 @@
                                             "x": 0.6288433382137628,
                                             "y": 0.19540229885057472,
                                             "uniqueID": 351981,
-                                            "ioValues": [
-                                                {
-                                                    "name": "geometry2",
-                                                    "ioValue": ""
-                                                }
-                                            ]
+                                            "ioValues": []
                                         },
                                         {
                                             "atomType": "Extrude",
@@ -1947,6 +1942,13 @@
                                             "ap2Primary": true,
                                             "ap1ID": 356538,
                                             "ap2ID": 803131
+                                        },
+                                        {
+                                            "ap1Name": "geometry",
+                                            "ap2Name": "geometry2",
+                                            "ap2Primary": false,
+                                            "ap1ID": 704047,
+                                            "ap2ID": 351981
                                         },
                                         {
                                             "ap1Name": "geometry",
