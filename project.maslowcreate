@@ -5911,12 +5911,16 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.712298682284041,
-            "y": 0.1685823754789272,
+            "x": 0.7225475841874085,
+            "y": 0.2720306513409962,
             "uniqueID": 169953,
             "ioValues": [
                 {
                     "name": "3D shape 1",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 2",
                     "ioValue": 10
                 }
             ]
@@ -5924,8 +5928,8 @@
         {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.6332357247437774,
-            "y": 0.4636015325670498,
+            "x": 0.6105417276720351,
+            "y": 0.5363984674329502,
             "uniqueID": 850876,
             "ioValues": [
                 {
@@ -6094,6 +6098,13 @@
             "ap2Primary": false,
             "ap1ID": 335740,
             "ap2ID": 238188
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 2",
+            "ap2Primary": false,
+            "ap1ID": 335740,
+            "ap2ID": 169953
         },
         {
             "ap1Name": "Geometry",
