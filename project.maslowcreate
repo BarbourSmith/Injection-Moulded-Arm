@@ -2550,8 +2550,8 @@
                                         {
                                             "atomType": "Translate",
                                             "name": "Translate",
-                                            "x": 0.37042459736456806,
-                                            "y": 0.21455938697318008,
+                                            "x": 0.3308931185944363,
+                                            "y": 0.19157088122605365,
                                             "uniqueID": 733559,
                                             "ioValues": [
                                                 {
@@ -2575,10 +2575,6 @@
                                             "y": 0.39463601532567044,
                                             "uniqueID": 902309,
                                             "ioValues": [
-                                                {
-                                                    "name": "geometry",
-                                                    "ioValue": ""
-                                                },
                                                 {
                                                     "name": "xDist",
                                                     "ioValue": -7
@@ -3461,13 +3457,6 @@
                                     "allConnectors": [
                                         {
                                             "ap1Name": "Geometry",
-                                            "ap2Name": "geometry",
-                                            "ap2Primary": true,
-                                            "ap1ID": 327460,
-                                            "ap2ID": 733559
-                                        },
-                                        {
-                                            "ap1Name": "Geometry",
                                             "ap2Name": "3D shape 2",
                                             "ap2Primary": false,
                                             "ap1ID": 327460,
@@ -3493,6 +3482,20 @@
                                             "ap2Primary": false,
                                             "ap1ID": 107876,
                                             "ap2ID": 809282
+                                        },
+                                        {
+                                            "ap1Name": "geometry",
+                                            "ap2Name": "geometry",
+                                            "ap2Primary": true,
+                                            "ap1ID": 809282,
+                                            "ap2ID": 902309
+                                        },
+                                        {
+                                            "ap1Name": "geometry",
+                                            "ap2Name": "geometry",
+                                            "ap2Primary": true,
+                                            "ap1ID": 809282,
+                                            "ap2ID": 733559
                                         },
                                         {
                                             "ap1Name": "geometry",
