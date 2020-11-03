@@ -642,7 +642,7 @@
                                             "ioValues": [
                                                 {
                                                     "name": "diameter",
-                                                    "ioValue": 8.2
+                                                    "ioValue": 9
                                                 }
                                             ]
                                         },
@@ -6156,5 +6156,5 @@
     ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
-    "circleSegmentSize": "0.4"
+    "circleSegmentSize": "0.7"
 }
