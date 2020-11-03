@@ -637,7 +637,7 @@
                                             "ioValues": [
                                                 {
                                                     "name": "diameter",
-                                                    "ioValue": 9
+                                                    "ioValue": 8
                                                 }
                                             ]
                                         },
@@ -884,19 +884,6 @@
                                             ]
                                         },
                                         {
-                                            "atomType": "ExtractTag",
-                                            "name": "Extract Tag",
-                                            "x": 0.8199121522693996,
-                                            "y": 0.7279693486590038,
-                                            "uniqueID": 147909,
-                                            "ioValues": [
-                                                {
-                                                    "name": "tag",
-                                                    "ioValue": "Plastic"
-                                                }
-                                            ]
-                                        },
-                                        {
                                             "atomType": "Output",
                                             "name": "Output",
                                             "x": 0.9853587115666179,
@@ -987,13 +974,6 @@
                                             "ap2Name": "number or geometry",
                                             "ap2Primary": false,
                                             "ap1ID": 248624
-                                        },
-                                        {
-                                            "ap1Name": "geometry",
-                                            "ap2Name": "geometry",
-                                            "ap2Primary": true,
-                                            "ap1ID": 248624,
-                                            "ap2ID": 147909
                                         },
                                         {
                                             "ap1Name": "geometry",
@@ -6150,5 +6130,5 @@
     ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
-    "circleSegmentSize": "0.4"
+    "circleSegmentSize": "0.7"
 }
