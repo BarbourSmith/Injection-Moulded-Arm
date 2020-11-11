@@ -3951,8 +3951,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Central Column",
-                    "x": 0.07686676427525622,
-                    "y": 0.23371647509578544,
+                    "x": 0.07540263543191801,
+                    "y": 0.2298850574712644,
                     "uniqueID": 135969,
                     "ioValues": [],
                     "topLevel": false,
@@ -4040,8 +4040,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Keep Out",
-                            "x": 0.11127379209370425,
-                            "y": 0.8045977011494253,
+                            "x": 0.10907759882869693,
+                            "y": 0.7701149425287357,
                             "uniqueID": 244834,
                             "ioValues": [],
                             "topLevel": false,
