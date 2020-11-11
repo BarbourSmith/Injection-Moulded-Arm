@@ -5396,11 +5396,11 @@
                             "ioValues": [
                                 {
                                     "name": "Angle",
-                                    "ioValue": 60
+                                    "ioValue": 120
                                 },
                                 {
                                     "name": "Number",
-                                    "ioValue": 6
+                                    "ioValue": 3
                                 }
                             ]
                         },
@@ -5426,6 +5426,41 @@
                             ]
                         },
                         {
+                            "atomType": "Union",
+                            "name": "Union",
+                            "x": 0.7906295754026355,
+                            "y": 0.3409961685823755,
+                            "uniqueID": 800142,
+                            "ioValues": [
+                                {
+                                    "name": "3D shape 1",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "3D shape 2",
+                                    "ioValue": 10
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "GitHubMolecule",
+                            "name": "Rotational Pattern",
+                            "x": 0.6288433382137628,
+                            "y": 0.6091954022988505,
+                            "uniqueID": 268136,
+                            "projectID": "209940609",
+                            "ioValues": [
+                                {
+                                    "name": "Angle",
+                                    "ioValue": 120
+                                },
+                                {
+                                    "name": "Number",
+                                    "ioValue": 3
+                                }
+                            ]
+                        },
+                        {
                             "atomType": "Rotate",
                             "name": "Rotate",
                             "x": 0.5468521229868228,
@@ -5447,37 +5482,23 @@
                             ]
                         },
                         {
-                            "atomType": "GitHubMolecule",
-                            "name": "Rotational Pattern",
-                            "x": 0.630307467057101,
-                            "y": 0.6283524904214559,
-                            "uniqueID": 268136,
-                            "projectID": "209940609",
+                            "atomType": "Rotate",
+                            "name": "Rotate",
+                            "x": 0.8770131771595899,
+                            "y": 0.4137931034482759,
+                            "uniqueID": 565026,
                             "ioValues": [
                                 {
-                                    "name": "Angle",
+                                    "name": "x-axis degrees",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "y-axis degrees",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "z-axis degrees",
                                     "ioValue": 60
-                                },
-                                {
-                                    "name": "Number",
-                                    "ioValue": 3
-                                }
-                            ]
-                        },
-                        {
-                            "atomType": "Union",
-                            "name": "Union",
-                            "x": 0.8308931185944364,
-                            "y": 0.3448275862068966,
-                            "uniqueID": 800142,
-                            "ioValues": [
-                                {
-                                    "name": "3D shape 1",
-                                    "ioValue": 10
-                                },
-                                {
-                                    "name": "3D shape 2",
-                                    "ioValue": 10
                                 }
                             ]
                         },
@@ -5498,7 +5519,7 @@
                                 },
                                 {
                                     "name": "z-axis degrees",
-                                    "ioValue": 0
+                                    "ioValue": 60
                                 }
                             ]
                         },
@@ -5583,10 +5604,10 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "Shape",
-                            "ap2Primary": false,
-                            "ap1ID": 816263,
-                            "ap2ID": 268136
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 800142,
+                            "ap2ID": 565026
                         },
                         {
                             "ap1Name": "Geometry",
@@ -5597,9 +5618,16 @@
                         },
                         {
                             "ap1Name": "geometry",
+                            "ap2Name": "Shape",
+                            "ap2Primary": false,
+                            "ap1ID": 816263,
+                            "ap2ID": 268136
+                        },
+                        {
+                            "ap1Name": "geometry",
                             "ap2Name": "number or geometry",
                             "ap2Primary": false,
-                            "ap1ID": 800142
+                            "ap1ID": 565026
                         },
                         {
                             "ap1Name": "geometry",
