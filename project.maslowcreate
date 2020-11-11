@@ -4409,18 +4409,18 @@
                                         {
                                             "atomType": "GitHubMolecule",
                                             "name": "Rotational Pattern",
-                                            "x": 0.7083333333333333,
-                                            "y": 0.40229885057471265,
+                                            "x": 0.7137628111273793,
+                                            "y": 0.4406130268199233,
                                             "uniqueID": 846843,
                                             "projectID": "209940609",
                                             "ioValues": [
                                                 {
                                                     "name": "Angle",
-                                                    "ioValue": 36
+                                                    "ioValue": 60
                                                 },
                                                 {
                                                     "name": "Number",
-                                                    "ioValue": 10
+                                                    "ioValue": 6
                                                 }
                                             ]
                                         },
