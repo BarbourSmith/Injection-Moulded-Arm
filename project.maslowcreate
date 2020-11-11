@@ -4038,27 +4038,6 @@
                             "currentEquation": "D+12"
                         },
                         {
-                            "atomType": "Rotate",
-                            "name": "Rotate",
-                            "x": 0.3389458272327965,
-                            "y": 0.6666666666666666,
-                            "uniqueID": 874316,
-                            "ioValues": [
-                                {
-                                    "name": "x-axis degrees",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "y-axis degrees",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "z-axis degrees",
-                                    "ioValue": 30
-                                }
-                            ]
-                        },
-                        {
                             "atomType": "Molecule",
                             "name": "Keep Out",
                             "x": 0.11127379209370425,
@@ -4859,18 +4838,11 @@
                             "ap2ID": 505852
                         },
                         {
-                            "ap1Name": "geometry",
+                            "ap1Name": "Geometry",
                             "ap2Name": "geometry2",
                             "ap2Primary": false,
-                            "ap1ID": 874316,
-                            "ap2ID": 366631
-                        },
-                        {
-                            "ap1Name": "Geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
                             "ap1ID": 244834,
-                            "ap2ID": 874316
+                            "ap2ID": 366631
                         },
                         {
                             "ap1Name": "geometry",
@@ -5284,6 +5256,13 @@
                     "x": 0.6537335285505125,
                     "y": 0.475095785440613,
                     "uniqueID": 976979,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Box",
+                    "name": "Box",
+                    "x": 0.6398243045387995,
+                    "y": 0.6283524904214559,
                     "ioValues": []
                 },
                 {
