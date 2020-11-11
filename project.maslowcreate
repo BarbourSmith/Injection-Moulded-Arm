@@ -5730,10 +5730,31 @@
             ]
         },
         {
+            "atomType": "Rotate",
+            "name": "Rotate",
+            "x": 0.6105417276720351,
+            "y": 0.5363984674329502,
+            "uniqueID": 850876,
+            "ioValues": [
+                {
+                    "name": "x-axis degrees",
+                    "ioValue": 180
+                },
+                {
+                    "name": "y-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "z-axis degrees",
+                    "ioValue": 0
+                }
+            ]
+        },
+        {
             "atomType": "Molecule",
             "name": "Extract Half",
-            "x": 0.4941434846266472,
-            "y": 0.6436781609195402,
+            "x": 0.49121522693997066,
+            "y": 0.6551724137931034,
             "uniqueID": 238188,
             "ioValues": [],
             "topLevel": false,
@@ -5783,27 +5804,6 @@
                 }
             ],
             "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Rotate",
-            "name": "Rotate",
-            "x": 0.6105417276720351,
-            "y": 0.5363984674329502,
-            "uniqueID": 850876,
-            "ioValues": [
-                {
-                    "name": "x-axis degrees",
-                    "ioValue": 180
-                },
-                {
-                    "name": "y-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "z-axis degrees",
-                    "ioValue": 0
-                }
-            ]
         },
         {
             "atomType": "Stl",
@@ -5986,6 +5986,13 @@
             "ap1ID": 169953
         },
         {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 850876,
+            "ap2ID": 169953
+        },
+        {
             "ap1Name": "Geometry",
             "ap2Name": "geometry",
             "ap2Primary": false,
@@ -5998,13 +6005,6 @@
             "ap2Primary": true,
             "ap1ID": 238188,
             "ap2ID": 850876
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 1",
-            "ap2Primary": false,
-            "ap1ID": 850876,
-            "ap2ID": 169953
         }
     ],
     "fileTypeVersion": 1,
