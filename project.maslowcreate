@@ -3951,8 +3951,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Central Column",
-                    "x": 0.07247437774524158,
-                    "y": 0.24904214559386972,
+                    "x": 0.07174231332357248,
+                    "y": 0.2298850574712644,
                     "uniqueID": 135969,
                     "ioValues": [],
                     "topLevel": false,
@@ -4105,6 +4105,10 @@
                                     "ioValues": [
                                         {
                                             "name": "3D shape 2",
+                                            "ioValue": 10
+                                        },
+                                        {
+                                            "name": "3D shape 3",
                                             "ioValue": 10
                                         }
                                     ]
@@ -4373,7 +4377,7 @@
                                                 },
                                                 {
                                                     "name": "z-axis degrees",
-                                                    "ioValue": 18
+                                                    "ioValue": 0
                                                 }
                                             ]
                                         },
@@ -4777,6 +4781,13 @@
                                     "ap2Name": "number or geometry",
                                     "ap2Primary": false,
                                     "ap1ID": 508577
+                                },
+                                {
+                                    "ap1Name": "Geometry",
+                                    "ap2Name": "3D shape 3",
+                                    "ap2Primary": false,
+                                    "ap1ID": 593001,
+                                    "ap2ID": 866658
                                 }
                             ],
                             "fileTypeVersion": 1
