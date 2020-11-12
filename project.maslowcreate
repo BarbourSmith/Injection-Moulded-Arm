@@ -6046,6 +6046,27 @@
             ]
         },
         {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.7170474516695958,
+            "y": 0.6559633027522936,
+            "uniqueID": 136570,
+            "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 23
+                }
+            ]
+        },
+        {
             "atomType": "Molecule",
             "name": "Cutaway view",
             "x": 0.8426061493411421,
@@ -6181,6 +6202,44 @@
             "x": 0.9853587115666179,
             "y": 0.5,
             "ioValues": []
+        },
+        {
+            "atomType": "Rotate",
+            "name": "Rotate",
+            "x": 0.7759226713532513,
+            "y": 0.8256880733944955,
+            "uniqueID": 471180,
+            "ioValues": [
+                {
+                    "name": "x-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "y-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "z-axis degrees",
+                    "ioValue": 90
+                }
+            ]
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.867311072056239,
+            "y": 0.8165137614678898,
+            "uniqueID": 638977,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 10
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -6226,6 +6285,20 @@
             "ap1ID": 169953
         },
         {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 169953,
+            "ap2ID": 136570
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 2",
+            "ap2Primary": false,
+            "ap1ID": 169953,
+            "ap2ID": 638977
+        },
+        {
             "ap1Name": "Geometry",
             "ap2Name": "geometry",
             "ap2Primary": false,
@@ -6245,6 +6318,20 @@
             "ap2Primary": false,
             "ap1ID": 850876,
             "ap2ID": 169953
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 136570,
+            "ap2ID": 471180
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 471180,
+            "ap2ID": 638977
         }
     ],
     "fileTypeVersion": 1,
