@@ -4055,8 +4055,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Central Column",
-                    "x": 0.07820738137082602,
-                    "y": 0.23394495412844038,
+                    "x": 0.08299999999999999,
+                    "y": 0.2298850574712644,
                     "uniqueID": 135969,
                     "ioValues": [],
                     "topLevel": false,
@@ -4144,7 +4144,7 @@
                         {
                             "atomType": "Molecule",
                             "name": "Keep Out",
-                            "x": 0.11346998535871157,
+                            "x": 0.102,
                             "y": 0.7701149425287357,
                             "uniqueID": 244834,
                             "ioValues": [],
@@ -4208,7 +4208,7 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Notches",
-                                    "x": 0.16691068814055637,
+                                    "x": 0.167,
                                     "y": 0.7241379310344828,
                                     "uniqueID": 593001,
                                     "ioValues": [],
@@ -4536,24 +4536,6 @@
                                             "currentEquation": "D+10"
                                         },
                                         {
-                                            "atomType": "GitHubMolecule",
-                                            "name": "Rotational Pattern",
-                                            "x": 0.7137628111273793,
-                                            "y": 0.4406130268199233,
-                                            "uniqueID": 846843,
-                                            "projectID": "209940609",
-                                            "ioValues": [
-                                                {
-                                                    "name": "Angle",
-                                                    "ioValue": 60
-                                                },
-                                                {
-                                                    "name": "Number",
-                                                    "ioValue": 6
-                                                }
-                                            ]
-                                        },
-                                        {
                                             "atomType": "Molecule",
                                             "name": "Rounded Ends",
                                             "x": 0.09297218155197658,
@@ -4773,6 +4755,24 @@
                                             ]
                                         },
                                         {
+                                            "atomType": "GitHubMolecule",
+                                            "name": "Rotational Pattern",
+                                            "x": 0.7030000000000001,
+                                            "y": 0.5708812260536399,
+                                            "uniqueID": 846843,
+                                            "projectID": "209940609",
+                                            "ioValues": [
+                                                {
+                                                    "name": "Angle",
+                                                    "ioValue": 60
+                                                },
+                                                {
+                                                    "name": "Number",
+                                                    "ioValue": 6
+                                                }
+                                            ]
+                                        },
+                                        {
                                             "atomType": "Output",
                                             "name": "Output",
                                             "x": 0.9853587115666179,
@@ -4846,6 +4846,12 @@
                                         },
                                         {
                                             "ap1Name": "geometry",
+                                            "ap2Name": "number or geometry",
+                                            "ap2Primary": false,
+                                            "ap1ID": 285349
+                                        },
+                                        {
+                                            "ap1Name": "geometry",
                                             "ap2Name": "3D shape 1",
                                             "ap2Primary": false,
                                             "ap1ID": 101434,
@@ -4871,12 +4877,6 @@
                                             "ap2Primary": false,
                                             "ap1ID": 164118,
                                             "ap2ID": 118671
-                                        },
-                                        {
-                                            "ap1Name": "Geometry",
-                                            "ap2Name": "number or geometry",
-                                            "ap2Primary": false,
-                                            "ap1ID": 846843
                                         },
                                         {
                                             "ap1Name": "Geometry",
@@ -5629,9 +5629,27 @@
                         {
                             "atomType": "GitHubMolecule",
                             "name": "Rotational Pattern",
-                            "x": 0.6632503660322109,
-                            "y": 0.24521072796934865,
+                            "x": 0.661,
+                            "y": 0.3065134099616858,
                             "uniqueID": 531917,
+                            "projectID": "209940609",
+                            "ioValues": [
+                                {
+                                    "name": "Angle",
+                                    "ioValue": 120
+                                },
+                                {
+                                    "name": "Number",
+                                    "ioValue": 3
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "GitHubMolecule",
+                            "name": "Rotational Pattern",
+                            "x": 0.634,
+                            "y": 0.5172413793103449,
+                            "uniqueID": 268136,
                             "projectID": "209940609",
                             "ioValues": [
                                 {
@@ -5679,24 +5697,6 @@
                                 {
                                     "name": "3D shape 2",
                                     "ioValue": 10
-                                }
-                            ]
-                        },
-                        {
-                            "atomType": "GitHubMolecule",
-                            "name": "Rotational Pattern",
-                            "x": 0.6288433382137628,
-                            "y": 0.6091954022988505,
-                            "uniqueID": 268136,
-                            "projectID": "209940609",
-                            "ioValues": [
-                                {
-                                    "name": "Angle",
-                                    "ioValue": 120
-                                },
-                                {
-                                    "name": "Number",
-                                    "ioValue": 3
                                 }
                             ]
                         },
@@ -5836,6 +5836,13 @@
                             "ap2ID": 800142
                         },
                         {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 268136,
+                            "ap2ID": 641562
+                        },
+                        {
                             "ap1Name": "geometry",
                             "ap2Name": "3D shape 1",
                             "ap2Primary": false,
@@ -5848,13 +5855,6 @@
                             "ap2Primary": true,
                             "ap1ID": 800142,
                             "ap2ID": 565026
-                        },
-                        {
-                            "ap1Name": "Geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 268136,
-                            "ap2ID": 641562
                         },
                         {
                             "ap1Name": "geometry",
