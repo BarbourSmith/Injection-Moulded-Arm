@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Drive System",
-            "x": 0.109,
-            "y": 0.29885057471264365,
+            "x": 0.11054172767203513,
+            "y": 0.3129770992366412,
             "uniqueID": 683987,
             "ioValues": [],
             "topLevel": false,
@@ -138,8 +138,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor, Drive Gear, Encoder, Mounting Plastic, and Bolts",
-                    "x": 0.390190336749634,
-                    "y": 0.8122605363984674,
+                    "x": 0.38726207906295756,
+                    "y": 0.7977099236641221,
                     "uniqueID": 839020,
                     "ioValues": [],
                     "topLevel": false,
@@ -2602,17 +2602,17 @@
                         {
                             "atomType": "Molecule",
                             "name": "Measuring Rollers",
-                            "x": 0.5592972181551977,
-                            "y": 0.8275862068965518,
+                            "x": 0.5563689604685212,
+                            "y": 0.8244274809160305,
                             "uniqueID": 226072,
                             "ioValues": [],
                             "topLevel": false,
                             "allAtoms": [
                                 {
                                     "atomType": "Molecule",
-                                    "name": "Roller",
-                                    "x": 0.22986822840409957,
-                                    "y": 0.37164750957854403,
+                                    "name": "Rollers",
+                                    "x": 0.22913616398243045,
+                                    "y": 0.38549618320610685,
                                     "uniqueID": 623892,
                                     "ioValues": [],
                                     "topLevel": false,
@@ -3245,8 +3245,8 @@
                                         {
                                             "atomType": "Assembly",
                                             "name": "Assembly",
-                                            "x": 0.5183016105417276,
-                                            "y": 0.4444444444444444,
+                                            "x": 0.520497803806735,
+                                            "y": 0.46564885496183206,
                                             "uniqueID": 746046,
                                             "ioValues": [
                                                 {
