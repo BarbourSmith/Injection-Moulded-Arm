@@ -5068,8 +5068,8 @@
                 {
                     "atomType": "Union",
                     "name": "Union",
-                    "x": 0.23637961335676624,
-                    "y": 0.3486238532110092,
+                    "x": 0.23938506588579794,
+                    "y": 0.3473282442748092,
                     "uniqueID": 375339,
                     "ioValues": [
                         {
@@ -5910,6 +5910,13 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 375339,
+                    "ap2ID": 547270
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "geometry1",
                     "ap2Primary": false,
                     "ap1ID": 547270,
@@ -5928,13 +5935,6 @@
                     "ap2Primary": false,
                     "ap1ID": 234971,
                     "ap2ID": 375339
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 234971,
-                    "ap2ID": 547270
                 },
                 {
                     "ap1Name": "Geometry",
@@ -6336,5 +6336,5 @@
     ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
-    "circleSegmentSize": "0.4"
+    "circleSegmentSize": "2.2"
 }
