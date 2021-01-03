@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Drive System",
-            "x": 0.11054172767203513,
-            "y": 0.3129770992366412,
+            "x": 0.10834553440702782,
+            "y": 0.29007633587786263,
             "uniqueID": 683987,
             "ioValues": [],
             "topLevel": false,
@@ -452,8 +452,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Mounting Plastic",
-                            "x": 0.49700000000000005,
-                            "y": 0.4482758620689655,
+                            "x": 0.493411420204978,
+                            "y": 0.4312977099236641,
                             "uniqueID": 322329,
                             "ioValues": [],
                             "topLevel": false,
@@ -895,8 +895,8 @@
                                         {
                                             "atomType": "Difference",
                                             "name": "Difference",
-                                            "x": 0.8488576449912126,
-                                            "y": 0.6055045871559632,
+                                            "x": 0.8469985358711567,
+                                            "y": 0.6145038167938931,
                                             "uniqueID": 455573,
                                             "ioValues": []
                                         },
@@ -925,13 +925,13 @@
                                                 {
                                                     "atomType": "Circle",
                                                     "name": "Circle",
-                                                    "x": 0.12214411247803163,
-                                                    "y": 0.4908256880733945,
+                                                    "x": 0.11932650073206441,
+                                                    "y": 0.4732824427480916,
                                                     "uniqueID": 621017,
                                                     "ioValues": [
                                                         {
                                                             "name": "diameter",
-                                                            "ioValue": 30
+                                                            "ioValue": 33
                                                         }
                                                     ]
                                                 },
@@ -959,8 +959,8 @@
                                                 {
                                                     "atomType": "Rotate",
                                                     "name": "Rotate",
-                                                    "x": 0.4077328646748682,
-                                                    "y": 0.6788990825688073,
+                                                    "x": 0.40702781844802344,
+                                                    "y": 0.6717557251908397,
                                                     "uniqueID": 212200,
                                                     "ioValues": [
                                                         {
@@ -3653,7 +3653,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": -19
+                                            "ioValue": -23
                                         },
                                         {
                                             "name": "zDist",
@@ -4046,8 +4046,8 @@
         {
             "atomType": "Molecule",
             "name": "Mechanical Frame",
-            "x": 0.10907759882869693,
-            "y": 0.681992337164751,
+            "x": 0.10322108345534406,
+            "y": 0.6450381679389313,
             "uniqueID": 707775,
             "ioValues": [],
             "topLevel": false,
@@ -5106,8 +5106,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bottom Outline",
-                    "x": 0.08172231985940247,
-                    "y": 0.5137614678899083,
+                    "x": 0.07686676427525622,
+                    "y": 0.5038167938931297,
                     "uniqueID": 234971,
                     "ioValues": [],
                     "topLevel": false,
@@ -5160,7 +5160,7 @@
                             "ioValues": [
                                 {
                                     "name": "xDist",
-                                    "ioValue": 95
+                                    "ioValue": 99
                                 },
                                 {
                                     "name": "yDist",
@@ -5250,7 +5250,7 @@
                             "ioValues": [
                                 {
                                     "name": "xDist",
-                                    "ioValue": 95
+                                    "ioValue": 99
                                 },
                                 {
                                     "name": "yDist",
@@ -5489,14 +5489,6 @@
                         }
                     ],
                     "fileTypeVersion": 1
-                },
-                {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 0.6520210896309314,
-                    "y": 0.4633027522935779,
-                    "uniqueID": 976979,
-                    "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
@@ -5880,6 +5872,14 @@
                     "fileTypeVersion": 1
                 },
                 {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.6039531478770132,
+                    "y": 0.7022900763358778,
+                    "uniqueID": 976979,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Tag",
                     "name": "Add Tag",
                     "x": 0.8286969253294291,
@@ -5910,17 +5910,17 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 375339,
-                    "ap2ID": 547270
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry1",
                     "ap2Primary": false,
                     "ap1ID": 547270,
                     "ap2ID": 976979
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 547270,
+                    "ap2ID": 416031
                 },
                 {
                     "ap1Name": "Geometry",
@@ -5930,11 +5930,11 @@
                     "ap2ID": 375339
                 },
                 {
-                    "ap1Name": "geometry",
+                    "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 976979,
-                    "ap2ID": 416031
+                    "ap1ID": 234971,
+                    "ap2ID": 547270
                 },
                 {
                     "ap1Name": "Geometry",
