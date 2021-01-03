@@ -5851,17 +5851,17 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 800142,
-                            "ap2ID": 565026
-                        },
-                        {
-                            "ap1Name": "geometry",
                             "ap2Name": "Shape",
                             "ap2Primary": false,
                             "ap1ID": 816263,
                             "ap2ID": 268136
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 816263,
+                            "ap2ID": 565026
                         },
                         {
                             "ap1Name": "geometry",
