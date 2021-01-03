@@ -1609,9 +1609,9 @@
                         },
                         {
                             "atomType": "Molecule",
-                            "name": "Drive Roller",
-                            "x": 0.3828696925329429,
-                            "y": 0.7049808429118775,
+                            "name": "Drive Gear",
+                            "x": 0.38726207906295756,
+                            "y": 0.6743295019157088,
                             "uniqueID": 174641,
                             "ioValues": [],
                             "topLevel": false,
@@ -1824,7 +1824,7 @@
                                     "ioValues": [
                                         {
                                             "name": "Number Of Teeth",
-                                            "ioValue": 25
+                                            "ioValue": 27
                                         },
                                         {
                                             "name": "Circular Pitch",
