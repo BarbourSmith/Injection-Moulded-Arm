@@ -3291,8 +3291,8 @@
                                         {
                                             "atomType": "Molecule",
                                             "name": "Bearing Pocket",
-                                            "x": 0.24084919472913618,
-                                            "y": 0.7547892720306513,
+                                            "x": 0.24158125915080525,
+                                            "y": 0.7709923664122137,
                                             "uniqueID": 789811,
                                             "ioValues": [],
                                             "topLevel": false,
@@ -3332,6 +3332,19 @@
                                                     "ioValues": []
                                                 },
                                                 {
+                                                    "atomType": "Extrude",
+                                                    "name": "Extrude",
+                                                    "x": 0.2108345534407028,
+                                                    "y": 0.5763358778625954,
+                                                    "uniqueID": 984826,
+                                                    "ioValues": [
+                                                        {
+                                                            "name": "height",
+                                                            "ioValue": 6
+                                                        }
+                                                    ]
+                                                },
+                                                {
                                                     "atomType": "Tag",
                                                     "name": "Add Tag",
                                                     "x": 0.5768667642752562,
@@ -3341,19 +3354,6 @@
                                                         {
                                                             "name": "tag",
                                                             "ioValue": "Plastic"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "atomType": "Extrude",
-                                                    "name": "Extrude",
-                                                    "x": 0.2137628111273792,
-                                                    "y": 0.5900383141762452,
-                                                    "uniqueID": 984826,
-                                                    "ioValues": [
-                                                        {
-                                                            "name": "height",
-                                                            "ioValue": 6
                                                         }
                                                     ]
                                                 },
@@ -3475,17 +3475,17 @@
                                                 },
                                                 {
                                                     "ap1Name": "geometry",
-                                                    "ap2Name": "3D shape 2",
-                                                    "ap2Primary": false,
-                                                    "ap1ID": 396192,
-                                                    "ap2ID": 369720
-                                                },
-                                                {
-                                                    "ap1Name": "geometry",
                                                     "ap2Name": "geometry2",
                                                     "ap2Primary": false,
                                                     "ap1ID": 984826,
                                                     "ap2ID": 827188
+                                                },
+                                                {
+                                                    "ap1Name": "geometry",
+                                                    "ap2Name": "3D shape 2",
+                                                    "ap2Primary": false,
+                                                    "ap1ID": 396192,
+                                                    "ap2ID": 369720
                                                 },
                                                 {
                                                     "ap1Name": "geometry",
@@ -4089,7 +4089,7 @@
                             "atomType": "Extrude",
                             "name": "Extrude",
                             "x": 0.28330893118594436,
-                            "y": 0.33587786259541985,
+                            "y": 0.32061068702290074,
                             "uniqueID": 400393,
                             "ioValues": [
                                 {
