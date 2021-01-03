@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Drive System",
-            "x": 0.10808435852372583,
-            "y": 0.29357798165137616,
+            "x": 0.109,
+            "y": 0.29885057471264365,
             "uniqueID": 683987,
             "ioValues": [],
             "topLevel": false,
@@ -452,8 +452,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Mounting Plastic",
-                            "x": 0.49384885764499126,
-                            "y": 0.4495412844036697,
+                            "x": 0.49700000000000005,
+                            "y": 0.4482758620689655,
                             "uniqueID": 322329,
                             "ioValues": [],
                             "topLevel": false,
@@ -3927,8 +3927,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.6215226939970717,
-                    "y": 0.842911877394636,
+                    "x": 0.623,
+                    "y": 0.8390804597701149,
                     "uniqueID": 817647,
                     "ioValues": [
                         {
