@@ -1610,8 +1610,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Drive Gear",
-                            "x": 0.38726207906295756,
-                            "y": 0.6743295019157088,
+                            "x": 0.38945827232796487,
+                            "y": 0.66793893129771,
                             "uniqueID": 174641,
                             "ioValues": [],
                             "topLevel": false,
@@ -1619,8 +1619,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Retainer for bearings",
-                                    "x": 0.3177159590043924,
-                                    "y": 0.1724137931034483,
+                                    "x": 0.31259150805270863,
+                                    "y": 0.1564885496183206,
                                     "uniqueID": 363551,
                                     "ioValues": [],
                                     "topLevel": false,
@@ -1860,8 +1860,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Center for shaft and shorten",
-                                    "x": 0.42093704245973645,
-                                    "y": 0.7701149425287357,
+                                    "x": 0.4180087847730601,
+                                    "y": 0.7519083969465649,
                                     "uniqueID": 311848,
                                     "ioValues": [],
                                     "topLevel": false,
