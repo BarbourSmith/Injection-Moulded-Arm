@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Drive System",
-            "x": 0.1068814055636896,
-            "y": 0.22900763358778628,
+            "x": 0.11200585651537336,
+            "y": 0.2213740458015267,
             "uniqueID": 683987,
             "ioValues": [],
             "topLevel": false,
@@ -167,8 +167,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor, Drive Gear, Encoder, Mounting Plastic, and Bolts",
-                    "x": 0.3689604685212298,
-                    "y": 0.8091603053435115,
+                    "x": 0.37481698389458273,
+                    "y": 0.816793893129771,
                     "uniqueID": 839020,
                     "ioValues": [],
                     "topLevel": false,
@@ -517,8 +517,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Mounting Plastic",
-                            "x": 0.493411420204978,
-                            "y": 0.4312977099236641,
+                            "x": 0.4890190336749634,
+                            "y": 0.4389312977099236,
                             "uniqueID": 322329,
                             "ioValues": [],
                             "topLevel": false,
@@ -738,8 +738,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Bolt Pegs",
-                                    "x": 0.5988286969253294,
-                                    "y": 0.7624521072796935,
+                                    "x": 0.5966325036603221,
+                                    "y": 0.7633587786259541,
                                     "uniqueID": 125555,
                                     "ioValues": [],
                                     "topLevel": false,
@@ -939,6 +939,20 @@
                                             ]
                                         },
                                         {
+                                            "atomType": "Color",
+                                            "name": "Color",
+                                            "x": 0.32869692532942896,
+                                            "y": 0.7366412213740459,
+                                            "uniqueID": 547711,
+                                            "ioValues": [
+                                                {
+                                                    "name": "geometry",
+                                                    "ioValue": "atoms/593463/683987/839020/322329/125555/458093Translate"
+                                                }
+                                            ],
+                                            "selectedColorIndex": "12"
+                                        },
+                                        {
                                             "atomType": "Translate",
                                             "name": "Translate",
                                             "x": 0.46046852122986826,
@@ -1004,20 +1018,6 @@
                                                     "ioValue": 2
                                                 }
                                             ]
-                                        },
-                                        {
-                                            "atomType": "Color",
-                                            "name": "Color",
-                                            "x": 0.34553440702781846,
-                                            "y": 0.8122605363984674,
-                                            "uniqueID": 547711,
-                                            "ioValues": [
-                                                {
-                                                    "name": "geometry",
-                                                    "ioValue": "atoms/593463/683987/839020/322329/125555/458093Translate"
-                                                }
-                                            ],
-                                            "selectedColorIndex": "12"
                                         },
                                         {
                                             "atomType": "Rotate",
@@ -1293,6 +1293,13 @@
                                         },
                                         {
                                             "ap1Name": "geometry",
+                                            "ap2Name": "3D shape 3",
+                                            "ap2Primary": false,
+                                            "ap1ID": 547711,
+                                            "ap2ID": 880778
+                                        },
+                                        {
+                                            "ap1Name": "geometry",
                                             "ap2Name": "geometry",
                                             "ap2Primary": true,
                                             "ap1ID": 263437,
@@ -1318,13 +1325,6 @@
                                             "ap2Primary": true,
                                             "ap1ID": 458093,
                                             "ap2ID": 547711
-                                        },
-                                        {
-                                            "ap1Name": "geometry",
-                                            "ap2Name": "3D shape 3",
-                                            "ap2Primary": false,
-                                            "ap1ID": 547711,
-                                            "ap2ID": 880778
                                         },
                                         {
                                             "ap1Name": "geometry",
