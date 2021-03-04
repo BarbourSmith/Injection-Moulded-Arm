@@ -4188,6 +4188,10 @@
                                     "uniqueID": 964207,
                                     "ioValues": [
                                         {
+                                            "name": "geometry",
+                                            "ioValue": "atoms/593463/683987/839020/226072/623892/746046Assembly"
+                                        },
+                                        {
                                             "name": "xDist",
                                             "ioValue": 0
                                         },
