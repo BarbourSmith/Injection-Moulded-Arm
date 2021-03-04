@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Drive System",
-            "x": 0.11054172767203513,
-            "y": 0.2595419847328244,
+            "x": 0.1068814055636896,
+            "y": 0.22900763358778628,
             "uniqueID": 683987,
             "ioValues": [],
             "topLevel": false,
@@ -167,8 +167,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor, Drive Gear, Encoder, Mounting Plastic, and Bolts",
-                    "x": 0.37481698389458273,
-                    "y": 0.7938931297709924,
+                    "x": 0.3689604685212298,
+                    "y": 0.8091603053435115,
                     "uniqueID": 839020,
                     "ioValues": [],
                     "topLevel": false,
@@ -1835,8 +1835,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Drive Gear",
-                            "x": 0.3909224011713031,
-                            "y": 0.6755725190839695,
+                            "x": 0.390190336749634,
+                            "y": 0.6946564885496184,
                             "uniqueID": 174641,
                             "ioValues": [],
                             "topLevel": false,
@@ -1844,8 +1844,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Retainer for bearings",
-                                    "x": 0.31259150805270863,
-                                    "y": 0.1564885496183206,
+                                    "x": 0.31185944363103957,
+                                    "y": 0.16793893129770993,
                                     "uniqueID": 363551,
                                     "ioValues": [],
                                     "topLevel": false,
@@ -1859,7 +1859,7 @@
                                             "ioValues": [
                                                 {
                                                     "name": "diameter",
-                                                    "ioValue": 9
+                                                    "ioValue": 11
                                                 }
                                             ]
                                         },
@@ -2948,6 +2948,10 @@
                             "y": 0.6628352490421456,
                             "uniqueID": 974203,
                             "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "atoms/593463/683987/839020/174641/126571Assembly"
+                                },
                                 {
                                     "name": "xDist",
                                     "ioValue": 0
