@@ -3008,8 +3008,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Measuring Rollers",
-                            "x": 0.5563689604685212,
-                            "y": 0.8244274809160305,
+                            "x": 0.5519765739385066,
+                            "y": 0.8206106870229009,
                             "uniqueID": 226072,
                             "ioValues": [],
                             "topLevel": false,
@@ -3017,8 +3017,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Rollers",
-                                    "x": 0.22913616398243045,
-                                    "y": 0.38549618320610685,
+                                    "x": 0.2320644216691069,
+                                    "y": 0.4083969465648855,
                                     "uniqueID": 623892,
                                     "ioValues": [],
                                     "topLevel": false,
@@ -3132,7 +3132,7 @@
                                             "atomType": "Molecule",
                                             "name": "Roller",
                                             "x": 0.06149341142020497,
-                                            "y": 0.5517241379310345,
+                                            "y": 0.549618320610687,
                                             "uniqueID": 107876,
                                             "ioValues": [],
                                             "topLevel": false,
@@ -3273,8 +3273,8 @@
                                                 {
                                                     "atomType": "GitHubMolecule",
                                                     "name": "2GT Sprocket",
-                                                    "x": 0.14202049780380674,
-                                                    "y": 0.5648854961832062,
+                                                    "x": 0.14421669106881405,
+                                                    "y": 0.5610687022900763,
                                                     "uniqueID": 655359,
                                                     "projectID": "235682860",
                                                     "ioValues": [
@@ -3367,6 +3367,10 @@
                                                     "y": 0.8045977011494253,
                                                     "uniqueID": 665432,
                                                     "ioValues": [
+                                                        {
+                                                            "name": "geometry",
+                                                            "ioValue": "atoms/593463/683987/839020/226072/623892/107876/655359/693637Code"
+                                                        },
                                                         {
                                                             "name": "height",
                                                             "ioValue": 14.5
@@ -4489,6 +4493,10 @@
                     "y": 0.8390804597701149,
                     "uniqueID": 817647,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/593463/683987/839020/881315Rotate"
+                        },
                         {
                             "name": "xDist",
                             "ioValue": 75.43
