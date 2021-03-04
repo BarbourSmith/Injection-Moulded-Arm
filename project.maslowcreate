@@ -4451,6 +4451,10 @@
                     "uniqueID": 817647,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": "atoms/593463/683987/839020/881315Rotate"
+                        },
+                        {
                             "name": "xDist",
                             "ioValue": 75.43
                         },
