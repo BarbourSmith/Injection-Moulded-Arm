@@ -4824,8 +4824,8 @@
         {
             "atomType": "Molecule",
             "name": "Mechanical Frame",
-            "x": 0.0951683748169839,
-            "y": 0.7366412213740459,
+            "x": 0.095900439238653,
+            "y": 0.7480916030534351,
             "uniqueID": 707775,
             "ioValues": [],
             "topLevel": false,
@@ -6074,7 +6074,7 @@
                     "atomType": "Molecule",
                     "name": "Bottom Outline",
                     "x": 0.07906295754026355,
-                    "y": 0.4961832061068702,
+                    "y": 0.47709923664122134,
                     "uniqueID": 234971,
                     "ioValues": [],
                     "topLevel": false,
@@ -6312,7 +6312,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 68.43
+                                    "ioValue": 75.43
                                 },
                                 {
                                     "name": "yDist",
@@ -7341,7 +7341,7 @@
                 },
                 {
                     "name": "z-axis degrees",
-                    "ioValue": 20
+                    "ioValue": 30
                 }
             ]
         },
