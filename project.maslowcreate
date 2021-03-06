@@ -4825,7 +4825,7 @@
             "atomType": "Molecule",
             "name": "Mechanical Frame",
             "x": 0.0951683748169839,
-            "y": 0.6870229007633588,
+            "y": 0.7061068702290076,
             "uniqueID": 707775,
             "ioValues": [],
             "topLevel": false,
@@ -6607,8 +6607,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bolts",
-                    "x": 0.4297218155197658,
-                    "y": 0.767175572519084,
+                    "x": 0.4216691068814056,
+                    "y": 0.7786259541984732,
                     "uniqueID": 195979,
                     "ioValues": [],
                     "topLevel": false,
@@ -6787,7 +6787,7 @@
                                 },
                                 {
                                     "name": "z-axis degrees",
-                                    "ioValue": 30
+                                    "ioValue": 0
                                 }
                             ]
                         },
@@ -7025,8 +7025,8 @@
         {
             "atomType": "Molecule",
             "name": "Extract Half",
-            "x": 0.4964850615114235,
-            "y": 0.6376146788990825,
+            "x": 0.5021961932650073,
+            "y": 0.6183206106870228,
             "uniqueID": 238188,
             "ioValues": [
                 {
@@ -7067,10 +7067,22 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "uniqueID": 519430,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "atoms/593463/238188/942567ExtractTag"
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 942567,
+                    "ap2ID": 519430
+                },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "geometry",
@@ -7088,6 +7100,10 @@
             "y": 0.5363984674329502,
             "uniqueID": 850876,
             "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/593463/238188/942567ExtractTag"
+                },
                 {
                     "name": "x-axis degrees",
                     "ioValue": 180
@@ -7130,8 +7146,8 @@
         {
             "atomType": "Molecule",
             "name": "Cutaway view",
-            "x": 0.8426061493411421,
-            "y": 0.5440613026819924,
+            "x": 0.835285505124451,
+            "y": 0.5,
             "uniqueID": 901353,
             "ioValues": [
                 {
@@ -7231,7 +7247,12 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "uniqueID": 691284,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "atoms/593463/901353/371862Difference"
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
@@ -7248,6 +7269,13 @@
                     "ap2Primary": true,
                     "ap1ID": 833127,
                     "ap2ID": 440492
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 371862,
+                    "ap2ID": 691284
                 },
                 {
                     "ap1Name": "geometry",
@@ -7272,7 +7300,12 @@
             "x": 0.6239015817223198,
             "y": 0.7935779816513762,
             "uniqueID": 946297,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/593463/238188/942567ExtractTag"
+                }
+            ]
         },
         {
             "atomType": "Output",
