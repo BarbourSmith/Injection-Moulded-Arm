@@ -4825,7 +4825,7 @@
             "atomType": "Molecule",
             "name": "Mechanical Frame",
             "x": 0.0951683748169839,
-            "y": 0.7061068702290076,
+            "y": 0.7366412213740459,
             "uniqueID": 707775,
             "ioValues": [],
             "topLevel": false,
@@ -6073,8 +6073,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bottom Outline",
-                    "x": 0.08125915080527087,
-                    "y": 0.48854961832061067,
+                    "x": 0.07906295754026355,
+                    "y": 0.4961832061068702,
                     "uniqueID": 234971,
                     "ioValues": [],
                     "topLevel": false,
@@ -6333,7 +6333,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 129
+                                    "ioValue": 125
                                 }
                             ]
                         },
@@ -7119,35 +7119,10 @@
             ]
         },
         {
-            "atomType": "Translate",
-            "name": "Translate",
-            "x": 0.7170474516695958,
-            "y": 0.6559633027522936,
-            "uniqueID": 136570,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "atoms/593463/169953Assembly"
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 23
-                }
-            ]
-        },
-        {
             "atomType": "Molecule",
             "name": "Cutaway view",
-            "x": 0.835285505124451,
-            "y": 0.5,
+            "x": 0.8696925329428989,
+            "y": 0.29007633587786263,
             "uniqueID": 901353,
             "ioValues": [
                 {
@@ -7295,6 +7270,31 @@
             "fileTypeVersion": 1
         },
         {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.7170474516695958,
+            "y": 0.6559633027522936,
+            "uniqueID": 136570,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/593463/169953Assembly"
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 23
+                }
+            ]
+        },
+        {
             "atomType": "Stl",
             "name": "Stl",
             "x": 0.6239015817223198,
@@ -7341,7 +7341,7 @@
                 },
                 {
                     "name": "z-axis degrees",
-                    "ioValue": 90
+                    "ioValue": 20
                 }
             ]
         },
