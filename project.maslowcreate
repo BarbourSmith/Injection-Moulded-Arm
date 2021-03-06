@@ -4822,6 +4822,19 @@
             ]
         },
         {
+            "atomType": "Stl",
+            "name": "Stl",
+            "x": 0.4575402635431918,
+            "y": 0.1717557251908397,
+            "uniqueID": 946297,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/593463/851483ExtractTag"
+                }
+            ]
+        },
+        {
             "atomType": "Molecule",
             "name": "Mechanical Frame",
             "x": 0.09443631039531479,
@@ -7295,19 +7308,6 @@
             ]
         },
         {
-            "atomType": "Stl",
-            "name": "Stl",
-            "x": 0.6239015817223198,
-            "y": 0.7935779816513762,
-            "uniqueID": 946297,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "atoms/593463/238188/942567ExtractTag"
-                }
-            ]
-        },
-        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9853587115666179,
@@ -7341,7 +7341,7 @@
                 },
                 {
                     "name": "z-axis degrees",
-                    "ioValue": 45
+                    "ioValue": 90
                 }
             ]
         },
@@ -7370,6 +7370,13 @@
             "ap2Primary": false,
             "ap1ID": 683987,
             "ap2ID": 335740
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 851483,
+            "ap2ID": 946297
         },
         {
             "ap1Name": "geometry",
@@ -7419,13 +7426,6 @@
             "ap2Primary": false,
             "ap1ID": 169953,
             "ap2ID": 638977
-        },
-        {
-            "ap1Name": "Geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 238188,
-            "ap2ID": 946297
         },
         {
             "ap1Name": "Geometry",
