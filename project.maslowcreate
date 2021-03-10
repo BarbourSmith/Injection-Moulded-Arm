@@ -31,7 +31,12 @@
                     "x": 0.19106881405563692,
                     "y": 0.367816091954023,
                     "uniqueID": 622464,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/593463/683987/214082/282516Color"
+                        }
+                    ]
                 },
                 {
                     "atomType": "Translate",
