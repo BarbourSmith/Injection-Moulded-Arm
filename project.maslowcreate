@@ -4483,27 +4483,10 @@
             ]
         },
         {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.7225475841874085,
-            "y": 0.2720306513409962,
-            "uniqueID": 169953,
-            "ioValues": [
-                {
-                    "name": "3D shape 1",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 2",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
             "atomType": "Molecule",
             "name": "Mechanical Frame",
-            "x": 0.09090909090909091,
-            "y": 0.767175572519084,
+            "x": 0.09077598828696926,
+            "y": 0.7290076335877863,
             "uniqueID": 707775,
             "ioValues": [],
             "topLevel": false,
@@ -6319,7 +6302,7 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bolts",
-                    "x": 0.42313323572474376,
+                    "x": 0.4180087847730601,
                     "y": 0.7442748091603054,
                     "uniqueID": 195979,
                     "ioValues": [],
@@ -6684,6 +6667,23 @@
             "fileTypeVersion": 1
         },
         {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.7225475841874085,
+            "y": 0.2720306513409962,
+            "uniqueID": 169953,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Molecule",
             "name": "Extract Half",
             "x": 0.5021961932650073,
@@ -6910,6 +6910,13 @@
             "ap2ID": 851483
         },
         {
+            "ap1Name": "Geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 707775,
+            "ap2ID": 335740
+        },
+        {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
@@ -6922,13 +6929,6 @@
             "ap2Primary": false,
             "ap1ID": 169953,
             "ap2ID": 638977
-        },
-        {
-            "ap1Name": "Geometry",
-            "ap2Name": "3D shape 1",
-            "ap2Primary": false,
-            "ap1ID": 707775,
-            "ap2ID": 335740
         },
         {
             "ap1Name": "Geometry",
@@ -6968,5 +6968,5 @@
     ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
-    "circleSegmentSize": "1"
+    "circleSegmentSize": "0.4"
 }
