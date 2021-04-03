@@ -17,15 +17,6 @@
             "topLevel": false,
             "allAtoms": [
                 {
-                    "atomType": "GitHubMolecule",
-                    "name": "Maslow 4 Spool2",
-                    "x": 0.07979502196193265,
-                    "y": 0.27586206896551724,
-                    "uniqueID": 214082,
-                    "projectID": "229143779",
-                    "ioValues": []
-                },
-                {
                     "atomType": "Stl",
                     "name": "Stl",
                     "x": 0.19106881405563692,
