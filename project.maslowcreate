@@ -6021,8 +6021,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bottom Outline",
-                    "x": 0.07686676427525622,
-                    "y": 0.4732824427480916,
+                    "x": 0.07101024890190337,
+                    "y": 0.5152671755725191,
                     "uniqueID": 234971,
                     "ioValues": [],
                     "topLevel": false,
@@ -6431,32 +6431,10 @@
                             "fileTypeVersion": 1
                         },
                         {
-                            "atomType": "Output",
-                            "name": "Output",
-                            "x": 0.9853587115666179,
-                            "y": 0.5,
-                            "uniqueID": 798587,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "atoms/593463/707775/234971/329593Translate"
-                                }
-                            ]
-                        },
-                        {
-                            "atomType": "Readme",
-                            "name": "README",
-                            "x": 0.8424182358771061,
-                            "y": 0.7241379310344828,
-                            "uniqueID": 218077,
-                            "ioValues": [],
-                            "readmeText": "Spacing between the upper and lower faces is 15.5mm"
-                        },
-                        {
                             "atomType": "Molecule",
                             "name": "Bracing",
-                            "x": 0.6969253294289898,
-                            "y": 0.8740458015267175,
+                            "x": 0.7210834553440704,
+                            "y": 0.8015267175572519,
                             "uniqueID": 333318,
                             "ioValues": [],
                             "topLevel": false,
@@ -6470,7 +6448,7 @@
                                     "ioValues": [
                                         {
                                             "name": "x length",
-                                            "ioValue": 60
+                                            "ioValue": 55
                                         },
                                         {
                                             "name": "y length",
@@ -6516,7 +6494,7 @@
                                         },
                                         {
                                             "name": "z-axis degrees",
-                                            "ioValue": 35
+                                            "ioValue": -34.5
                                         }
                                     ]
                                 },
@@ -6533,11 +6511,11 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": 50
+                                            "ioValue": 62
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": -40
+                                            "ioValue": 32
                                         },
                                         {
                                             "name": "zDist",
@@ -6590,6 +6568,28 @@
                                 }
                             ],
                             "fileTypeVersion": 1
+                        },
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.9853587115666179,
+                            "y": 0.5,
+                            "uniqueID": 798587,
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "atoms/593463/707775/234971/329593Translate"
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Readme",
+                            "name": "README",
+                            "x": 0.8424182358771061,
+                            "y": 0.7241379310344828,
+                            "uniqueID": 218077,
+                            "ioValues": [],
+                            "readmeText": "Spacing between the upper and lower faces is 15.5mm"
                         }
                     ],
                     "allConnectors": [
