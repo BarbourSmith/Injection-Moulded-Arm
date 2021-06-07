@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Drive System",
-            "x": 0.09956076134699852,
-            "y": 0.17557251908396945,
+            "x": 0.09882869692532943,
+            "y": 0.17938931297709923,
             "uniqueID": 683987,
             "ioValues": [],
             "topLevel": false,
@@ -120,7 +120,8 @@
                             "name": "Angle",
                             "ioValue": 27
                         }
-                    ]
+                    ],
+                    "simplify": false
                 },
                 {
                     "atomType": "Translate",
@@ -189,7 +190,8 @@
                                     "y": 0.5305343511450381,
                                     "uniqueID": 865580,
                                     "projectID": "210416841",
-                                    "ioValues": []
+                                    "ioValues": [],
+                                    "simplify": false
                                 },
                                 {
                                     "atomType": "Translate",
@@ -246,7 +248,8 @@
                                     "ap2ID": 155666
                                 }
                             ],
-                            "fileTypeVersion": 1
+                            "fileTypeVersion": 1,
+                            "simplify": false
                         },
                         {
                             "atomType": "Assembly",
@@ -1301,7 +1304,8 @@
                                                     "ap2ID": 304320
                                                 }
                                             ],
-                                            "fileTypeVersion": 1
+                                            "fileTypeVersion": 1,
+                                            "simplify": false
                                         },
                                         {
                                             "atomType": "Difference",
@@ -1453,7 +1457,8 @@
                                                     "ap2ID": 670898
                                                 }
                                             ],
-                                            "fileTypeVersion": 1
+                                            "fileTypeVersion": 1,
+                                            "simplify": false
                                         },
                                         {
                                             "atomType": "Output",
@@ -1583,7 +1588,8 @@
                                             "ap2ID": 455573
                                         }
                                     ],
-                                    "fileTypeVersion": 1
+                                    "fileTypeVersion": 1,
+                                    "simplify": false
                                 },
                                 {
                                     "atomType": "Output",
@@ -1692,7 +1698,8 @@
                                     "ap2ID": 346600
                                 }
                             ],
-                            "fileTypeVersion": 1
+                            "fileTypeVersion": 1,
+                            "simplify": false
                         },
                         {
                             "atomType": "Rotate",
@@ -1785,7 +1792,8 @@
                                     "y": 0.37931034482758624,
                                     "uniqueID": 264918,
                                     "projectID": "253144023",
-                                    "ioValues": []
+                                    "ioValues": [],
+                                    "simplify": false
                                 },
                                 {
                                     "atomType": "Translate",
@@ -2069,7 +2077,8 @@
                                     "ap2ID": 566306
                                 }
                             ],
-                            "fileTypeVersion": 1
+                            "fileTypeVersion": 1,
+                            "simplify": false
                         },
                         {
                             "atomType": "Assembly",
@@ -2206,7 +2215,8 @@
                                             "ap2ID": 684233
                                         }
                                     ],
-                                    "fileTypeVersion": 1
+                                    "fileTypeVersion": 1,
+                                    "simplify": false
                                 },
                                 {
                                     "atomType": "Circle",
@@ -2367,7 +2377,8 @@
                                             "name": "Clearance",
                                             "ioValue": 0
                                         }
-                                    ]
+                                    ],
+                                    "simplify": false
                                 },
                                 {
                                     "atomType": "Color",
@@ -2641,7 +2652,8 @@
                                             "ap2ID": 709757
                                         }
                                     ],
-                                    "fileTypeVersion": 1
+                                    "fileTypeVersion": 1,
+                                    "simplify": false
                                 },
                                 {
                                     "atomType": "Translate",
@@ -2812,7 +2824,8 @@
                                             "y": 0.7969348659003832,
                                             "uniqueID": 423102,
                                             "projectID": "237130549",
-                                            "ioValues": []
+                                            "ioValues": [],
+                                            "simplify": false
                                         },
                                         {
                                             "atomType": "Assembly",
@@ -3046,7 +3059,8 @@
                                             "ap2ID": 616436
                                         }
                                     ],
-                                    "fileTypeVersion": 1
+                                    "fileTypeVersion": 1,
+                                    "simplify": false
                                 },
                                 {
                                     "atomType": "Assembly",
@@ -3186,7 +3200,8 @@
                                     "ap2ID": 498296
                                 }
                             ],
-                            "fileTypeVersion": 1
+                            "fileTypeVersion": 1,
+                            "simplify": false
                         },
                         {
                             "atomType": "Rotate",
@@ -3272,7 +3287,8 @@
                                                     "y": 0.24137931034482757,
                                                     "uniqueID": 332425,
                                                     "projectID": "237130549",
-                                                    "ioValues": []
+                                                    "ioValues": [],
+                                                    "simplify": false
                                                 },
                                                 {
                                                     "atomType": "Output",
@@ -3297,7 +3313,8 @@
                                                     "ap2ID": 777199
                                                 }
                                             ],
-                                            "fileTypeVersion": 1
+                                            "fileTypeVersion": 1,
+                                            "simplify": false
                                         },
                                         {
                                             "atomType": "Translate",
@@ -3489,7 +3506,8 @@
                                                             "ap2ID": 752407
                                                         }
                                                     ],
-                                                    "fileTypeVersion": 1
+                                                    "fileTypeVersion": 1,
+                                                    "simplify": false
                                                 },
                                                 {
                                                     "atomType": "Extrude",
@@ -3524,7 +3542,8 @@
                                                             "name": "Resolution",
                                                             "ioValue": 0.5
                                                         }
-                                                    ]
+                                                    ],
+                                                    "simplify": false
                                                 },
                                                 {
                                                     "atomType": "Union",
@@ -3849,7 +3868,8 @@
                                                             "ap2ID": 864613
                                                         }
                                                     ],
-                                                    "fileTypeVersion": 1
+                                                    "fileTypeVersion": 1,
+                                                    "simplify": false
                                                 },
                                                 {
                                                     "atomType": "Color",
@@ -4022,7 +4042,8 @@
                                                     "ap2ID": 366536
                                                 }
                                             ],
-                                            "fileTypeVersion": 1
+                                            "fileTypeVersion": 1,
+                                            "simplify": false
                                         },
                                         {
                                             "atomType": "Assembly",
@@ -4356,7 +4377,8 @@
                                                     "ap2ID": 384132
                                                 }
                                             ],
-                                            "fileTypeVersion": 1
+                                            "fileTypeVersion": 1,
+                                            "simplify": false
                                         },
                                         {
                                             "atomType": "Translate",
@@ -4476,7 +4498,8 @@
                                             "ap2ID": 746046
                                         }
                                     ],
-                                    "fileTypeVersion": 1
+                                    "fileTypeVersion": 1,
+                                    "simplify": false
                                 },
                                 {
                                     "atomType": "Translate",
@@ -4533,7 +4556,8 @@
                                     "ap2ID": 460925
                                 }
                             ],
-                            "fileTypeVersion": 1
+                            "fileTypeVersion": 1,
+                            "simplify": false
                         },
                         {
                             "atomType": "Output",
@@ -4628,7 +4652,8 @@
                             "ap2ID": 333299
                         }
                     ],
-                    "fileTypeVersion": 1
+                    "fileTypeVersion": 1,
+                    "simplify": false
                 },
                 {
                     "atomType": "Translate",
@@ -4643,7 +4668,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 75.43
+                            "ioValue": 74.803
                         },
                         {
                             "name": "yDist",
@@ -4720,7 +4745,8 @@
                     "ap2ID": 198131
                 }
             ],
-            "fileTypeVersion": 1
+            "fileTypeVersion": 1,
+            "simplify": false
         },
         {
             "atomType": "ExtractTag",
@@ -5279,7 +5305,8 @@
                                                     "ap2ID": 948430
                                                 }
                                             ],
-                                            "fileTypeVersion": 1
+                                            "fileTypeVersion": 1,
+                                            "simplify": false
                                         },
                                         {
                                             "atomType": "Input",
@@ -5629,7 +5656,8 @@
                                                     "ap2ID": 683200
                                                 }
                                             ],
-                                            "fileTypeVersion": 1
+                                            "fileTypeVersion": 1,
+                                            "simplify": false
                                         },
                                         {
                                             "atomType": "GitHubMolecule",
@@ -5647,7 +5675,8 @@
                                                     "name": "Number",
                                                     "ioValue": 6
                                                 }
-                                            ]
+                                            ],
+                                            "simplify": false
                                         },
                                         {
                                             "atomType": "Output",
@@ -5777,7 +5806,8 @@
                                             "ap2ID": 997804
                                         }
                                     ],
-                                    "fileTypeVersion": 1
+                                    "fileTypeVersion": 1,
+                                    "simplify": false
                                 },
                                 {
                                     "atomType": "Translate",
@@ -5876,7 +5906,8 @@
                                     "ap2ID": 508577
                                 }
                             ],
-                            "fileTypeVersion": 1
+                            "fileTypeVersion": 1,
+                            "simplify": false
                         },
                         {
                             "atomType": "Difference",
@@ -5974,7 +6005,8 @@
                             "ap2ID": 241571
                         }
                     ],
-                    "fileTypeVersion": 1
+                    "fileTypeVersion": 1,
+                    "simplify": false
                 },
                 {
                     "atomType": "Union",
@@ -6420,7 +6452,8 @@
                                     "ap2ID": 146827
                                 }
                             ],
-                            "fileTypeVersion": 1
+                            "fileTypeVersion": 1,
+                            "simplify": false
                         },
                         {
                             "atomType": "Translate",
@@ -6584,7 +6617,8 @@
                                     "ap2ID": 138852
                                 }
                             ],
-                            "fileTypeVersion": 1
+                            "fileTypeVersion": 1,
+                            "simplify": false
                         },
                         {
                             "atomType": "Output",
@@ -6744,7 +6778,8 @@
                             "ap2ID": 821419
                         }
                     ],
-                    "fileTypeVersion": 1
+                    "fileTypeVersion": 1,
+                    "simplify": false
                 },
                 {
                     "atomType": "Tag",
@@ -6796,7 +6831,8 @@
                             "y": 0.27099236641221375,
                             "uniqueID": 448144,
                             "projectID": "346149735",
-                            "ioValues": []
+                            "ioValues": [],
+                            "simplify": false
                         },
                         {
                             "atomType": "Rotate",
@@ -6905,7 +6941,8 @@
                             "y": 0.6526717557251909,
                             "uniqueID": 821248,
                             "projectID": "278794657",
-                            "ioValues": []
+                            "ioValues": [],
+                            "simplify": false
                         },
                         {
                             "atomType": "Union",
@@ -6940,7 +6977,8 @@
                                     "name": "Number",
                                     "ioValue": 5
                                 }
-                            ]
+                            ],
+                            "simplify": false
                         },
                         {
                             "atomType": "Rotate",
@@ -7078,7 +7116,8 @@
                             "ap2ID": 201136
                         }
                     ],
-                    "fileTypeVersion": 1
+                    "fileTypeVersion": 1,
+                    "simplify": false
                 },
                 {
                     "atomType": "Output",
@@ -7145,7 +7184,8 @@
                     "ap2ID": 228764
                 }
             ],
-            "fileTypeVersion": 1
+            "fileTypeVersion": 1,
+            "simplify": false
         },
         {
             "atomType": "Assembly",
@@ -7233,7 +7273,8 @@
                     "ap2ID": 942567
                 }
             ],
-            "fileTypeVersion": 1
+            "fileTypeVersion": 1,
+            "simplify": false
         },
         {
             "atomType": "Rotate",
@@ -7448,6 +7489,7 @@
         }
     ],
     "fileTypeVersion": 1,
+    "simplify": false,
     "filetypeVersion": 1,
     "circleSegmentSize": "5.2"
 }
