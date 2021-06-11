@@ -6483,7 +6483,7 @@
                         {
                             "atomType": "Molecule",
                             "name": "Bracing",
-                            "x": 0.7225475841874085,
+                            "x": 0.7320644216691068,
                             "y": 0.8053435114503817,
                             "uniqueID": 333318,
                             "ioValues": [],
@@ -6498,7 +6498,7 @@
                                     "ioValues": [
                                         {
                                             "name": "x length",
-                                            "ioValue": 43
+                                            "ioValue": 36
                                         },
                                         {
                                             "name": "y length",
@@ -6561,11 +6561,11 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": 62
+                                            "ioValue": 65
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 32
+                                            "ioValue": 30
                                         },
                                         {
                                             "name": "zDist",
