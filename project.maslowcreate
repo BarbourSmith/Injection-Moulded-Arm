@@ -1744,7 +1744,7 @@
                                     "ioValues": [
                                         {
                                             "name": "geometry",
-                                            "ioValue": "atoms/593463/683987/839020/602662/264918/389087Color"
+                                            "ioValue": "atoms/593463/683987/839020/602662/264918GitHubMolecule"
                                         },
                                         {
                                             "name": "x-axis degrees",
@@ -7491,5 +7491,5 @@
     "fileTypeVersion": 1,
     "simplify": false,
     "filetypeVersion": 1,
-    "circleSegmentSize": "5.2"
+    "circleSegmentSize": "0.301"
 }
