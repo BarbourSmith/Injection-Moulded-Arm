@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Drive System",
-            "x": 0.09882869692532943,
-            "y": 0.17938931297709923,
+            "x": 0.0975609756097561,
+            "y": 0.16412213740458015,
             "uniqueID": 683987,
             "ioValues": [],
             "topLevel": false,
@@ -168,7 +168,7 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor, Drive Gear, Encoder, Mounting Plastic, and Bolts",
-                    "x": 0.3806734992679356,
+                    "x": 0.3780487804878049,
                     "y": 0.8015267175572519,
                     "uniqueID": 839020,
                     "ioValues": [],
@@ -3256,8 +3256,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Measuring Rollers",
-                            "x": 0.5527086383601757,
-                            "y": 0.7977099236641221,
+                            "x": 0.5393996247654784,
+                            "y": 0.8053435114503817,
                             "uniqueID": 226072,
                             "ioValues": [],
                             "topLevel": false,
@@ -4560,6 +4560,74 @@
                             "simplify": false
                         },
                         {
+                            "atomType": "Molecule",
+                            "name": "Molecule",
+                            "x": 0.5722326454033771,
+                            "y": 0.9274809160305344,
+                            "uniqueID": 176993,
+                            "ioValues": [
+                                {
+                                    "name": "Bolts",
+                                    "ioValue": "atoms/593463/683987/839020/281612Rotate"
+                                }
+                            ],
+                            "topLevel": false,
+                            "allAtoms": [
+                                {
+                                    "atomType": "Translate",
+                                    "name": "Translate",
+                                    "x": 0.1425891181988743,
+                                    "y": 0.40458015267175573,
+                                    "uniqueID": 445612,
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": "atoms/593463/683987/839020/281612Rotate"
+                                        },
+                                        {
+                                            "name": "xDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "yDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "zDist",
+                                            "ioValue": -10
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Input",
+                                    "name": "Bolts",
+                                    "x": 0.013333333333333334,
+                                    "y": 0.5687022900763359,
+                                    "uniqueID": 508961,
+                                    "ioValues": []
+                                },
+                                {
+                                    "atomType": "Output",
+                                    "name": "Output",
+                                    "x": 0.9812382739212007,
+                                    "y": 0.5,
+                                    "uniqueID": 400783,
+                                    "ioValues": []
+                                }
+                            ],
+                            "allConnectors": [
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 508961,
+                                    "ap2ID": 445612
+                                }
+                            ],
+                            "fileTypeVersion": 1,
+                            "simplify": false
+                        },
+                        {
                             "atomType": "Output",
                             "name": "Output",
                             "x": 0.9853587115666179,
@@ -4608,6 +4676,13 @@
                             "ap2Primary": false,
                             "ap1ID": 281612,
                             "ap2ID": 502199
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Bolts",
+                            "ap2Primary": false,
+                            "ap1ID": 281612,
+                            "ap2ID": 176993
                         },
                         {
                             "ap1Name": "Geometry",
