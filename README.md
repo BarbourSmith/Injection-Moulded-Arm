@@ -4,6 +4,6 @@
 
 ![](/project.svg)
 
-<h3 style="font-size:20px;"><strong>Bottom Outline:</strong></h3>Spacing between the upper and lower faces is 15.5mm
+Spacing between the upper and lower faces is 15.5mm
 
 

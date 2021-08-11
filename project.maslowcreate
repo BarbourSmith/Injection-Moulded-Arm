@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Drive System",
-            "x": 0.07129455909943715,
-            "y": 0.21755725190839695,
+            "x": 0.07540263543191801,
+            "y": 0.2213740458015267,
             "uniqueID": 683987,
             "ioValues": [],
             "topLevel": false,
@@ -168,8 +168,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor, Drive Gear, Encoder, Mounting Plastic, and Bolts",
-                    "x": 0.384,
-                    "y": 0.7709923664122137,
+                    "x": 0.38433382137628114,
+                    "y": 0.7633587786259541,
                     "uniqueID": 839020,
                     "ioValues": [],
                     "topLevel": false,
@@ -4552,8 +4552,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Guard",
-                            "x": 0.5866666666666667,
-                            "y": 0.9198473282442748,
+                            "x": 0.5893118594436311,
+                            "y": 0.9160305343511451,
                             "uniqueID": 176993,
                             "ioValues": [
                                 {
@@ -4601,7 +4601,7 @@
                                         },
                                         {
                                             "name": "height",
-                                            "ioValue": -7.5
+                                            "ioValue": -8
                                         }
                                     ]
                                 },
@@ -4673,15 +4673,15 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": -8
+                                            "ioValue": -7.5
                                         }
                                     ]
                                 },
                                 {
                                     "atomType": "Molecule",
                                     "name": "Cut Aways",
-                                    "x": 0.28888888888888886,
-                                    "y": 0.7404580152671755,
+                                    "x": 0.29282576866764276,
+                                    "y": 0.7366412213740459,
                                     "uniqueID": 697895,
                                     "ioValues": [],
                                     "topLevel": false,
@@ -4910,7 +4910,7 @@
                                                 },
                                                 {
                                                     "name": "height",
-                                                    "ioValue": -6.5
+                                                    "ioValue": -8
                                                 }
                                             ]
                                         },
@@ -5124,8 +5124,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Bolt Posts",
-                                    "x": 0.4648888888888889,
-                                    "y": 0.6832061068702291,
+                                    "x": 0.4707174231332357,
+                                    "y": 0.6755725190839695,
                                     "uniqueID": 109479,
                                     "ioValues": [],
                                     "topLevel": false,
@@ -5270,7 +5270,7 @@
                                                 },
                                                 {
                                                     "name": "height",
-                                                    "ioValue": -7.5
+                                                    "ioValue": -8
                                                 }
                                             ]
                                         },
@@ -6143,7 +6143,7 @@
                         },
                         {
                             "atomType": "Equation",
-                            "name": "Equation",
+                            "name": "D+12",
                             "x": 0.11127379209370425,
                             "y": 0.47709923664122134,
                             "uniqueID": 617958,
@@ -6284,7 +6284,7 @@
                                         },
                                         {
                                             "atomType": "Equation",
-                                            "name": "Equation",
+                                            "name": "D+2",
                                             "x": 0.10468521229868229,
                                             "y": 0.3333333333333333,
                                             "uniqueID": 789536,
@@ -6647,7 +6647,7 @@
                                         },
                                         {
                                             "atomType": "Equation",
-                                            "name": "Equation",
+                                            "name": "D+10",
                                             "x": 0.09809663250366032,
                                             "y": 0.7394636015325671,
                                             "uniqueID": 164118,
@@ -6780,7 +6780,7 @@
                                                 },
                                                 {
                                                     "atomType": "Equation",
-                                                    "name": "Equation",
+                                                    "name": "(D/2)+3",
                                                     "x": 0.17569546120058566,
                                                     "y": 0.7279693486590038,
                                                     "uniqueID": 681562,
