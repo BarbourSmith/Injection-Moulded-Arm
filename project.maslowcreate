@@ -63,7 +63,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "atoms/593463/683987/367876/713578Group"
+                            "ioValue": "atoms/593463/683987/367876GitHubMolecule"
                         },
                         {
                             "name": "x-axis degrees",
@@ -202,7 +202,7 @@
                                     "ioValues": [
                                         {
                                             "name": "geometry",
-                                            "ioValue": "atoms/593463/683987/839020/748742/865580/414072Assembly"
+                                            "ioValue": "atoms/593463/683987/839020/748742/865580GitHubMolecule"
                                         },
                                         {
                                             "name": "xDist",
@@ -1316,7 +1316,7 @@
                                             "ioValues": [
                                                 {
                                                     "name": "geometry2",
-                                                    "ioValue": "atoms/593463/683987/839020/322329/125555/160588/670898Translate"
+                                                    "ioValue": "atoms/593463/683987/839020/322329/125555/160588Molecule"
                                                 },
                                                 {
                                                     "name": "geometry1",
@@ -2032,7 +2032,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "atoms/593463/683987/839020/602662/135419Translate"
+                                    "ioValue": "atoms/593463/683987/839020/602662Molecule"
                                 },
                                 {
                                     "name": "x-axis degrees",
@@ -2246,7 +2246,7 @@
                                     "ioValues": [
                                         {
                                             "name": "geometry2",
-                                            "ioValue": "atoms/593463/683987/839020/174641/311848/745786Union"
+                                            "ioValue": "atoms/593463/683987/839020/174641/311848Molecule"
                                         },
                                         {
                                             "name": "geometry1",
@@ -3198,7 +3198,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "atoms/593463/683987/839020/174641/126571Assembly"
+                                    "ioValue": "atoms/593463/683987/839020/174641Molecule"
                                 },
                                 {
                                     "name": "xDist",
@@ -3217,8 +3217,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Measuring Rollers",
-                            "x": 0.5393996247654784,
-                            "y": 0.8053435114503817,
+                            "x": 0.5436507936507936,
+                            "y": 0.8141025641025641,
                             "uniqueID": 226072,
                             "ioValues": [],
                             "topLevel": false,
@@ -3260,7 +3260,7 @@
                                                     "ioValues": [
                                                         {
                                                             "name": "number or geometry",
-                                                            "ioValue": "atoms/593463/683987/839020/226072/623892/327460/332425/875516Color"
+                                                            "ioValue": "atoms/593463/683987/839020/226072/623892/327460/332425GitHubMolecule"
                                                         }
                                                     ]
                                                 }
@@ -3490,8 +3490,8 @@
                                                 {
                                                     "atomType": "GitHubMolecule",
                                                     "name": "2GT Sprocket",
-                                                    "x": 0.14421669106881405,
-                                                    "y": 0.5610687022900763,
+                                                    "x": 0.10251322751322753,
+                                                    "y": 0.5608974358974359,
                                                     "uniqueID": 655359,
                                                     "projectID": "235682860",
                                                     "ioValues": [
@@ -3566,17 +3566,23 @@
                                                     ]
                                                 },
                                                 {
-                                                    "atomType": "Circle",
-                                                    "name": "Circle",
-                                                    "x": 0.07686676427525622,
-                                                    "y": 0.8314176245210728,
-                                                    "uniqueID": 280522,
+                                                    "atomType": "GitHubMolecule",
+                                                    "name": "Generic Belt Pulley ",
+                                                    "x": 0.11441798941798942,
+                                                    "y": 0.8141025641025641,
+                                                    "uniqueID": 295616,
+                                                    "projectID": "424318779",
                                                     "ioValues": [
                                                         {
-                                                            "name": "diameter",
-                                                            "ioValue": 12.6
+                                                            "name": "Profile",
+                                                            "ioValue": 12
+                                                        },
+                                                        {
+                                                            "name": "Number of Teeth",
+                                                            "ioValue": 22
                                                         }
-                                                    ]
+                                                    ],
+                                                    "simplify": false
                                                 },
                                                 {
                                                     "atomType": "Extrude",
@@ -3587,7 +3593,7 @@
                                                     "ioValues": [
                                                         {
                                                             "name": "geometry",
-                                                            "ioValue": "atoms/593463/683987/839020/226072/623892/107876/655359/693637Code"
+                                                            "ioValue": "atoms/593463/683987/839020/226072/623892/107876/295616GitHubMolecule"
                                                         },
                                                         {
                                                             "name": "height",
@@ -3604,7 +3610,7 @@
                                                     "ioValues": [
                                                         {
                                                             "name": "geometry2",
-                                                            "ioValue": "atoms/593463/683987/839020/226072/623892/107876/311848/990297Union"
+                                                            "ioValue": "atoms/593463/683987/839020/226072/623892/107876/311848Molecule"
                                                         },
                                                         {
                                                             "name": "geometry1",
@@ -3933,13 +3939,6 @@
                                                     "ap2ID": 231667
                                                 },
                                                 {
-                                                    "ap1Name": "Geometry",
-                                                    "ap2Name": "geometry",
-                                                    "ap2Primary": true,
-                                                    "ap1ID": 655359,
-                                                    "ap2ID": 665432
-                                                },
-                                                {
                                                     "ap1Name": "geometry",
                                                     "ap2Name": "geometry1",
                                                     "ap2Primary": false,
@@ -3952,6 +3951,13 @@
                                                     "ap2Primary": false,
                                                     "ap1ID": 807502,
                                                     "ap2ID": 231667
+                                                },
+                                                {
+                                                    "ap1Name": "Geometry",
+                                                    "ap2Name": "geometry",
+                                                    "ap2Primary": true,
+                                                    "ap1ID": 295616,
+                                                    "ap2ID": 665432
                                                 },
                                                 {
                                                     "ap1Name": "geometry",
@@ -4040,7 +4046,7 @@
                                             "ioValues": [
                                                 {
                                                     "name": "geometry",
-                                                    "ioValue": "atoms/593463/683987/839020/226072/623892/789811/369720Assembly"
+                                                    "ioValue": "atoms/593463/683987/839020/226072/623892/789811Molecule"
                                                 },
                                                 {
                                                     "name": "xDist",
@@ -4350,7 +4356,7 @@
                                             "ioValues": [
                                                 {
                                                     "name": "geometry",
-                                                    "ioValue": "atoms/593463/683987/839020/226072/623892/789811/369720Assembly"
+                                                    "ioValue": "atoms/593463/683987/839020/226072/623892/789811Molecule"
                                                 },
                                                 {
                                                     "name": "xDist",
@@ -4471,7 +4477,7 @@
                                     "ioValues": [
                                         {
                                             "name": "geometry",
-                                            "ioValue": "atoms/593463/683987/839020/226072/623892/746046Assembly"
+                                            "ioValue": "atoms/593463/683987/839020/226072/623892Molecule"
                                         },
                                         {
                                             "name": "xDist",
@@ -4614,7 +4620,7 @@
                                     "ioValues": [
                                         {
                                             "name": "geometry2",
-                                            "ioValue": "atoms/593463/683987/839020/176993/697895/297407Group"
+                                            "ioValue": "atoms/593463/683987/839020/176993/697895Molecule"
                                         },
                                         {
                                             "name": "geometry1",
@@ -5149,7 +5155,7 @@
                                             "ioValues": [
                                                 {
                                                     "name": "geometry",
-                                                    "ioValue": "atoms/593463/683987/839020/176993/109479/276323/378449Color"
+                                                    "ioValue": "atoms/593463/683987/839020/176993/109479/276323GitHubMolecule"
                                                 },
                                                 {
                                                     "name": "xDist",
@@ -5921,7 +5927,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "atoms/593463/683987/839020/881315Rotate"
+                            "ioValue": "atoms/593463/683987/839020Molecule"
                         },
                         {
                             "name": "xDist",
@@ -6944,7 +6950,7 @@
                                             "ioValues": [
                                                 {
                                                     "name": "number or geometry",
-                                                    "ioValue": "atoms/593463/707775/135969/244834/593001/846843/212286Code"
+                                                    "ioValue": "atoms/593463/707775/135969/244834/593001/846843GitHubMolecule"
                                                 }
                                             ]
                                         }
@@ -7175,7 +7181,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry2",
-                                    "ioValue": "atoms/593463/707775/135969/244834/508577Color"
+                                    "ioValue": "atoms/593463/707775/135969/244834Molecule"
                                 },
                                 {
                                     "name": "geometry1",
@@ -7498,7 +7504,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry2",
-                                    "ioValue": "atoms/593463/707775/234971/971845/919067Translate"
+                                    "ioValue": "atoms/593463/707775/234971/971845Molecule"
                                 },
                                 {
                                     "name": "geometry1",
@@ -8100,7 +8106,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "atoms/593463/707775/195979/448144/691436Add-BOM-Tag"
+                                    "ioValue": "atoms/593463/707775/195979/448144GitHubMolecule"
                                 },
                                 {
                                     "name": "x-axis degrees",
@@ -8175,7 +8181,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "atoms/593463/707775/195979/821248/378449Color"
+                                    "ioValue": "atoms/593463/707775/195979/821248GitHubMolecule"
                                 },
                                 {
                                     "name": "xDist",
@@ -8284,7 +8290,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "atoms/593463/707775/195979/531917/212286Code"
+                                    "ioValue": "atoms/593463/707775/195979/531917GitHubMolecule"
                                 },
                                 {
                                     "name": "x-axis degrees",
@@ -8542,7 +8548,7 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "atoms/593463/238188/942567ExtractTag"
+                    "ioValue": "atoms/593463/238188Molecule"
                 },
                 {
                     "name": "x-axis degrees",
