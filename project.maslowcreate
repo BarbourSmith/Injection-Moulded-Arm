@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Drive System",
-            "x": 0.07540263543191801,
-            "y": 0.2213740458015267,
+            "x": 0.07142857142857142,
+            "y": 0.20833333333333334,
             "uniqueID": 683987,
             "ioValues": [],
             "topLevel": false,
@@ -168,8 +168,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor, Drive Gear, Encoder, Mounting Plastic, and Bolts",
-                    "x": 0.38433382137628114,
-                    "y": 0.7633587786259541,
+                    "x": 0.39087301587301587,
+                    "y": 0.7948717948717948,
                     "uniqueID": 839020,
                     "ioValues": [],
                     "topLevel": false,
@@ -2263,7 +2263,7 @@
                                     "ioValues": [
                                         {
                                             "name": "geometry",
-                                            "ioValue": "atoms/593463/683987/839020/174641/367728/644051Code"
+                                            "ioValue": "atoms/593463/683987/839020/174641/367728GitHubMolecule"
                                         },
                                         {
                                             "name": "height",
@@ -2322,33 +2322,6 @@
                                     ]
                                 },
                                 {
-                                    "atomType": "GitHubMolecule",
-                                    "name": "Involute Gear",
-                                    "x": 0.10834553440702782,
-                                    "y": 0.7509578544061302,
-                                    "uniqueID": 367728,
-                                    "projectID": "307507544",
-                                    "ioValues": [
-                                        {
-                                            "name": "Number Of Teeth",
-                                            "ioValue": 29
-                                        },
-                                        {
-                                            "name": "Circular Pitch",
-                                            "ioValue": 3
-                                        },
-                                        {
-                                            "name": "Pressure Angle",
-                                            "ioValue": 20
-                                        },
-                                        {
-                                            "name": "Clearance",
-                                            "ioValue": 0
-                                        }
-                                    ],
-                                    "simplify": false
-                                },
-                                {
                                     "atomType": "Color",
                                     "name": "Color",
                                     "x": 0.6537335285505125,
@@ -2374,6 +2347,33 @@
                                             "ioValue": "atoms/593463/683987/839020/174641/942547Difference"
                                         }
                                     ]
+                                },
+                                {
+                                    "atomType": "GitHubMolecule",
+                                    "name": "Involute Gear",
+                                    "x": 0.1097883597883598,
+                                    "y": 0.7852564102564102,
+                                    "uniqueID": 367728,
+                                    "projectID": "307507544",
+                                    "ioValues": [
+                                        {
+                                            "name": "Number Of Teeth",
+                                            "ioValue": 29
+                                        },
+                                        {
+                                            "name": "Circular Pitch",
+                                            "ioValue": 3
+                                        },
+                                        {
+                                            "name": "Pressure Angle",
+                                            "ioValue": 20
+                                        },
+                                        {
+                                            "name": "Clearance",
+                                            "ioValue": 0
+                                        }
+                                    ],
+                                    "simplify": false
                                 },
                                 {
                                     "atomType": "Molecule",
@@ -3134,6 +3134,13 @@
                                 },
                                 {
                                     "ap1Name": "Geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 367728,
+                                    "ap2ID": 665432
+                                },
+                                {
+                                    "ap1Name": "Geometry",
                                     "ap2Name": "geometry2",
                                     "ap2Primary": false,
                                     "ap1ID": 311848,
@@ -3173,7 +3180,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "atoms/593463/683987/839020/189866Group"
+                                    "ioValue": "atoms/593463/683987/839020/333299Assembly"
                                 },
                                 {
                                     "name": "x-axis degrees",
@@ -3290,7 +3297,7 @@
                                                 },
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": 7
+                                                    "ioValue": 7.3
                                                 },
                                                 {
                                                     "name": "yDist",
@@ -3332,7 +3339,7 @@
                                                 },
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": -7
+                                                    "ioValue": -7.3
                                                 },
                                                 {
                                                     "name": "yDist",
@@ -4040,8 +4047,8 @@
                                         {
                                             "atomType": "Translate",
                                             "name": "Translate",
-                                            "x": 0.37774524158125916,
-                                            "y": 0.6513409961685823,
+                                            "x": 0.3802910052910053,
+                                            "y": 0.6506410256410257,
                                             "uniqueID": 217416,
                                             "ioValues": [
                                                 {
@@ -4050,7 +4057,7 @@
                                                 },
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": 7
+                                                    "ioValue": 7.3
                                                 },
                                                 {
                                                     "name": "yDist",
@@ -4360,7 +4367,7 @@
                                                 },
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": -7
+                                                    "ioValue": -7.3
                                                 },
                                                 {
                                                     "name": "yDist",
@@ -4525,35 +4532,6 @@
                             ],
                             "fileTypeVersion": 1,
                             "simplify": false
-                        },
-                        {
-                            "atomType": "Group",
-                            "name": "Group",
-                            "x": 0.7307692307692307,
-                            "y": 0.7480916030534351,
-                            "uniqueID": 189866,
-                            "ioValues": [
-                                {
-                                    "name": "3D shape 1",
-                                    "ioValue": 10
-                                },
-                                {
-                                    "name": "3D shape 2",
-                                    "ioValue": 10
-                                },
-                                {
-                                    "name": "3D shape 3",
-                                    "ioValue": 10
-                                },
-                                {
-                                    "name": "3D shape 4",
-                                    "ioValue": 10
-                                },
-                                {
-                                    "name": "3D shape 5",
-                                    "ioValue": 10
-                                }
-                            ]
                         },
                         {
                             "atomType": "Molecule",
@@ -5817,25 +5795,11 @@
                             "ap2ID": 333299
                         },
                         {
-                            "ap1Name": "geometry",
-                            "ap2Name": "3D shape 5",
-                            "ap2Primary": false,
-                            "ap1ID": 917623,
-                            "ap2ID": 189866
-                        },
-                        {
                             "ap1Name": "Geometry",
                             "ap2Name": "3D shape 1",
                             "ap2Primary": false,
                             "ap1ID": 322329,
                             "ap2ID": 333299
-                        },
-                        {
-                            "ap1Name": "Geometry",
-                            "ap2Name": "3D shape 4",
-                            "ap2Primary": false,
-                            "ap1ID": 322329,
-                            "ap2ID": 189866
                         },
                         {
                             "ap1Name": "Geometry",
@@ -5859,6 +5823,13 @@
                             "ap2ID": 176993
                         },
                         {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 333299,
+                            "ap2ID": 881315
+                        },
+                        {
                             "ap1Name": "Geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
@@ -5880,39 +5851,11 @@
                             "ap2ID": 333299
                         },
                         {
-                            "ap1Name": "geometry",
-                            "ap2Name": "3D shape 3",
-                            "ap2Primary": false,
-                            "ap1ID": 974203,
-                            "ap2ID": 189866
-                        },
-                        {
                             "ap1Name": "Geometry",
                             "ap2Name": "3D shape 6",
                             "ap2Primary": false,
                             "ap1ID": 226072,
                             "ap2ID": 333299
-                        },
-                        {
-                            "ap1Name": "Geometry",
-                            "ap2Name": "3D shape 2",
-                            "ap2Primary": false,
-                            "ap1ID": 226072,
-                            "ap2ID": 189866
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 189866,
-                            "ap2ID": 881315
-                        },
-                        {
-                            "ap1Name": "Geometry",
-                            "ap2Name": "3D shape 1",
-                            "ap2Primary": false,
-                            "ap1ID": 176993,
-                            "ap2ID": 189866
                         }
                     ],
                     "fileTypeVersion": 1,
