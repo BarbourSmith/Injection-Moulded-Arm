@@ -2322,6 +2322,19 @@
                                     ]
                                 },
                                 {
+                                    "atomType": "Stl",
+                                    "name": "Stl",
+                                    "x": 0.7691798941798942,
+                                    "y": 0.16987179487179488,
+                                    "uniqueID": 613981,
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": "atoms/593463/683987/839020/174641/942547Difference"
+                                        }
+                                    ]
+                                },
+                                {
                                     "atomType": "Color",
                                     "name": "Color",
                                     "x": 0.6537335285505125,
@@ -2334,19 +2347,6 @@
                                         }
                                     ],
                                     "selectedColorIndex": "3"
-                                },
-                                {
-                                    "atomType": "Stl",
-                                    "name": "Stl",
-                                    "x": 0.7701317715959005,
-                                    "y": 0.18773946360153254,
-                                    "uniqueID": 613981,
-                                    "ioValues": [
-                                        {
-                                            "name": "geometry",
-                                            "ioValue": "atoms/593463/683987/839020/174641/942547Difference"
-                                        }
-                                    ]
                                 },
                                 {
                                     "atomType": "GitHubMolecule",
