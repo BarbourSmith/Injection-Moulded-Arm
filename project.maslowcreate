@@ -2404,21 +2404,21 @@
                                         {
                                             "atomType": "Circle",
                                             "name": "Circle",
-                                            "x": 0.11054172767203513,
-                                            "y": 0.4351145038167939,
+                                            "x": 0.10515873015873016,
+                                            "y": 0.4166666666666667,
                                             "uniqueID": 356538,
                                             "ioValues": [
                                                 {
                                                     "name": "diameter",
-                                                    "ioValue": 6.4
+                                                    "ioValue": 6.26
                                                 }
                                             ]
                                         },
                                         {
                                             "atomType": "Translate",
                                             "name": "Translate",
-                                            "x": 0.4092240117130308,
-                                            "y": 0.4389312977099236,
+                                            "x": 0.41137566137566134,
+                                            "y": 0.4326923076923077,
                                             "uniqueID": 704047,
                                             "ioValues": [
                                                 {
@@ -2427,7 +2427,7 @@
                                                 },
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": 7
+                                                    "ioValue": 7.3
                                                 },
                                                 {
                                                     "name": "yDist",
