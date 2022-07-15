@@ -17,6 +17,16 @@
             "topLevel": false,
             "allAtoms": [
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "Maslow 4 Spool2",
+                    "x": 0.2923280423280423,
+                    "y": 0.2777777777777778,
+                    "uniqueID": 800408,
+                    "projectID": "229143779",
+                    "ioValues": [],
+                    "simplify": false
+                },
+                {
                     "atomType": "Stl",
                     "name": "Stl",
                     "x": 0.19106881405563692,
@@ -38,7 +48,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "atoms/593463/683987/214082/282516Color"
+                            "ioValue": "source/593463/683987/800408GitHubMolecule"
                         },
                         {
                             "name": "xDist",
@@ -162,6 +172,10 @@
                         {
                             "name": "3D shape 2",
                             "ioValue": "source/593463/683987/297970Translate"
+                        },
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": "source/593463/683987/976670Rotate"
                         }
                     ]
                 },
@@ -5943,6 +5957,13 @@
             ],
             "allConnectors": [
                 {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 800408,
+                    "ap2ID": 718906
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
@@ -5955,6 +5976,13 @@
                     "ap2Primary": true,
                     "ap1ID": 615570,
                     "ap2ID": 297970
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 976670,
+                    "ap2ID": 503924
                 },
                 {
                     "ap1Name": "Geometry",
@@ -6051,7 +6079,7 @@
             "atomType": "Molecule",
             "name": "Mechanical Frame",
             "x": 0.08267195767195767,
-            "y": 0.7403846153846154,
+            "y": 0.7283950617283951,
             "uniqueID": 707775,
             "ioValues": [],
             "topLevel": false,
@@ -8969,5 +8997,5 @@
     "simplify": false,
     "unitsIndex": 0,
     "filetypeVersion": 1,
-    "circleSegmentSize": "0.051"
+    "circleSegmentSize": "0.101"
 }
