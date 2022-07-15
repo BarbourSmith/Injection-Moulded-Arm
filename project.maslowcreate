@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Drive System",
-            "x": 0.08002645502645503,
-            "y": 0.21474358974358973,
+            "x": 0.07473544973544974,
+            "y": 0.23148148148148145,
             "uniqueID": 683987,
             "ioValues": [],
             "topLevel": false,
@@ -168,8 +168,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor, Drive Gear, Encoder, Mounting Plastic, and Bolts",
-                    "x": 0.3994708994708995,
-                    "y": 0.7916666666666667,
+                    "x": 0.4027777777777778,
+                    "y": 0.7746913580246914,
                     "uniqueID": 839020,
                     "ioValues": [],
                     "topLevel": false,
@@ -3533,18 +3533,14 @@
                                                 {
                                                     "atomType": "GitHubMolecule",
                                                     "name": "2GT Sprocket",
-                                                    "x": 0.10251322751322753,
-                                                    "y": 0.5608974358974359,
+                                                    "x": 0.12614107883817427,
+                                                    "y": 0.5555555555555556,
                                                     "uniqueID": 655359,
                                                     "projectID": "235682860",
                                                     "ioValues": [
                                                         {
                                                             "name": "Number of teeth",
                                                             "ioValue": 22
-                                                        },
-                                                        {
-                                                            "name": "Resolution",
-                                                            "ioValue": 0.5
                                                         }
                                                     ],
                                                     "simplify": false
@@ -3636,7 +3632,7 @@
                                                     "ioValues": [
                                                         {
                                                             "name": "geometry",
-                                                            "ioValue": "source/593463/683987/839020/226072/623892/107876/295616GitHubMolecule"
+                                                            "ioValue": "source/593463/683987/839020/226072/623892/107876/655359GitHubMolecule"
                                                         },
                                                         {
                                                             "name": "height",
@@ -3983,6 +3979,13 @@
                                                     "ap2ID": 231667
                                                 },
                                                 {
+                                                    "ap1Name": "Geometry",
+                                                    "ap2Name": "geometry",
+                                                    "ap2Primary": true,
+                                                    "ap1ID": 655359,
+                                                    "ap2ID": 665432
+                                                },
+                                                {
                                                     "ap1Name": "geometry",
                                                     "ap2Name": "geometry1",
                                                     "ap2Primary": false,
@@ -3995,13 +3998,6 @@
                                                     "ap2Primary": false,
                                                     "ap1ID": 807502,
                                                     "ap2ID": 231667
-                                                },
-                                                {
-                                                    "ap1Name": "Geometry",
-                                                    "ap2Name": "geometry",
-                                                    "ap2Primary": true,
-                                                    "ap1ID": 295616,
-                                                    "ap2ID": 665432
                                                 },
                                                 {
                                                     "ap1Name": "geometry",
@@ -7920,7 +7916,8 @@
                             "y": 0.7241379310344828,
                             "uniqueID": 218077,
                             "ioValues": [],
-                            "readmeText": "Spacing between the upper and lower faces is 15.5mm"
+                            "readmeText": "Spacing between the upper and lower faces is 15.5mm",
+                            "global": true
                         }
                     ],
                     "allConnectors": [
