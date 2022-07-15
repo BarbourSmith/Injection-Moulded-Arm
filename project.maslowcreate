@@ -2302,18 +2302,18 @@
                                 {
                                     "atomType": "GitHubMolecule",
                                     "name": "Involute Gear",
-                                    "x": 0.09656084656084656,
-                                    "y": 0.5987654320987654,
-                                    "uniqueID": 367728,
+                                    "x": 0.15211640211640212,
+                                    "y": 0.5524691358024691,
+                                    "uniqueID": 691432,
                                     "projectID": "307507544",
                                     "ioValues": [
                                         {
                                             "name": "Number Of Teeth",
-                                            "ioValue": 29
+                                            "ioValue": 14
                                         },
                                         {
                                             "name": "Circular Pitch",
-                                            "ioValue": 3
+                                            "ioValue": 3.14
                                         },
                                         {
                                             "name": "Pressure Angle",
@@ -2329,13 +2329,13 @@
                                 {
                                     "atomType": "Extrude",
                                     "name": "Extrude",
-                                    "x": 0.22311111111111112,
-                                    "y": 0.5916030534351144,
+                                    "x": 0.2605820105820106,
+                                    "y": 0.5833333333333334,
                                     "uniqueID": 665432,
                                     "ioValues": [
                                         {
                                             "name": "geometry",
-                                            "ioValue": "source/593463/683987/839020/174641/405388GitHubMolecule"
+                                            "ioValue": "source/593463/683987/839020/174641/691432GitHubMolecule"
                                         },
                                         {
                                             "name": "height",
@@ -2419,33 +2419,6 @@
                                         }
                                     ],
                                     "selectedColorIndex": "3"
-                                },
-                                {
-                                    "atomType": "GitHubMolecule",
-                                    "name": "Involute Gear",
-                                    "x": 0.1607142857142857,
-                                    "y": 0.8271604938271605,
-                                    "uniqueID": 405388,
-                                    "projectID": "307507544",
-                                    "ioValues": [
-                                        {
-                                            "name": "Number Of Teeth",
-                                            "ioValue": 17
-                                        },
-                                        {
-                                            "name": "Circular Pitch",
-                                            "ioValue": 5
-                                        },
-                                        {
-                                            "name": "Pressure Angle",
-                                            "ioValue": 20
-                                        },
-                                        {
-                                            "name": "Clearance",
-                                            "ioValue": 0
-                                        }
-                                    ],
-                                    "simplify": false
                                 },
                                 {
                                     "atomType": "Molecule",
@@ -2720,6 +2693,33 @@
                                             "ioValue": 4
                                         }
                                     ]
+                                },
+                                {
+                                    "atomType": "GitHubMolecule",
+                                    "name": "Involute Gear",
+                                    "x": 0.32407407407407407,
+                                    "y": 0.8672839506172839,
+                                    "uniqueID": 405388,
+                                    "projectID": "307507544",
+                                    "ioValues": [
+                                        {
+                                            "name": "Number Of Teeth",
+                                            "ioValue": 17
+                                        },
+                                        {
+                                            "name": "Circular Pitch",
+                                            "ioValue": 5
+                                        },
+                                        {
+                                            "name": "Pressure Angle",
+                                            "ioValue": 20
+                                        },
+                                        {
+                                            "name": "Clearance",
+                                            "ioValue": 0
+                                        }
+                                    ],
+                                    "simplify": false
                                 },
                                 {
                                     "atomType": "Molecule",
@@ -3179,6 +3179,13 @@
                                     "ap2ID": 483888
                                 },
                                 {
+                                    "ap1Name": "Geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 691432,
+                                    "ap2ID": 665432
+                                },
+                                {
                                     "ap1Name": "geometry",
                                     "ap2Name": "geometry",
                                     "ap2Primary": true,
@@ -3205,13 +3212,6 @@
                                     "ap2Primary": true,
                                     "ap1ID": 805804,
                                     "ap2ID": 112890
-                                },
-                                {
-                                    "ap1Name": "Geometry",
-                                    "ap2Name": "geometry",
-                                    "ap2Primary": true,
-                                    "ap1ID": 405388,
-                                    "ap2ID": 665432
                                 },
                                 {
                                     "ap1Name": "Geometry",
