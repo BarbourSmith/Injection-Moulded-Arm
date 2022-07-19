@@ -134,6 +134,33 @@
                     ]
                 },
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "Involute Gear",
+                    "x": 0.13690476190476192,
+                    "y": 0.7191358024691359,
+                    "uniqueID": 183331,
+                    "projectID": "307507544",
+                    "ioValues": [
+                        {
+                            "name": "Number Of Teeth",
+                            "ioValue": 14
+                        },
+                        {
+                            "name": "Circular Pitch",
+                            "ioValue": 3.14
+                        },
+                        {
+                            "name": "Pressure Angle",
+                            "ioValue": 20
+                        },
+                        {
+                            "name": "Clearance",
+                            "ioValue": 0
+                        }
+                    ],
+                    "simplify": false
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 0.5224867724867724,
@@ -161,8 +188,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.25396825396825395,
-                    "y": 0.691358024691358,
+                    "x": 0.25727513227513227,
+                    "y": 0.7129629629629629,
                     "uniqueID": 565208,
                     "ioValues": [
                         {
@@ -171,59 +198,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "Involute Gear",
-                    "x": 0.14153439153439154,
-                    "y": 0.7438271604938271,
-                    "uniqueID": 183331,
-                    "projectID": "307507544",
-                    "ioValues": [
-                        {
-                            "name": "Number Of Teeth",
-                            "ioValue": 14
-                        },
-                        {
-                            "name": "Circular Pitch",
-                            "ioValue": 3.14
-                        },
-                        {
-                            "name": "Pressure Angle",
-                            "ioValue": 20
-                        },
-                        {
-                            "name": "Clearance",
-                            "ioValue": 0
-                        }
-                    ],
-                    "simplify": false
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 0.6183862433862434,
-                    "y": 0.5462962962962963,
-                    "uniqueID": 910343,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "source/593463/683987/565208Extrude"
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": 68
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 7
                         }
                     ]
                 },
@@ -253,10 +228,35 @@
                     ]
                 },
                 {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.5939153439153438,
+                    "y": 0.6419753086419753,
+                    "uniqueID": 910343,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/593463/683987/565208Extrude"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 68.46527341927154
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
                     "atomType": "Molecule",
                     "name": "Motor, Drive Gear, Encoder, Mounting Plastic, and Bolts",
-                    "x": 0.4027777777777778,
-                    "y": 0.7746913580246914,
+                    "x": 0.3974867724867725,
+                    "y": 0.8024691358024691,
                     "uniqueID": 839020,
                     "ioValues": [],
                     "topLevel": false,
@@ -2358,8 +2358,8 @@
                                 {
                                     "atomType": "Difference",
                                     "name": "Difference",
-                                    "x": 0.4890190336749634,
-                                    "y": 0.2595419847328244,
+                                    "x": 0.4834656084656085,
+                                    "y": 0.2469135802469136,
                                     "uniqueID": 942547,
                                     "ioValues": [
                                         {
@@ -2402,8 +2402,8 @@
                                 {
                                     "atomType": "Extrude",
                                     "name": "Extrude",
-                                    "x": 0.2605820105820106,
-                                    "y": 0.5833333333333334,
+                                    "x": 0.255952380952381,
+                                    "y": 0.6018518518518519,
                                     "uniqueID": 665432,
                                     "ioValues": [
                                         {
@@ -3180,8 +3180,8 @@
                                 {
                                     "atomType": "Assembly",
                                     "name": "Assembly",
-                                    "x": 0.8396778916544656,
-                                    "y": 0.7022900763358778,
+                                    "x": 0.8425925925925926,
+                                    "y": 0.7006172839506173,
                                     "uniqueID": 126571,
                                     "ioValues": [
                                         {
@@ -3372,8 +3372,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Measuring Rollers",
-                            "x": 0.546957671957672,
-                            "y": 0.8012820512820513,
+                            "x": 0.5436507936507936,
+                            "y": 0.7808641975308642,
                             "uniqueID": 226072,
                             "ioValues": [],
                             "topLevel": false,
@@ -6029,7 +6029,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 74.803
+                            "ioValue": 75.4581760159
                         },
                         {
                             "name": "yDist",
@@ -6092,6 +6092,13 @@
                     "ap2ID": 503924
                 },
                 {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 183331,
+                    "ap2ID": 565208
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 2",
                     "ap2Primary": false,
@@ -6106,11 +6113,11 @@
                     "ap2ID": 910343
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 183331,
-                    "ap2ID": 565208
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 503924,
+                    "ap2ID": 761900
                 },
                 {
                     "ap1Name": "geometry",
@@ -6118,13 +6125,6 @@
                     "ap2Primary": false,
                     "ap1ID": 910343,
                     "ap2ID": 503924
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 503924,
-                    "ap2ID": 761900
                 },
                 {
                     "ap1Name": "Geometry",
@@ -6148,8 +6148,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.20833333333333334,
-            "y": 0.24679487179487183,
+            "x": 0.20568783068783067,
+            "y": 0.25308641975308643,
             "uniqueID": 335740,
             "ioValues": [
                 {
@@ -6199,7 +6199,7 @@
         {
             "atomType": "Molecule",
             "name": "Mechanical Frame",
-            "x": 0.08267195767195767,
+            "x": 0.08068783068783068,
             "y": 0.7283950617283951,
             "uniqueID": 707775,
             "ioValues": [],
