@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Drive System",
-            "x": 0.0701058201058201,
-            "y": 0.2345679012345679,
+            "x": 0.07208994708994709,
+            "y": 0.2222222222222222,
             "uniqueID": 683987,
             "ioValues": [],
             "topLevel": false,
@@ -159,20 +159,37 @@
                     ]
                 },
                 {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.25,
+                    "y": 0.7098765432098765,
+                    "uniqueID": 565208,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/593463/683987/224057GitHubMolecule"
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 7
+                        }
+                    ]
+                },
+                {
                     "atomType": "GitHubMolecule",
                     "name": "Involute Gear",
-                    "x": 0.1455026455026455,
-                    "y": 0.7345679012345678,
-                    "uniqueID": 183331,
+                    "x": 0.15873015873015872,
+                    "y": 0.8148148148148148,
+                    "uniqueID": 224057,
                     "projectID": "307507544",
                     "ioValues": [
                         {
                             "name": "Number Of Teeth",
-                            "ioValue": 14
+                            "ioValue": 11
                         },
                         {
                             "name": "Circular Pitch",
-                            "ioValue": 3.14
+                            "ioValue": 4.71
                         },
                         {
                             "name": "Pressure Angle",
@@ -184,23 +201,6 @@
                         }
                     ],
                     "simplify": false
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.25,
-                    "y": 0.7098765432098765,
-                    "uniqueID": 565208,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "source/593463/683987/183331GitHubMolecule"
-                        },
-                        {
-                            "name": "height",
-                            "ioValue": 7
-                        }
-                    ]
                 },
                 {
                     "atomType": "Assembly",
@@ -255,8 +255,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor, Drive Gear, Encoder, Mounting Plastic, and Bolts",
-                    "x": 0.3974867724867725,
-                    "y": 0.8024691358024691,
+                    "x": 0.40145502645502645,
+                    "y": 0.7870370370370371,
                     "uniqueID": 839020,
                     "ioValues": [],
                     "topLevel": false,
@@ -2191,10 +2191,35 @@
                             ]
                         },
                         {
+                            "atomType": "Translate",
+                            "name": "Translate",
+                            "x": 0.5145502645502645,
+                            "y": 0.611111111111111,
+                            "uniqueID": 974203,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "source/593463/683987/839020/174641Molecule"
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": -7
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 0
+                                }
+                            ]
+                        },
+                        {
                             "atomType": "Molecule",
                             "name": "Drive Gear",
-                            "x": 0.4021164021164021,
-                            "y": 0.6826923076923077,
+                            "x": 0.40145502645502645,
+                            "y": 0.6944444444444444,
                             "uniqueID": 174641,
                             "ioValues": [],
                             "topLevel": false,
@@ -3345,31 +3370,6 @@
                             "fileTypeVersion": 1,
                             "simplify": false,
                             "unitsIndex": 0
-                        },
-                        {
-                            "atomType": "Translate",
-                            "name": "Translate",
-                            "x": 0.5145502645502645,
-                            "y": 0.611111111111111,
-                            "uniqueID": 974203,
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": "source/593463/683987/839020/174641Molecule"
-                                },
-                                {
-                                    "name": "xDist",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "yDist",
-                                    "ioValue": -7
-                                },
-                                {
-                                    "name": "zDist",
-                                    "ioValue": 0
-                                }
-                            ]
                         },
                         {
                             "atomType": "Rotate",
@@ -6011,18 +6011,18 @@
                             "ap2ID": 881315
                         },
                         {
-                            "ap1Name": "Geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 174641,
-                            "ap2ID": 974203
-                        },
-                        {
                             "ap1Name": "geometry",
                             "ap2Name": "3D shape 4",
                             "ap2Primary": false,
                             "ap1ID": 974203,
                             "ap2ID": 333299
+                        },
+                        {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 174641,
+                            "ap2ID": 974203
                         },
                         {
                             "ap1Name": "geometry",
@@ -6126,18 +6126,18 @@
                     "ap2ID": 503924
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 183331,
-                    "ap2ID": 565208
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 565208,
                     "ap2ID": 910343
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 224057,
+                    "ap2ID": 565208
                 },
                 {
                     "ap1Name": "geometry",
