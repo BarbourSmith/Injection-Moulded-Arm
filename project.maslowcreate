@@ -67,8 +67,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "2GT Belt Keepout",
-                    "x": 0.09259259259259259,
-                    "y": 0.5123456790123456,
+                    "x": 0.09788359788359789,
+                    "y": 0.5,
                     "uniqueID": 367876,
                     "projectID": "269679568",
                     "ioValues": [
@@ -134,10 +134,35 @@
                     ]
                 },
                 {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.5224867724867724,
+                    "y": 0.516025641025641,
+                    "uniqueID": 297970,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/593463/683987/615570Rotate"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 97
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": -7.25
+                        }
+                    ]
+                },
+                {
                     "atomType": "GitHubMolecule",
                     "name": "Involute Gear",
-                    "x": 0.13690476190476192,
-                    "y": 0.7191358024691359,
+                    "x": 0.1455026455026455,
+                    "y": 0.7345679012345678,
                     "uniqueID": 183331,
                     "projectID": "307507544",
                     "ioValues": [
@@ -161,35 +186,10 @@
                     "simplify": false
                 },
                 {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 0.5224867724867724,
-                    "y": 0.516025641025641,
-                    "uniqueID": 297970,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "source/593463/683987/615570Rotate"
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": 94
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": -7.25
-                        }
-                    ]
-                },
-                {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.25727513227513227,
-                    "y": 0.7129629629629629,
+                    "x": 0.25,
+                    "y": 0.7098765432098765,
                     "uniqueID": 565208,
                     "ioValues": [
                         {
@@ -2375,8 +2375,8 @@
                                 {
                                     "atomType": "GitHubMolecule",
                                     "name": "Involute Gear",
-                                    "x": 0.15211640211640212,
-                                    "y": 0.5524691358024691,
+                                    "x": 0.09854497354497355,
+                                    "y": 0.5771604938271605,
                                     "uniqueID": 691432,
                                     "projectID": "307507544",
                                     "ioValues": [
@@ -2408,7 +2408,7 @@
                                     "ioValues": [
                                         {
                                             "name": "geometry",
-                                            "ioValue": "source/593463/683987/839020/174641/691432GitHubMolecule"
+                                            "ioValue": "source/593463/683987/839020/174641/929125GitHubMolecule"
                                         },
                                         {
                                             "name": "height",
@@ -2741,6 +2741,33 @@
                                     "fileTypeVersion": 1,
                                     "simplify": false,
                                     "unitsIndex": 0
+                                },
+                                {
+                                    "atomType": "GitHubMolecule",
+                                    "name": "Involute Gear",
+                                    "x": 0.18386243386243387,
+                                    "y": 0.8425925925925926,
+                                    "uniqueID": 929125,
+                                    "projectID": "307507544",
+                                    "ioValues": [
+                                        {
+                                            "name": "Number Of Teeth",
+                                            "ioValue": 11
+                                        },
+                                        {
+                                            "name": "Circular Pitch",
+                                            "ioValue": 4.71
+                                        },
+                                        {
+                                            "name": "Pressure Angle",
+                                            "ioValue": 20
+                                        },
+                                        {
+                                            "name": "Clearance",
+                                            "ioValue": 0
+                                        }
+                                    ],
+                                    "simplify": false
                                 },
                                 {
                                     "atomType": "Translate",
@@ -3252,13 +3279,6 @@
                                     "ap2ID": 483888
                                 },
                                 {
-                                    "ap1Name": "Geometry",
-                                    "ap2Name": "geometry",
-                                    "ap2Primary": true,
-                                    "ap1ID": 691432,
-                                    "ap2ID": 665432
-                                },
-                                {
                                     "ap1Name": "geometry",
                                     "ap2Name": "geometry",
                                     "ap2Primary": true,
@@ -3292,6 +3312,13 @@
                                     "ap2Primary": false,
                                     "ap1ID": 311848,
                                     "ap2ID": 942547
+                                },
+                                {
+                                    "ap1Name": "Geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 929125,
+                                    "ap2ID": 665432
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -6092,18 +6119,18 @@
                     "ap2ID": 503924
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 183331,
-                    "ap2ID": 565208
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 2",
                     "ap2Primary": false,
                     "ap1ID": 297970,
                     "ap2ID": 503924
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 183331,
+                    "ap2ID": 565208
                 },
                 {
                     "ap1Name": "geometry",
