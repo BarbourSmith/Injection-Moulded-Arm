@@ -19,8 +19,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Maslow 4 Spool2",
-                    "x": 0.27910052910052907,
-                    "y": 0.25925925925925924,
+                    "x": 0.27883817427385893,
+                    "y": 0.20987654320987656,
                     "uniqueID": 800408,
                     "projectID": "229143779",
                     "ioValues": [],
@@ -136,8 +136,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.5224867724867724,
-                    "y": 0.516025641025641,
+                    "x": 0.5178423236514523,
+                    "y": 0.5030864197530864,
                     "uniqueID": 297970,
                     "ioValues": [
                         {
@@ -146,7 +146,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 97
+                            "ioValue": 100
                         },
                         {
                             "name": "yDist",
@@ -178,8 +178,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Involute Gear",
-                    "x": 0.15873015873015872,
-                    "y": 0.8148148148148148,
+                    "x": 0.15806878306878305,
+                    "y": 0.8117283950617283,
                     "uniqueID": 224057,
                     "projectID": "307507544",
                     "ioValues": [
@@ -205,8 +205,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.7480519480519481,
-                    "y": 0.41025641025641024,
+                    "x": 0.7551867219917012,
+                    "y": 0.4012345679012346,
                     "uniqueID": 503924,
                     "ioValues": [
                         {
@@ -240,7 +240,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 68.46527341927154
+                            "ioValue": 69.7146397225
                         },
                         {
                             "name": "yDist",
@@ -255,8 +255,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor, Drive Gear, Encoder, Mounting Plastic, and Bolts",
-                    "x": 0.40145502645502645,
-                    "y": 0.7870370370370371,
+                    "x": 0.40497925311203314,
+                    "y": 0.7962962962962963,
                     "uniqueID": 839020,
                     "ioValues": [],
                     "topLevel": false,
@@ -6056,7 +6056,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 75.4581760159
+                            "ioValue": 79.2062749257
                         },
                         {
                             "name": "yDist",
