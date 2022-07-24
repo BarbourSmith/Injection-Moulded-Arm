@@ -418,8 +418,8 @@
                                 {
                                     "atomType": "Translate",
                                     "name": "Translate",
-                                    "x": 0.30844444444444447,
-                                    "y": 0.17557251908396945,
+                                    "x": 0.3134920634920635,
+                                    "y": 0.19135802469135804,
                                     "uniqueID": 114622,
                                     "ioValues": [
                                         {
@@ -428,7 +428,7 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": 15.5
+                                            "ioValue": 16.25
                                         },
                                         {
                                             "name": "yDist",
