@@ -900,7 +900,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": -15
+                                            "ioValue": -28
                                         },
                                         {
                                             "name": "zDist",
@@ -953,8 +953,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Bolt Pegs",
-                                    "x": 0.5945767195767195,
-                                    "y": 0.7339743589743589,
+                                    "x": 0.5925925925925926,
+                                    "y": 0.7191358024691359,
                                     "uniqueID": 125555,
                                     "ioValues": [],
                                     "topLevel": false,
@@ -1163,8 +1163,8 @@
                                         {
                                             "atomType": "Molecule",
                                             "name": "Front Pegs",
-                                            "x": 0.5033068783068783,
-                                            "y": 0.8580246913580246,
+                                            "x": 0.5006613756613757,
+                                            "y": 0.8672839506172839,
                                             "uniqueID": 558812,
                                             "ioValues": [
                                                 {
@@ -1554,7 +1554,7 @@
                                                     "atomType": "Translate",
                                                     "name": "Translate",
                                                     "x": 0.9001322751322752,
-                                                    "y": 0.3611111111111111,
+                                                    "y": 0.36419753086419754,
                                                     "uniqueID": 106884,
                                                     "ioValues": [
                                                         {
@@ -1567,7 +1567,7 @@
                                                         },
                                                         {
                                                             "name": "yDist",
-                                                            "ioValue": -27
+                                                            "ioValue": -33
                                                         },
                                                         {
                                                             "name": "zDist",
