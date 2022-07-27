@@ -6893,25 +6893,6 @@
             "unitsIndex": 0
         },
         {
-            "atomType": "GitHubMolecule",
-            "name": "Cutaway View",
-            "x": 0.3253968253968254,
-            "y": 0.17592592592592593,
-            "uniqueID": 691057,
-            "projectID": "412141599",
-            "ioValues": [
-                {
-                    "name": "Offset",
-                    "ioValue": 0
-                },
-                {
-                    "name": "Rotation",
-                    "ioValue": 90
-                }
-            ],
-            "simplify": false
-        },
-        {
             "atomType": "Assembly",
             "name": "Assembly",
             "x": 0.208994708994709,
@@ -9801,13 +9782,6 @@
             "ap2Primary": true,
             "ap1ID": 335740,
             "ap2ID": 208272
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "Shape",
-            "ap2Primary": false,
-            "ap1ID": 335740,
-            "ap2ID": 691057
         },
         {
             "ap1Name": "geometry",
