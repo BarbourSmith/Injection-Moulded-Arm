@@ -2866,8 +2866,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Drive Gear",
-                                    "x": 0.3702597402597403,
-                                    "y": 0.14628205128205127,
+                                    "x": 0.36904761904761907,
+                                    "y": 0.1234567901234568,
                                     "uniqueID": 765589,
                                     "ioValues": [],
                                     "topLevel": false,
@@ -2888,8 +2888,8 @@
                                         {
                                             "atomType": "Molecule",
                                             "name": "Retainer for bearings",
-                                            "x": 0.31283068783068785,
-                                            "y": 0.16,
+                                            "x": 0.3161375661375661,
+                                            "y": 0.15432098765432098,
                                             "uniqueID": 363551,
                                             "ioValues": [],
                                             "topLevel": false,
@@ -3014,10 +3014,6 @@
                                             "y": 0.2953846153846154,
                                             "uniqueID": 433473,
                                             "ioValues": [
-                                                {
-                                                    "name": "3D shape 1",
-                                                    "ioValue": "source/593463/683987/839020/174641/765589/482402Extrude"
-                                                },
                                                 {
                                                     "name": "3D shape 2",
                                                     "ioValue": "source/593463/683987/839020/174641/765589/363551Molecule"
@@ -3471,13 +3467,6 @@
                                         },
                                         {
                                             "ap1Name": "geometry",
-                                            "ap2Name": "3D shape 1",
-                                            "ap2Primary": false,
-                                            "ap1ID": 482402,
-                                            "ap2ID": 433473
-                                        },
-                                        {
-                                            "ap1Name": "geometry",
                                             "ap2Name": "geometry",
                                             "ap2Primary": true,
                                             "ap1ID": 433473,
@@ -3679,8 +3668,8 @@
                                         {
                                             "atomType": "Translate",
                                             "name": "Translate",
-                                            "x": 0.41904761904761906,
-                                            "y": 0.4230769230769231,
+                                            "x": 0.41203703703703703,
+                                            "y": 0.41358024691358025,
                                             "uniqueID": 704047,
                                             "ioValues": [
                                                 {
@@ -3689,7 +3678,7 @@
                                                 },
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": 7.3
+                                                    "ioValue": 8
                                                 },
                                                 {
                                                     "name": "yDist",
@@ -3947,8 +3936,8 @@
                                 {
                                     "atomType": "Stl",
                                     "name": "Stl",
-                                    "x": 0.9063227513227514,
-                                    "y": 0.8065384615384614,
+                                    "x": 0.9087301587301588,
+                                    "y": 0.7962962962962963,
                                     "uniqueID": 124449,
                                     "ioValues": [
                                         {
