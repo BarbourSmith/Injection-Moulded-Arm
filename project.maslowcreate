@@ -10045,6 +10045,21 @@
             ]
         },
         {
+            "atomType": "GitHubMolecule",
+            "name": "Section View",
+            "x": 0.2394179894179894,
+            "y": 0.7993827160493827,
+            "uniqueID": 744442,
+            "projectID": "516094200",
+            "ioValues": [
+                {
+                    "name": "Offset",
+                    "ioValue": 0
+                }
+            ],
+            "simplify": false
+        },
+        {
             "atomType": "Difference",
             "name": "Difference",
             "x": 0.37367724867724866,
@@ -10183,6 +10198,13 @@
             "ap2Primary": true,
             "ap1ID": 335740,
             "ap2ID": 208272
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape",
+            "ap2Primary": false,
+            "ap1ID": 335740,
+            "ap2ID": 744442
         },
         {
             "ap1Name": "geometry",
