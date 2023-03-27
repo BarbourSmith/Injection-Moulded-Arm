@@ -5507,6 +5507,19 @@
                             "unitsIndex": 0
                         },
                         {
+                            "atomType": "Circle",
+                            "name": "Circle",
+                            "x": 0.34523809523809523,
+                            "y": 0.7839506172839507,
+                            "uniqueID": 930620,
+                            "ioValues": [
+                                {
+                                    "name": "diameter",
+                                    "ioValue": 19.5
+                                }
+                            ]
+                        },
+                        {
                             "atomType": "Rotate",
                             "name": "Rotate",
                             "x": 0.7876984126984127,
@@ -6980,6 +6993,23 @@
                             "unitsIndex": 0
                         },
                         {
+                            "atomType": "Assembly",
+                            "name": "Assembly",
+                            "x": 0.4695767195767196,
+                            "y": 0.8888888888888888,
+                            "uniqueID": 212288,
+                            "ioValues": [
+                                {
+                                    "name": "3D shape 1",
+                                    "ioValue": "source/593463/683987/839020/930620Circle"
+                                },
+                                {
+                                    "name": "3D shape 2",
+                                    "ioValue": "source/593463/683987/839020/174641Molecule"
+                                }
+                            ]
+                        },
+                        {
                             "atomType": "Output",
                             "name": "Output",
                             "x": 0.9853587115666179,
@@ -7051,6 +7081,13 @@
                             "ap2ID": 974203
                         },
                         {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "3D shape 2",
+                            "ap2Primary": false,
+                            "ap1ID": 174641,
+                            "ap2ID": 212288
+                        },
+                        {
                             "ap1Name": "geometry",
                             "ap2Name": "3D shape 1",
                             "ap2Primary": false,
@@ -7077,6 +7114,13 @@
                             "ap2Primary": true,
                             "ap1ID": 632488,
                             "ap2ID": 280725
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "3D shape 1",
+                            "ap2Primary": false,
+                            "ap1ID": 930620,
+                            "ap2ID": 212288
                         },
                         {
                             "ap1Name": "geometry",
